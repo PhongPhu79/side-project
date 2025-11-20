@@ -1,0 +1,2653 @@
+[
+    {
+        "id": "1",
+        "name": "AirPods Max",
+        "brand": "Apple",
+        "price": 13500000,
+        "priceOriginal": 14500000,
+        "thumbnail": "https://product.hstatic.net/200000348419/product/airpods-max-2024-0_8858229875d4450d8ddd918247a71f54_master.png",
+        "category": "Headphone",
+        "rating": 4.7,
+        "stock": 10,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "wireless",
+            "noise-cancelling"
+        ],
+        "subtitle": "Premium over-ear wireless headphones with high-fidelity sound and top-tier ANC.",
+        "description": [
+            "AirPods Max là tai nghe chụp tai cao cấp nhất của Apple, mang lại chất âm chi tiết, dày, và không gian âm thanh rộng.",
+            "Công nghệ Active Noise Cancellation giúp loại bỏ tiếng ồn môi trường, phù hợp cho làm việc, di chuyển, hoặc thư giãn.",
+            "Hệ sinh thái Apple mang lại khả năng chuyển đổi thiết bị mượt mà, còn Spatial Audio tái tạo âm thanh vòm cực ấn tượng."
+        ],
+        "specs": [
+            {
+                "label": "Loại",
+                "value": "Over-ear wireless"
+            },
+            {
+                "label": "Chip",
+                "value": "2x Apple H1"
+            },
+            {
+                "label": "Pin",
+                "value": "20 giờ (ANC + Spatial Audio)"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth 5.0"
+            },
+            {
+                "label": "Tính năng",
+                "value": "ANC, Transparency mode, Spatial Audio"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Sony WH-1000XM5",
+        "brand": "Sony",
+        "price": 9500000,
+        "priceOriginal": 10500000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/54/313692/tai-nghe-bluetooth-chup-tai-sony-wh1000xm5-trang-1-750x500.jpg",
+        "category": "Headphone",
+        "rating": 4.8,
+        "stock": 5,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "wireless",
+            "noise-cancelling"
+        ],
+        "subtitle": "Đỉnh cao chống ồn cùng chất âm ấm áp, giàu năng lượng.",
+        "description": [
+            "Sony WH-1000XM5 là một trong những tai nghe chống ồn tốt nhất thế giới, phù hợp cho dân văn phòng, người hay di chuyển hoặc làm việc từ xa.",
+            "Khử ồn chủ động thế hệ mới giúp tách biệt hoàn toàn tiếng động cơ, tiếng người nói hoặc tiếng gió.",
+            "Chất âm Sony thiên ấm, bass kiểm soát tốt, mid dày, treble êm — phù hợp cho đa số người dùng."
+        ],
+        "specs": [
+            {
+                "label": "Loại",
+                "value": "Over-ear wireless"
+            },
+            {
+                "label": "ANC",
+                "value": "Multi-microphone Adaptive ANC"
+            },
+            {
+                "label": "Pin",
+                "value": "30 giờ (ANC ON)"
+            },
+            {
+                "label": "Sạc nhanh",
+                "value": "3 phút → 3 giờ"
+            },
+            {
+                "label": "Codec",
+                "value": "LDAC, AAC, SBC"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Logitech G Pro X 2 Lightspeed",
+        "brand": "Logitech",
+        "price": 5200000,
+        "priceOriginal": 5200000,
+        "thumbnail": "https://product.hstatic.net/200000637319/product/ezgif-5-0a1555016e_0106d9cd0c7f4aca81cd9d2ea63c6173_master.png",
+        "category": "Headphone",
+        "rating": 4.5,
+        "stock": 8,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "gaming"
+        ],
+        "subtitle": "Tai nghe gaming chuẩn eSports với âm thanh chính xác tuyệt đối.",
+        "description": [
+            "Logitech G Pro X 2 Lightspeed được thiết kế cùng các tuyển thủ esports, tập trung vào độ chính xác âm thanh chiến đấu.",
+            "Công nghệ Lightspeed đem lại độ trễ cực thấp, đảm bảo tín hiệu ổn định trong mọi trận đấu.",
+            "Micro rời cho chất lượng đàm thoại rõ ràng, phù hợp cho team coordination."
+        ],
+        "specs": [
+            {
+                "label": "Kết nối",
+                "value": "Lightspeed Wireless + Bluetooth"
+            },
+            {
+                "label": "Âm thanh",
+                "value": "Graphene drivers 50mm"
+            },
+            {
+                "label": "Micro",
+                "value": "Micro rời chất lượng cao"
+            },
+            {
+                "label": "Thời lượng pin",
+                "value": "50 giờ"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Gaming chuyên nghiệp"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "name": "MacBook Air 13 M2 8GB 256GB",
+        "brand": "Apple",
+        "price": 26500000,
+        "priceOriginal": 28500000,
+        "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-midnight-select-20220606",
+        "category": "Laptop",
+        "rating": 4.9,
+        "stock": 6,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "ultrabook"
+        ],
+        "subtitle": "Laptop mỏng nhẹ mạnh mẽ với chip M2 và thời lượng pin vượt trội.",
+        "description": [
+            "MacBook Air M2 là lựa chọn tuyệt vời cho sinh viên và dân văn phòng, cực nhẹ, cực mát và chạy êm tuyệt đối.",
+            "Màn hình Liquid Retina rực rỡ, hỗ trợ P3, hình ảnh sắc nét và sống động.",
+            "Hiệu năng chip M2 mạnh hơn đáng kể thế hệ trước, xử lý tốt chỉnh ảnh nhẹ, dựng video ngắn, và đa nhiệm nhiều ứng dụng."
+        ],
+        "specs": [
+            {
+                "label": "CPU",
+                "value": "Apple M2"
+            },
+            {
+                "label": "RAM",
+                "value": "8GB Unified"
+            },
+            {
+                "label": "SSD",
+                "value": "256GB"
+            },
+            {
+                "label": "Màn hình",
+                "value": "13.6'' Liquid Retina"
+            },
+            {
+                "label": "Pin",
+                "value": "18 giờ"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "name": "ASUS ROG Strix G16 RTX 4060",
+        "brand": "ASUS",
+        "price": 34500000,
+        "priceOriginal": 36500000,
+        "thumbnail": "https://laptopre.vn/upload/picture/picture-1708056452.png",
+        "category": "Laptop",
+        "rating": 4.6,
+        "stock": 4,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "gaming"
+        ],
+        "subtitle": "Laptop gaming mạnh mẽ với RTX 4060, tối ưu cho game AAA.",
+        "description": [
+            "ROG Strix G16 là lựa chọn hàng đầu cho game thủ cần hiệu năng cao và tản nhiệt tốt.",
+            "GPU RTX 4060 chạy mượt mọi tựa game phổ biến như GTA V, Cyberpunk 2077, Valorant, Apex Legends.",
+            "Tần số quét màn hình cao giúp trải nghiệm chiến đấu cực kỳ mượt mà."
+        ],
+        "specs": [
+            {
+                "label": "GPU",
+                "value": "NVIDIA RTX 4060"
+            },
+            {
+                "label": "Màn hình",
+                "value": "165Hz IPS"
+            },
+            {
+                "label": "CPU",
+                "value": "Intel Gen 13"
+            },
+            {
+                "label": "Tản nhiệt",
+                "value": "ROG Intelligent Cooling"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Game AAA, Esports"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "name": "Dell XPS 13 Plus",
+        "brand": "Dell",
+        "price": 38500000,
+        "priceOriginal": 39900000,
+        "thumbnail": "https://laptop3mien.vn/wp-content/uploads/2022/09/Dell-XPS-13-Plus-9320-7-Laptop3mien.vn_.jpg",
+        "category": "Laptop",
+        "rating": 4.7,
+        "stock": 3,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "ultrabook"
+        ],
+        "subtitle": "Ultrabook tối giản cao cấp dành cho doanh nhân và sáng tạo.",
+        "description": [
+            "Dell XPS 13 Plus mang ngôn ngữ thiết kế tối giản hiện đại, phím liền mạch và touchpad vô hình.",
+            "Màn hình sắc nét cho trải nghiệm giải trí và làm việc tuyệt vời.",
+            "Phù hợp cho người cần độ bền, sự sang trọng, và tính linh động cao."
+        ],
+        "specs": [
+            {
+                "label": "Loại",
+                "value": "Ultrabook cao cấp"
+            },
+            {
+                "label": "Màn hình",
+                "value": "4K/2K tùy chọn"
+            },
+            {
+                "label": "Thiết kế",
+                "value": "Phím liền mạch, touchpad ẩn"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Doanh nhân, sáng tạo nội dung"
+            },
+            {
+                "label": "Trọng lượng",
+                "value": "Nhẹ, siêu di động"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "name": "iPhone 15 Pro 128GB",
+        "brand": "Apple",
+        "price": 26900000,
+        "priceOriginal": 28900000,
+        "thumbnail": "https://galaxydidong.vn/wp-content/uploads/2023/09/iPhone-15-Pro-128GB-quoc-te.jpg",
+        "category": "Phone",
+        "rating": 4.9,
+        "stock": 12,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "flagship"
+        ],
+        "subtitle": "Flagship nhỏ gọn với camera mạnh và hiệu năng cực cao.",
+        "description": [
+            "iPhone 15 Pro mang thiết kế titan siêu nhẹ cùng vi xử lý A17 Pro mạnh mẽ.",
+            "Camera tele mới cho ảnh sắc nét, màu sắc tự nhiên, quay video chuyên nghiệp.",
+            "Phù hợp cho người thích máy nhỏ gọn nhưng cực mạnh."
+        ],
+        "specs": [
+            {
+                "label": "Chip",
+                "value": "A17 Pro"
+            },
+            {
+                "label": "Bộ nhớ",
+                "value": "128GB"
+            },
+            {
+                "label": "Camera",
+                "value": "48MP + Tele"
+            },
+            {
+                "label": "Màn hình",
+                "value": "6.1'' OLED ProMotion"
+            },
+            {
+                "label": "Chất liệu",
+                "value": "Titanium"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "name": "Samsung Galaxy S24 Ultra",
+        "brand": "Samsung",
+        "price": 28900000,
+        "priceOriginal": 29900000,
+        "thumbnail": "https://nama.vn/img/upload/images/products/Samsung/S24%20Ultra/xam_titan.png",
+        "category": "Phone",
+        "rating": 4.8,
+        "stock": 7,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "flagship"
+        ],
+        "subtitle": "Android flagship mạnh nhất với camera zoom ấn tượng.",
+        "description": [
+            "Galaxy S24 Ultra sở hữu màn hình lớn, bút S Pen và camera zoom chất lượng cao.",
+            "Hiệu năng mạnh, pin trâu, phần mềm thông minh hỗ trợ AI.",
+            "Rất phù hợp cho người thích ghi chú, vẽ, xem phim và chụp ảnh."
+        ],
+        "specs": [
+            {
+                "label": "Màn hình",
+                "value": "6.8'' AMOLED 120Hz"
+            },
+            {
+                "label": "Camera",
+                "value": "Zoom tiềm vọng 10x"
+            },
+            {
+                "label": "Bút",
+                "value": "S Pen"
+            },
+            {
+                "label": "Chip",
+                "value": "Snapdragon 8 Gen 3"
+            },
+            {
+                "label": "Pin",
+                "value": "5000mAh"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "name": "Xiaomi Redmi Note 13 Pro",
+        "brand": "Xiaomi",
+        "price": 8990000,
+        "priceOriginal": 9990000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/42/322069/xiaomi-redmi-note-13-purple-thumb-600x600-1-600x600.jpg",
+        "category": "Phone",
+        "rating": 4.5,
+        "stock": 15,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "mid-range"
+        ],
+        "subtitle": "Smartphone tầm trung với hiệu năng mạnh, camera ấn tượng.",
+        "description": [
+            "Redmi Note 13 Pro sở hữu camera chất lượng cao, màn hình lớn và pin lâu.",
+            "Phù hợp cho học sinh, sinh viên hoặc người cần một máy ổn định giá tốt.",
+            "Tối ưu cho mạng xã hội, chụp ảnh, xem phim và chơi game nhẹ."
+        ],
+        "specs": [
+            {
+                "label": "Phân khúc",
+                "value": "Tầm trung"
+            },
+            {
+                "label": "Camera",
+                "value": "108MP"
+            },
+            {
+                "label": "Pin",
+                "value": "5000mAh + sạc nhanh"
+            },
+            {
+                "label": "Hiệu năng",
+                "value": "Tốt cho nhu cầu phổ thông"
+            },
+            {
+                "label": "Màn hình",
+                "value": "AMOLED lớn"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "name": "Apple Watch Series 9 GPS 41mm",
+        "brand": "Apple",
+        "price": 11500000,
+        "priceOriginal": 12500000,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkXVm7JvJpI1ttqt-9UW4-FbUSn0OQHrxsTA&s",
+        "category": "Watch",
+        "rating": 4.7,
+        "stock": 9,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "wearable"
+        ],
+        "subtitle": "Đồng hồ thông minh mạnh mẽ cho người dùng iPhone.",
+        "description": [
+            "Apple Watch Series 9 theo dõi sức khoẻ chính xác, hỗ trợ luyện tập và nhận thông báo tiện lợi.",
+            "Màn hình sáng, nhiều mặt đồng hồ đẹp, tích hợp Siri nhanh hơn.",
+            "Lý tưởng cho người thích thể thao hoặc muốn quản lý sức khỏe."
+        ],
+        "specs": [
+            {
+                "label": "Size",
+                "value": "41mm"
+            },
+            {
+                "label": "Theo dõi",
+                "value": "Nhịp tim, SpO2, workout"
+            },
+            {
+                "label": "Kết nối",
+                "value": "GPS"
+            },
+            {
+                "label": "Tương thích",
+                "value": "iPhone"
+            },
+            {
+                "label": "Pin",
+                "value": "18 giờ"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "name": "Logitech MX Master 3S",
+        "brand": "Logitech",
+        "price": 2490000,
+        "priceOriginal": 2690000,
+        "thumbnail": "https://product.hstatic.net/200000637319/product/ezgif-4-75ae561c93_33e6e03c77fb479d959a89e2d89aaf27_master.jpg",
+        "category": "Accessory",
+        "rating": 4.9,
+        "stock": 20,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "mouse"
+        ],
+        "subtitle": "Chuột văn phòng cao cấp với cuộn siêu nhanh và độ chính xác cao.",
+        "description": [
+            "MX Master 3S là chuột tốt nhất cho dân văn phòng và designer.",
+            "MagSpeed Scroll cho tốc độ cuộn 1000 dòng/giây, cực êm và mượt.",
+            "Thiết kế công thái học hạn chế mỏi tay sau nhiều giờ làm việc."
+        ],
+        "specs": [
+            {
+                "label": "Độ phân giải",
+                "value": "8000 DPI"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth + USB Receiver"
+            },
+            {
+                "label": "Pin",
+                "value": "70 ngày"
+            },
+            {
+                "label": "Công thái học",
+                "value": "Rất tốt"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Office, đồ họa"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "name": "Keychron K2 V2 Wireless",
+        "brand": "Keychron",
+        "price": 2200000,
+        "priceOriginal": 2350000,
+        "thumbnail": "https://boba.vn/static/san-pham/phu-kien-cong-nghe/phu-kien-may-tinh-laptop/ban-phim-co-tphcm/ban-phim-co-keychron-k2/banphimcok.jpg",
+        "category": "Accessory",
+        "rating": 4.6,
+        "stock": 13,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "keyboard"
+        ],
+        "subtitle": "Bàn phím cơ không dây nhỏ gọn, tiện dụng cho mọi setup.",
+        "description": [
+            "Keychron K2 V2 nổi tiếng trong cộng đồng bàn phím cơ nhờ giá tốt và chất lượng gõ thoải mái.",
+            "Hot-swap cho phép thay switch dễ dàng.",
+            "Dùng được cho Mac và Windows, thời lượng pin tốt."
+        ],
+        "specs": [
+            {
+                "label": "Layout",
+                "value": "75%"
+            },
+            {
+                "label": "Switch",
+                "value": "Gateron/Hot-swap"
+            },
+            {
+                "label": "Pin",
+                "value": "4000mAh"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth + USB-C"
+            },
+            {
+                "label": "RGB",
+                "value": "Có"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "name": "Sony WF-1000XM4",
+        "brand": "Sony",
+        "price": 4200000,
+        "priceOriginal": 4990000,
+        "thumbnail": "https://songlongmedia.com/media/product/2731_sony_wf1000xm4_a___songlongmedia.jpg",
+        "category": "Headphone",
+        "rating": 4.8,
+        "stock": 20,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "wireless",
+            "anc"
+        ],
+        "subtitle": "Tai nghe true wireless chống ồn xuất sắc với chất âm ấm, dày.",
+        "description": [
+            "WF-1000XM4 mang lại khả năng chống ồn vượt trội cho tai nghe nhỏ gọn.",
+            "Chất âm dày, bass sâu, phù hợp cho nhạc Pop, R&B, Ballad.",
+            "Pin khỏe, đeo thoải mái, hỗ trợ sạc không dây."
+        ],
+        "specs": [
+            {
+                "label": "ANC",
+                "value": "Siêu mạnh"
+            },
+            {
+                "label": "Pin",
+                "value": "8 giờ (tai) + 16 giờ (case)"
+            },
+            {
+                "label": "Codec",
+                "value": "LDAC"
+            },
+            {
+                "label": "Kháng nước",
+                "value": "IPX4"
+            },
+            {
+                "label": "Sạc",
+                "value": "USB-C & Wireless"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "name": "AirPods Pro 2",
+        "brand": "Apple",
+        "price": 5200000,
+        "priceOriginal": 6500000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/54/315014/tai-nghe-bluetooth-airpods-pro-2nd-gen-usb-c-charge-apple-1-750x500.jpg",
+        "category": "Headphone",
+        "rating": 4.9,
+        "stock": 10,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "wireless",
+            "anc"
+        ],
+        "subtitle": "True wireless quốc dân với khả năng chống ồn và âm thanh trong trẻo.",
+        "description": [
+            "AirPods Pro 2 cải thiện ANC mạnh hơn 2 lần, micro tốt hơn và âm thanh rõ hơn.",
+            "Chuyển đổi thiết bị cực mượt trong hệ sinh thái Apple.",
+            "Case sạc có loa chống thất lạc và hỗ trợ MagSafe."
+        ],
+        "specs": [
+            {
+                "label": "Chip",
+                "value": "Apple H2"
+            },
+            {
+                "label": "Khử ồn",
+                "value": "ANC cải tiến"
+            },
+            {
+                "label": "Pin",
+                "value": "6 giờ + 24 giờ"
+            },
+            {
+                "label": "Sạc",
+                "value": "MagSafe"
+            },
+            {
+                "label": "Kháng nước",
+                "value": "IP54"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "name": "Beats Studio Pro",
+        "brand": "Beats",
+        "price": 8900000,
+        "priceOriginal": 9900000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-beats-studio-pro_4_.png",
+        "category": "Headphone",
+        "rating": 4.5,
+        "stock": 8,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "wireless"
+        ],
+        "subtitle": "Tai nghe Beats cao cấp với âm trầm mạnh mẽ và thiết kế thời trang.",
+        "description": [
+            "Beats Studio Pro đem lại âm bass khỏe nhưng kiểm soát tốt, phù hợp nhạc EDM, Hip-hop.",
+            "Thiết kế hiện đại, bền bỉ, đeo êm trong thời gian dài.",
+            "Có tùy chỉnh EQ và hỗ trợ Spatial Audio."
+        ],
+        "specs": [
+            {
+                "label": "Loại",
+                "value": "Over-ear wireless"
+            },
+            {
+                "label": "Pin",
+                "value": "40 giờ"
+            },
+            {
+                "label": "Âm thanh",
+                "value": "Bass boost đặc trưng Beats"
+            },
+            {
+                "label": "Khử ồn",
+                "value": "ANC"
+            },
+            {
+                "label": "Sạc",
+                "value": "USB-C"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "name": "Razer BlackShark V2 Pro 2023",
+        "brand": "Razer",
+        "price": 5800000,
+        "priceOriginal": 6200000,
+        "thumbnail": "https://www.tncstore.vn/media/lib/02-12-2023/tnc-store-tai-nghe-khong-day-chum-dau-razer-blackshark-v2-pro-trang2.jpg",
+        "category": "Headphone",
+        "rating": 4.7,
+        "stock": 8,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "gaming"
+        ],
+        "subtitle": "Tai nghe eSports cao cấp với âm thanh siêu chi tiết và micro rõ ràng.",
+        "description": [
+            "Razer BlackShark V2 Pro 2023 được thiết kế cho game thủ chuyên nghiệp với âm thanh trong trẻo và khả năng định vị vượt trội.",
+            "Drivers Titanium 50mm cho độ chi tiết cao, nghe rõ từng bước chân trong game FPS.",
+            "Kết nối không dây Razer HyperSpeed cho độ trễ cực thấp, phù hợp thi đấu."
+        ],
+        "specs": [
+            {
+                "label": "Driver",
+                "value": "50mm Titanium"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Hyperspeed Wireless + Bluetooth"
+            },
+            {
+                "label": "Micro",
+                "value": "HyperClear Super Wideband"
+            },
+            {
+                "label": "Pin",
+                "value": "70 giờ"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "eSports, FPS"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "name": "MacBook Pro 14 M3",
+        "brand": "Apple",
+        "price": 49900000,
+        "priceOriginal": 52900000,
+        "thumbnail": "https://file.hstatic.net/200000348419/file/anh_chup_man_hinh_2023-11-01_luc_17.21.03_47f3256e1aed46eebfee78dc66c84ad2.png",
+        "category": "Laptop",
+        "rating": 4.9,
+        "stock": 5,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "ultrabook"
+        ],
+        "subtitle": "Laptop mạnh mẽ cho sáng tạo nội dung với hiệu năng M3 xuất sắc.",
+        "description": [
+            "MacBook Pro 14 M3 dành cho người làm sáng tạo, lập trình viên và dân chuyên nghiệp.",
+            "Màn hình Liquid Retina XDR cho độ sáng và độ tương phản cực tốt.",
+            "Chip M3 chạy mượt các ứng dụng như Final Cut, Photoshop, Logic Pro."
+        ],
+        "specs": [
+            {
+                "label": "CPU",
+                "value": "Apple M3"
+            },
+            {
+                "label": "RAM",
+                "value": "8/16GB"
+            },
+            {
+                "label": "SSD",
+                "value": "512GB trở lên"
+            },
+            {
+                "label": "Màn hình",
+                "value": "14'' XDR"
+            },
+            {
+                "label": "Pin",
+                "value": "18–20 giờ"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "name": "HP Omen 16 RTX 4070",
+        "brand": "HP",
+        "price": 38500000,
+        "priceOriginal": 40900000,
+        "thumbnail": "https://cellphones.com.vn/sforum/wp-content/uploads/2023/04/hp-omen-transcend.png",
+        "category": "Laptop",
+        "rating": 4.6,
+        "stock": 6,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "gaming"
+        ],
+        "subtitle": "Laptop gaming RTX 4070 hiệu năng cao với tản nhiệt tối ưu.",
+        "description": [
+            "HP Omen 16 RTX 4070 là cỗ máy mạnh mẽ cho game thủ và người làm đồ họa.",
+            "Tản nhiệt buồng hơi Vapor Chamber giúp giữ FPS ổn định.",
+            "Màn hình 165Hz mang lại độ mượt rõ rệt khi chơi FPS."
+        ],
+        "specs": [
+            {
+                "label": "GPU",
+                "value": "NVIDIA RTX 4070"
+            },
+            {
+                "label": "CPU",
+                "value": "Intel/AMD tuỳ phiên bản"
+            },
+            {
+                "label": "Màn hình",
+                "value": "165Hz IPS"
+            },
+            {
+                "label": "Tản nhiệt",
+                "value": "Vapor Chamber"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Gaming, đồ họa"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "name": "Lenovo Legion 5 Pro",
+        "brand": "Lenovo",
+        "price": 32900000,
+        "priceOriginal": 35900000,
+        "thumbnail": "https://cdn2.fptshop.com.vn/unsafe/2024_3_12_638458541226066442_lenovo-gaming-legion-pro-5-16irx9-i9-14900hx-dd.jpg",
+        "category": "Laptop",
+        "rating": 4.7,
+        "stock": 7,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "gaming"
+        ],
+        "subtitle": "Laptop gaming 2K nổi tiếng với độ ổn định và tản nhiệt mạnh.",
+        "description": [
+            "Legion 5 Pro luôn có danh tiếng rất tốt nhờ hiệu năng cân bằng và độ bền cao.",
+            "Màn hình 2K 165Hz phù hợp cả chơi game lẫn làm việc.",
+            "Bàn phím gõ tốt, build chắc chắn, tản nhiệt tốt hơn nhiều đối thủ."
+        ],
+        "specs": [
+            {
+                "label": "Màn hình",
+                "value": "2K 165Hz"
+            },
+            {
+                "label": "GPU",
+                "value": "RTX 3060/3070"
+            },
+            {
+                "label": "Tản nhiệt",
+                "value": "ColdFront"
+            },
+            {
+                "label": "Bàn phím",
+                "value": "TrueStrike"
+            },
+            {
+                "label": "Sử dụng",
+                "value": "Gaming + Workstation"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "name": "Acer Swift 3 OLED",
+        "brand": "Acer",
+        "price": 19900000,
+        "priceOriginal": 22500000,
+        "thumbnail": "https://www.acervietnam.com.vn/wp-content/uploads/2022/09/acer-swift-3-sf314-17-fingerprint-backlit-wallpaper-oled-logo-luxury-gold-03.tif-custom-min-min.png",
+        "category": "Laptop",
+        "rating": 4.5,
+        "stock": 10,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "ultrabook"
+        ],
+        "subtitle": "Ultrabook OLED giá tốt dành cho học tập và văn phòng.",
+        "description": [
+            "Acer Swift 3 OLED có màn OLED cực đẹp với màu sắc rực rỡ và độ tương phản cao.",
+            "Thiết kế mỏng nhẹ, phù hợp sinh viên và dân văn phòng di chuyển nhiều.",
+            "Chip Intel Gen 12/13 cho hiệu năng nhanh và mượt."
+        ],
+        "specs": [
+            {
+                "label": "Màn hình",
+                "value": "OLED 2.8K"
+            },
+            {
+                "label": "CPU",
+                "value": "Intel Gen 12/13"
+            },
+            {
+                "label": "Trọng lượng",
+                "value": "1.2–1.3kg"
+            },
+            {
+                "label": "Pin",
+                "value": "10–12 giờ"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Học tập, văn phòng"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "name": "Google Pixel 8 Pro",
+        "brand": "Google",
+        "price": 25900000,
+        "priceOriginal": 26900000,
+        "thumbnail": "https://sonpixel.vn/wp-content/uploads/2024/01/Pixel-8-pro-trang-su.png",
+        "category": "Phone",
+        "rating": 4.9,
+        "stock": 8,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "flagship"
+        ],
+        "subtitle": "Flagship Android với camera xử lý AI đỉnh cao.",
+        "description": [
+            "Pixel 8 Pro nổi tiếng với camera xử lý AI cực kỳ ấn tượng.",
+            "Ảnh chân dung, thiếu sáng và video đều có chất lượng hàng đầu.",
+            "Máy chạy Android sạch, mượt, cập nhật dài hạn."
+        ],
+        "specs": [
+            {
+                "label": "Chip",
+                "value": "Google Tensor G3"
+            },
+            {
+                "label": "Camera",
+                "value": "AI Computational Photography"
+            },
+            {
+                "label": "Màn hình",
+                "value": "LTPO OLED 120Hz"
+            },
+            {
+                "label": "Phần mềm",
+                "value": "Android gốc"
+            },
+            {
+                "label": "Bảo mật",
+                "value": "7 năm update"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "name": "OPPO Find X6 Pro",
+        "brand": "OPPO",
+        "price": 18900000,
+        "priceOriginal": 19900000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/o/p/oppo-find-x6-pro.png",
+        "category": "Phone",
+        "rating": 4.7,
+        "stock": 10,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "flagship"
+        ],
+        "subtitle": "Camera siêu cảm biến lớn, ảnh đẹp xuất sắc mọi điều kiện.",
+        "description": [
+            "Find X6 Pro có cảm biến lớn và cụm camera chuyên nghiệp.",
+            "Ảnh thiếu sáng và HDR cực kỳ xuất sắc nhờ Hasselblad tuning.",
+            "Hiệu năng mạnh, màn hình đẹp, sạc siêu nhanh."
+        ],
+        "specs": [
+            {
+                "label": "Camera",
+                "value": "1-inch sensor"
+            },
+            {
+                "label": "Chip",
+                "value": "Snapdragon 8 Gen 2"
+            },
+            {
+                "label": "Sạc",
+                "value": "100W SuperVOOC"
+            },
+            {
+                "label": "Màn hình",
+                "value": "2K AMOLED"
+            },
+            {
+                "label": "Ảnh",
+                "value": "Hasselblad Color"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "name": "Vivo V30 Pro",
+        "brand": "Vivo",
+        "price": 13900000,
+        "priceOriginal": 14900000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-vivo-v30-5g_1_.png",
+        "category": "Phone",
+        "rating": 4.6,
+        "stock": 12,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "mid-range"
+        ],
+        "subtitle": "Camera chân dung đẹp nhờ thuật toán Vivo + Zeiss.",
+        "description": [
+            "V30 Pro nổi bật với khả năng chụp chân dung tự nhiên.",
+            "Màn hình đẹp, hiệu năng mượt, pin bền.",
+            "Phù hợp cho người thích quay TikTok/Reels."
+        ],
+        "specs": [
+            {
+                "label": "Camera",
+                "value": "Zeiss Portrait Mode"
+            },
+            {
+                "label": "Màn hình",
+                "value": "AMOLED 120Hz"
+            },
+            {
+                "label": "Pin",
+                "value": "5000mAh"
+            },
+            {
+                "label": "Sạc",
+                "value": "80W"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Chụp chân dung, quay video"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "name": "Realme C67",
+        "brand": "Realme",
+        "price": 4990000,
+        "priceOriginal": 5990000,
+        "thumbnail": "https://cdn.viettablet.com/images/detailed/59/realme-c67-5g.jpg",
+        "category": "Phone",
+        "rating": 4.2,
+        "stock": 25,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "budget"
+        ],
+        "subtitle": "Smartphone giá rẻ mạnh mẽ, pin lớn, phù hợp học sinh – sinh viên.",
+        "description": [
+            "Realme C67 có hiệu năng ổn định, camera tốt, pin lớn.",
+            "Giá rẻ nhưng trải nghiệm mượt, phù hợp mọi nhu cầu cơ bản.",
+            "Thiết kế đẹp, nhẹ, dễ cầm."
+        ],
+        "specs": [
+            {
+                "label": "Phân khúc",
+                "value": "Giá rẻ"
+            },
+            {
+                "label": "Pin",
+                "value": "5000mAh"
+            },
+            {
+                "label": "Màn hình",
+                "value": "90Hz"
+            },
+            {
+                "label": "Camera",
+                "value": "50MP"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Học online, MXH"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "name": "Galaxy Watch 6 Classic",
+        "brand": "Samsung",
+        "price": 8500000,
+        "priceOriginal": 9500000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/1/_/1_191_4_2_2_1_1_1_2_2.png",
+        "category": "Watch",
+        "rating": 4.6,
+        "stock": 10,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "wearable"
+        ],
+        "subtitle": "Đồng hồ xoay viền cổ điển, mạnh về sức khỏe và luyện tập.",
+        "description": [
+            "Galaxy Watch 6 Classic có vòng bezel xoay vật lý cực thích tay.",
+            "Nhiều chế độ theo dõi sức khỏe, giấc ngủ, stress.",
+            "Kết nối tốt với điện thoại Samsung và Android."
+        ],
+        "specs": [
+            {
+                "label": "Bezel",
+                "value": "Vòng xoay vật lý"
+            },
+            {
+                "label": "Màn hình",
+                "value": "Super AMOLED"
+            },
+            {
+                "label": "Theo dõi",
+                "value": "Ngủ, nhịp tim, stress"
+            },
+            {
+                "label": "Pin",
+                "value": "40–50 giờ"
+            },
+            {
+                "label": "Hệ điều hành",
+                "value": "WearOS"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "name": "Garmin Fenix 7",
+        "brand": "Garmin",
+        "price": 16900000,
+        "priceOriginal": 17900000,
+        "thumbnail": "https://cello.vn/image/cache/catalog/Cello/SanPham/Dong%20Ho%20Thong%20Minh/Garmin/2023/fenix-7-pro/fenix-7-pro-blk-01-500x500.jpeg",
+        "category": "Watch",
+        "rating": 4.9,
+        "stock": 8,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "sport"
+        ],
+        "subtitle": "Đồng hồ thể thao chuyên nghiệp với độ bền cao.",
+        "description": [
+            "Fenix 7 dành cho vận động viên và người mê thể thao.",
+            "Theo dõi chạy bộ, bơi, leo núi, đạp xe cực chính xác.",
+            "Pin cực lâu, build siêu bền."
+        ],
+        "specs": [
+            {
+                "label": "Độ bền",
+                "value": "Chuẩn quân đội"
+            },
+            {
+                "label": "Theo dõi",
+                "value": "GPS chính xác cao"
+            },
+            {
+                "label": "Pin",
+                "value": "2 tuần+"
+            },
+            {
+                "label": "Chống nước",
+                "value": "10ATM"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Thể thao chuyên sâu"
+            }
+        ]
+    },
+    {
+        "id": "27",
+        "name": "Amazfit GTR 4",
+        "brand": "Amazfit",
+        "price": 4500000,
+        "priceOriginal": 4900000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/2/0/20190806161256_44273_2.png",
+        "category": "Watch",
+        "rating": 4.5,
+        "stock": 14,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "wearable"
+        ],
+        "subtitle": "Đồng hồ thời trang – pin trâu – giá hợp lý.",
+        "description": [
+            "Amazfit GTR 4 có thiết kế sang trọng, theo dõi sức khỏe đầy đủ.",
+            "Pin lên đến 14 ngày, vượt xa smartwatch Android.",
+            "Hỗ trợ GPS mạnh mẽ, nhiều chế độ thể thao."
+        ],
+        "specs": [
+            {
+                "label": "Pin",
+                "value": "14 ngày"
+            },
+            {
+                "label": "GPS",
+                "value": "Dual-band"
+            },
+            {
+                "label": "Chống nước",
+                "value": "5ATM"
+            },
+            {
+                "label": "Màn hình",
+                "value": "AMOLED"
+            },
+            {
+                "label": "Theo dõi",
+                "value": "Nhịp tim, SpO2"
+            }
+        ]
+    },
+    {
+        "id": "28",
+        "name": "Huawei Watch GT 4",
+        "brand": "Huawei",
+        "price": 5200000,
+        "priceOriginal": 5900000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/7077/324079/huawei-watch-gt4-46-day-woven-1-1-750x500.jpg",
+        "category": "Watch",
+        "rating": 4.6,
+        "stock": 13,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "wearable"
+        ],
+        "subtitle": "Đồng hồ đẹp, pin trâu, theo dõi sức khỏe chính xác.",
+        "description": [
+            "Huawei Watch GT 4 kết hợp thiết kế thời trang với nhiều chức năng tập luyện.",
+            "Pin siêu trâu, dùng 1–2 tuần thoải mái.",
+            "Theo dõi giấc ngủ và nhịp tim cực tốt."
+        ],
+        "specs": [
+            {
+                "label": "Pin",
+                "value": "14 ngày"
+            },
+            {
+                "label": "Theo dõi",
+                "value": "Sleep + Heart rate"
+            },
+            {
+                "label": "Màn hình",
+                "value": "AMOLED"
+            },
+            {
+                "label": "Chống nước",
+                "value": "5ATM"
+            },
+            {
+                "label": "Thiết kế",
+                "value": "Phong cách thời trang"
+            }
+        ]
+    },
+    {
+        "id": "29",
+        "name": "Logitech G502 Hero",
+        "brand": "Logitech",
+        "price": 1490000,
+        "priceOriginal": 1690000,
+        "thumbnail": "https://resource.logitechg.com/w_800/content/dam/gaming/en/products/g502-hero/g502-hero-gallery-1.png",
+        "category": "Accessory",
+        "rating": 4.8,
+        "stock": 22,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "mouse"
+        ],
+        "subtitle": "Chuột gaming đa nút nổi tiếng với độ bền và độ chính xác cao.",
+        "description": [
+            "G502 Hero là biểu tượng trong làng gaming mouse.",
+            "Nhiều nút bấm lập trình, phù hợp FPS và MOBA.",
+            "Cảm biến Hero 25K cực chính xác."
+        ],
+        "specs": [
+            {
+                "label": "DPI",
+                "value": "25,600"
+            },
+            {
+                "label": "Nút",
+                "value": "11 nút lập trình"
+            },
+            {
+                "label": "Trọng lượng",
+                "value": "Điều chỉnh được"
+            },
+            {
+                "label": "Cảm biến",
+                "value": "HERO 25K"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "FPS + MOBA"
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "name": "Razer Basilisk V3",
+        "brand": "Razer",
+        "price": 1590000,
+        "priceOriginal": 1750000,
+        "thumbnail": "https://product.hstatic.net/200000722513/product/1532069345-4326-600x394_c563b34006924e788c065b0e47ce06e6_93d044d502b14010ad34ed5bdd80417c.png",
+        "category": "Accessory",
+        "rating": 4.7,
+        "stock": 18,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "mouse"
+        ],
+        "subtitle": "Chuột gaming công thái học với ánh sáng RGB bắt mắt.",
+        "description": [
+            "Razer Basilisk V3 nổi bật với thiết kế công thái học ôm tay.",
+            "Scroll wheel thông minh có chế độ cuộn nhanh.",
+            "RGB sáng đẹp, sync với Razer Chroma."
+        ],
+        "specs": [
+            {
+                "label": "DPI",
+                "value": "26,000"
+            },
+            {
+                "label": "Nút",
+                "value": "10 nút lập trình"
+            },
+            {
+                "label": "RGB",
+                "value": "Chroma RGB"
+            },
+            {
+                "label": "Hình dáng",
+                "value": "Công thái học"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "FPS, MOBA"
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "name": "Apple Magic Keyboard 2",
+        "brand": "Apple",
+        "price": 2700000,
+        "priceOriginal": 2990000,
+        "thumbnail": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MK2A3",
+        "category": "Accessory",
+        "rating": 4.6,
+        "stock": 20,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "keyboard"
+        ],
+        "subtitle": "Bàn phím mỏng nhẹ, gõ êm, tối ưu cho hệ sinh thái Apple.",
+        "description": [
+            "Magic Keyboard 2 có thiết kế siêu mỏng, nhôm nguyên khối sang trọng.",
+            "Phím gõ êm, hành trình ngắn giúp nhập liệu nhanh và chính xác.",
+            "Kết nối ổn định với MacBook, iMac, iPad."
+        ],
+        "specs": [
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth"
+            },
+            {
+                "label": "Pin",
+                "value": "Sạc Lightning"
+            },
+            {
+                "label": "Chất liệu",
+                "value": "Nhôm nguyên khối"
+            },
+            {
+                "label": "Trọng lượng",
+                "value": "0.24 kg"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Mac, iPad"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "name": "Keychron K8 Pro",
+        "brand": "Keychron",
+        "price": 3200000,
+        "priceOriginal": 3500000,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRccYX1Y3PifKNfb_R5YK0u5Rd41PU8DXBBWA&s",
+        "category": "Accessory",
+        "rating": 4.8,
+        "stock": 15,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "keyboard",
+            "mechanical"
+        ],
+        "subtitle": "Bàn phím cơ không dây đa nền tảng, hỗ trợ QMK/VIA.",
+        "description": [
+            "Keychron K8 Pro là lựa chọn tuyệt vời cho người thích cảm giác gõ cơ học.",
+            "Hỗ trợ QMK/VIA dễ dàng custom từng phím.",
+            "Kết nối đa thiết bị, dùng tốt cho Windows, MacOS, Android."
+        ],
+        "specs": [
+            {
+                "label": "Switch",
+                "value": "Gateron/Keychron"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth + USB-C"
+            },
+            {
+                "label": "Hot-swap",
+                "value": "Có"
+            },
+            {
+                "label": "Layout",
+                "value": "TKL"
+            },
+            {
+                "label": "Pin",
+                "value": "4000mAh"
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "name": "Logitech MX Keys S",
+        "brand": "Logitech",
+        "price": 2890000,
+        "priceOriginal": 3200000,
+        "thumbnail": "https://cdn2.fptshop.com.vn/unsafe/564x0/filters:quality(80)/Uploads/images/2015/ban-phim-bluetooth-logitech-mx-keys-s-fullsize-1.jpg",
+        "category": "Accessory",
+        "rating": 4.9,
+        "stock": 18,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "keyboard"
+        ],
+        "subtitle": "Bàn phím flagship cho dân văn phòng và coder.",
+        "description": [
+            "MX Keys S mang lại trải nghiệm gõ yên tĩnh, chính xác.",
+            "Phím lõm theo đầu ngón tay, gõ lâu không mỏi.",
+            "Hỗ trợ chuyển đổi 3 thiết bị liên tục."
+        ],
+        "specs": [
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth + Logi Bolt"
+            },
+            {
+                "label": "Đèn nền",
+                "value": "Có"
+            },
+            {
+                "label": "Tương thích",
+                "value": "Windows, Mac, Linux"
+            },
+            {
+                "label": "Pin",
+                "value": "10–20 ngày"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Văn phòng, lập trình"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "name": "Sony WF-1000XM5",
+        "brand": "Sony",
+        "price": 5900000,
+        "priceOriginal": 6500000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/54/313700/tai-nghe-bluetooth-true-wireless-sony-wf1000xm5-den-2-750x500.jpg",
+        "category": "Headphone",
+        "rating": 4.8,
+        "stock": 12,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "wireless",
+            "noise-cancelling"
+        ],
+        "subtitle": "Tai nghe true-wireless chống ồn tốt nhất thị trường.",
+        "description": [
+            "Sony WF-1000XM5 có khả năng chống ồn đứng top, phù hợp cho đi làm, đi máy bay.",
+            "Âm thanh cân bằng, bass sâu, mid mượt.",
+            "Tích hợp nhiều chế độ môi trường và Adaptive Sound Control."
+        ],
+        "specs": [
+            {
+                "label": "ANC",
+                "value": "Chống ồn chủ động mạnh"
+            },
+            {
+                "label": "Pin",
+                "value": "8–24 giờ"
+            },
+            {
+                "label": "Codec",
+                "value": "LDAC"
+            },
+            {
+                "label": "Kháng nước",
+                "value": "IPX4"
+            },
+            {
+                "label": "Sử dụng",
+                "value": "Đi làm, di chuyển"
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "name": "Samsung Galaxy Buds2 Pro",
+        "brand": "Samsung",
+        "price": 3990000,
+        "priceOriginal": 4490000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/1/_/1_444.png",
+        "category": "Headphone",
+        "rating": 4.7,
+        "stock": 15,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "wireless",
+            "noise-cancelling"
+        ],
+        "subtitle": "Tai nghe Samsung cao cấp với chất âm sạch và ANC mạnh.",
+        "description": [
+            "Buds2 Pro có thiết kế nhỏ gọn, đeo thoải mái.",
+            "Chất âm cân bằng, hỗ trợ 24-bit Hi-Fi Audio.",
+            "Ổn định nhất khi dùng với điện thoại Samsung."
+        ],
+        "specs": [
+            {
+                "label": "ANC",
+                "value": "Mạnh"
+            },
+            {
+                "label": "Pin",
+                "value": "5–18 giờ"
+            },
+            {
+                "label": "Âm thanh",
+                "value": "24-bit Hi-Fi"
+            },
+            {
+                "label": "Chống nước",
+                "value": "IPX7"
+            },
+            {
+                "label": "Dùng tốt nhất",
+                "value": "Samsung Galaxy"
+            }
+        ]
+    },
+    {
+        "id": "36",
+        "name": "AirPods Pro 2 USB-C",
+        "brand": "Apple",
+        "price": 5790000,
+        "priceOriginal": 6290000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/54/315014/tai-nghe-bluetooth-airpods-pro-2nd-gen-usb-c-charge-apple-1-750x500.jpg",
+        "category": "Headphone",
+        "rating": 4.9,
+        "stock": 20,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "wireless",
+            "noise-cancelling"
+        ],
+        "subtitle": "Tai nghe chống ồn hàng đầu cho người dùng Apple.",
+        "description": [
+            "AirPods Pro 2 USB-C cải thiện ANC, độ trong trẻo và bass mạnh hơn.",
+            "Spatial Audio cho trải nghiệm xem phim cực đã.",
+            "Tự động chuyển thiết bị trong hệ Apple cực mượt."
+        ],
+        "specs": [
+            {
+                "label": "Chip",
+                "value": "Apple H2"
+            },
+            {
+                "label": "ANC",
+                "value": "Rất mạnh"
+            },
+            {
+                "label": "Pin",
+                "value": "6–30 giờ"
+            },
+            {
+                "label": "Cổng sạc",
+                "value": "USB-C"
+            },
+            {
+                "label": "Hệ sinh thái",
+                "value": "Apple"
+            }
+        ]
+    },
+    {
+        "id": "37",
+        "name": "Marshall Mid ANC",
+        "brand": "Marshall",
+        "price": 6200000,
+        "priceOriginal": 6900000,
+        "thumbnail": "https://www.saigonhd.com/upload/tinymce/San%20Pham/MARSHALL/MARSHALL%20MID%20ANC/MARSHALL-MID-ANC_1.jpg",
+        "category": "Headphone",
+        "rating": 4.6,
+        "stock": 7,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "wireless"
+        ],
+        "subtitle": "Tai nghe phong cách retro, âm bass ấm đặc trưng.",
+        "description": [
+            "Marshall Mid ANC mang phong cách cổ điển rất đặc trưng của Marshall.",
+            "Bass ấm, mid rõ, phù hợp nghe rock, pop, acoustic.",
+            "Thiết kế da giả sang trọng, cốc tai mềm."
+        ],
+        "specs": [
+            {
+                "label": "Phong cách",
+                "value": "Retro"
+            },
+            {
+                "label": "ANC",
+                "value": "Có"
+            },
+            {
+                "label": "Pin",
+                "value": "20 giờ"
+            },
+            {
+                "label": "Âm thanh",
+                "value": "Signature Marshall"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth"
+            }
+        ]
+    },
+    {
+        "id": "38",
+        "name": "JBL Charge 5",
+        "brand": "JBL",
+        "price": 3590000,
+        "priceOriginal": 3990000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/l/o/loa-jbl-charge-5-den-black-4.jpg",
+        "category": "Speaker",
+        "rating": 4.7,
+        "stock": 18,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "bluetooth-speaker"
+        ],
+        "subtitle": "Loa di động công suất lớn, chống nước IP67.",
+        "description": [
+            "JBL Charge 5 mang âm bass mạnh, phù hợp tiệc tùng và ngoài trời.",
+            "Chống nước/bụi IP67, dùng tốt ở bãi biển, hồ bơi.",
+            "Pin lớn, có thể sạc ngược cho điện thoại."
+        ],
+        "specs": [
+            {
+                "label": "Chống nước",
+                "value": "IP67"
+            },
+            {
+                "label": "Pin",
+                "value": "20 giờ"
+            },
+            {
+                "label": "Công suất",
+                "value": "30W"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth 5.1"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Ngoài trời, party"
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "name": "Sony SRS-XE300",
+        "brand": "Sony",
+        "price": 3990000,
+        "priceOriginal": 4490000,
+        "thumbnail": "https://bcec.vn/upload/original-image/loa-sony-srs-xe300-blue.jpg",
+        "category": "Speaker",
+        "rating": 4.6,
+        "stock": 16,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "bluetooth-speaker"
+        ],
+        "subtitle": "Loa ngoài trời chống nước tốt, âm lớn và ít méo.",
+        "description": [
+            "Sony XE300 hướng âm dạng line giúp lan tỏa âm đồng đều hơn.",
+            "Chống nước/bụi IP67 và chống sốc.",
+            "Pin rất lâu, dùng 1–2 ngày thoải mái."
+        ],
+        "specs": [
+            {
+                "label": "Chống nước",
+                "value": "IP67"
+            },
+            {
+                "label": "Pin",
+                "value": "24 giờ"
+            },
+            {
+                "label": "Công nghệ",
+                "value": "Line-Shape Diffuser"
+            },
+            {
+                "label": "Chống sốc",
+                "value": "Có"
+            },
+            {
+                "label": "Sạc",
+                "value": "USB-C"
+            }
+        ]
+    },
+    {
+        "id": "40",
+        "name": "Harman Kardon Onyx Studio 8",
+        "brand": "Harman Kardon",
+        "price": 5990000,
+        "priceOriginal": 6490000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/2162/293654/loa-bluetooth-harman-kardon-onyx-studio-8-1-750x500.jpg",
+        "category": "Speaker",
+        "rating": 4.8,
+        "stock": 10,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "home-speaker"
+        ],
+        "subtitle": "Loa trong nhà cao cấp với âm trầm sâu và thiết kế sang.",
+        "description": [
+            "Onyx Studio 8 là dòng loa cao cấp với thiết kế sang trọng.",
+            "Âm bass sâu, mid ấm, treble mượt.",
+            "Phù hợp phòng khách, phòng ngủ hoặc văn phòng."
+        ],
+        "specs": [
+            {
+                "label": "Công suất",
+                "value": "50W"
+            },
+            {
+                "label": "Kết nối",
+                "value": "Bluetooth 5.2"
+            },
+            {
+                "label": "Chất âm",
+                "value": "Trầm sâu, ấm áp"
+            },
+            {
+                "label": "Thiết kế",
+                "value": "Sang trọng"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Nhà, văn phòng"
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "name": "Apple TV 4K (2023)",
+        "brand": "Apple",
+        "price": 4290000,
+        "priceOriginal": 4690000,
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXL42uZN4shJ_5zp-TXYv2jbkzoDdit0weTA&s",
+        "category": "Accessory",
+        "rating": 4.9,
+        "stock": 12,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "smart-home"
+        ],
+        "subtitle": "Thiết bị giải trí mạnh mẽ cho TV 4K HDR.",
+        "description": [
+            "Apple TV 4K mang lại chất lượng hình ảnh HDR sống động.",
+            "Hỗ trợ Dolby Vision, Dolby Atmos.",
+            "Kết hợp hoàn hảo với iPhone, iPad, HomeKit."
+        ],
+        "specs": [
+            {
+                "label": "Độ phân giải",
+                "value": "4K HDR"
+            },
+            {
+                "label": "Âm thanh",
+                "value": "Dolby Atmos"
+            },
+            {
+                "label": "Chip",
+                "value": "Apple A15"
+            },
+            {
+                "label": "Giao diện",
+                "value": "tvOS"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Giải trí gia đình"
+            }
+        ]
+    },
+    {
+        "id": "42",
+        "name": "Google Chromecast 4K",
+        "brand": "Google",
+        "price": 1290000,
+        "priceOriginal": 1490000,
+        "thumbnail": "https://gucongnghe.com/wp-content/uploads/2020/10/Chromecast-with-Google-TV-Mau-Hong.jpg",
+        "category": "Accessory",
+        "rating": 4.5,
+        "stock": 30,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "smart-home"
+        ],
+        "subtitle": "Thiết bị streaming giá rẻ, hỗ trợ điều khiển bằng giọng nói.",
+        "description": [
+            "Chromecast 4K chạy Google TV dễ dùng, nhiều ứng dụng.",
+            "Tương thích với mọi TV có HDMI.",
+            "Tích hợp Google Assistant điều khiển bằng giọng nói."
+        ],
+        "specs": [
+            {
+                "label": "Độ phân giải",
+                "value": "4K HDR"
+            },
+            {
+                "label": "Hệ điều hành",
+                "value": "Google TV"
+            },
+            {
+                "label": "Trợ lý ảo",
+                "value": "Google Assistant"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "YouTube, Netflix, Disney+"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "TV thường → Smart TV"
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "name": "Anker Soundcore Liberty 4",
+        "brand": "Anker",
+        "price": 2490000,
+        "priceOriginal": 2790000,
+        "thumbnail": "https://cdni.dienthoaivui.com.vn/x,webp,q100/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/images/T.AK.11.B-1.png",
+        "category": "Headphone",
+        "rating": 4.6,
+        "stock": 18,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "wireless"
+        ],
+        "subtitle": "Tai nghe TWS giá tốt với Spatial Audio và cảm biến nhịp tim.",
+        "description": [
+            "Liberty 4 hỗ trợ Spatial Audio mang lại trải nghiệm sống động.",
+            "Có cảm biến đo nhịp tim — hiếm thấy ở TWS.",
+            "Pin bền, app tùy chỉnh EQ mạnh."
+        ],
+        "specs": [
+            {
+                "label": "Âm thanh",
+                "value": "Spatial Audio"
+            },
+            {
+                "label": "Cảm biến",
+                "value": "Đo nhịp tim"
+            },
+            {
+                "label": "Pin",
+                "value": "9–28 giờ"
+            },
+            {
+                "label": "App",
+                "value": "Soundcore"
+            },
+            {
+                "label": "Kháng nước",
+                "value": "IPX4"
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Nothing Ear (2)",
+        "brand": "Nothing",
+        "price": 3290000,
+        "priceOriginal": 3590000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-khong-day-nothing-ear-2-6.png",
+        "category": "Headphone",
+        "rating": 4.7,
+        "stock": 14,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "wireless"
+        ],
+        "subtitle": "Thiết kế trong suốt độc đáo, âm sạch, ANC tốt.",
+        "description": [
+            "Nothing Ear (2) có thiết kế trong suốt thu hút mọi ánh nhìn.",
+            "Chất âm cân bằng, chi tiết và treble sáng.",
+            "Case nhỏ, đeo thoải mái, công nghệ LHDC."
+        ],
+        "specs": [
+            {
+                "label": "Thiết kế",
+                "value": "Trong suốt"
+            },
+            {
+                "label": "ANC",
+                "value": "Có"
+            },
+            {
+                "label": "Codec",
+                "value": "LHDC"
+            },
+            {
+                "label": "Pin",
+                "value": "6–36 giờ"
+            },
+            {
+                "label": "Kháng nước",
+                "value": "IP54"
+            }
+        ]
+    },
+    {
+        "id": "45",
+        "name": "Sony HT-A3000 Soundbar",
+        "brand": "Sony",
+        "price": 8990000,
+        "priceOriginal": 9990000,
+        "thumbnail": "https://tainghe.com.vn/media/product/5122_loa_thanh_sony_ht_a3000_xuan_vu_2.jpg",
+        "category": "Speaker",
+        "rating": 4.8,
+        "stock": 6,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "soundbar"
+        ],
+        "subtitle": "Soundbar Dolby Atmos sống động cho phòng khách.",
+        "description": [
+            "Sony HT-A3000 tạo âm thanh vòm 3D ấn tượng nhờ công nghệ Dolby Atmos.",
+            "Âm trầm chắc, giọng thoại rõ, phù hợp xem phim.",
+            "Có thể mở rộng thêm loa sub và loa sau."
+        ],
+        "specs": [
+            {
+                "label": "Chuẩn âm thanh",
+                "value": "Dolby Atmos"
+            },
+            {
+                "label": "Kết nối",
+                "value": "HDMI eARC, Bluetooth"
+            },
+            {
+                "label": "Mở rộng",
+                "value": "Add-on Sub + Rear"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "TV 55–75 inch"
+            },
+            {
+                "label": "Công nghệ",
+                "value": "360 Spatial Sound"
+            }
+        ]
+    },
+    {
+        "id": "46",
+        "name": "DJI Mini 4 Pro",
+        "brand": "DJI",
+        "price": 19900000,
+        "priceOriginal": 21900000,
+        "thumbnail": "https://flycamvn.com/wp-content/uploads/2023/09/f96def8770cb7529d7a98731fa2117dd@origin.jpg",
+        "category": "Drone",
+        "rating": 4.9,
+        "stock": 8,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "drone",
+            "4k"
+        ],
+        "subtitle": "Flycam siêu nhẹ dưới 249g với quay 4K HQ và tránh vật cản toàn hướng.",
+        "description": [
+            "DJI Mini 4 Pro là dòng flycam nhỏ nhẹ nhưng có khả năng quay phim cực mạnh.",
+            "Trang bị cảm biến 1/1.3 inch và quay 4K 60fps sắc nét.",
+            "Hệ thống tránh vật cản 360 độ giúp bay an toàn hơn."
+        ],
+        "specs": [
+            {
+                "label": "Trọng lượng",
+                "value": "249g"
+            },
+            {
+                "label": "Chất lượng video",
+                "value": "4K 60fps"
+            },
+            {
+                "label": "Thời gian bay",
+                "value": "34 phút"
+            },
+            {
+                "label": "Tránh vật cản",
+                "value": "Toàn hướng"
+            },
+            {
+                "label": "Phạm vi bay",
+                "value": "O4 HD Transmission"
+            }
+        ]
+    },
+    {
+        "id": "47",
+        "name": "GoPro Hero 12 Black",
+        "brand": "GoPro",
+        "price": 10900000,
+        "priceOriginal": 11900000,
+        "thumbnail": "https://cdn.vjshop.vn/camera-hanh-dong/gopro/gopro-12/hero-12-creator-editon/gopro-hero-12-black.jpg",
+        "category": "Camera",
+        "rating": 4.8,
+        "stock": 12,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "action-camera"
+        ],
+        "subtitle": "Action cam flagship cho vlog, du lịch và thể thao.",
+        "description": [
+            "GoPro Hero 12 mang chất lượng quay 5.3K cực sắc nét.",
+            "Ổn định hình ảnh HyperSmooth 6.0 siêu mượt.",
+            "Pin dài hơn và chống nước 10m không cần housing."
+        ],
+        "specs": [
+            {
+                "label": "Video",
+                "value": "5.3K 60fps"
+            },
+            {
+                "label": "Chống nước",
+                "value": "10m"
+            },
+            {
+                "label": "Ổn định",
+                "value": "HyperSmooth 6.0"
+            },
+            {
+                "label": "Pin",
+                "value": "Enduro Battery"
+            },
+            {
+                "label": "Định dạng",
+                "value": "RAW / HDR"
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "name": "Sony A7 IV",
+        "brand": "Sony",
+        "price": 49900000,
+        "priceOriginal": 52900000,
+        "thumbnail": "https://mayanh9x.com/image/catalog/san-pham/mayanh-sony/sony-alpha-a7-iv/may-anh-Sony-Alpha-a7-IV-fulframe.jpg",
+        "category": "Camera",
+        "rating": 4.9,
+        "stock": 5,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "mirrorless",
+            "full-frame"
+        ],
+        "subtitle": "Máy ảnh full-frame đa dụng cho cả quay phim và chụp ảnh chuyên nghiệp.",
+        "description": [
+            "Sony A7 IV sở hữu cảm biến 33MP full-frame thế hệ mới.",
+            "Lấy nét theo mắt người/động vật cực nhanh và chính xác.",
+            "Quay 4K 60fps, phù hợp làm phim, vlog chuyên nghiệp."
+        ],
+        "specs": [
+            {
+                "label": "Cảm biến",
+                "value": "Full-frame 33 MP"
+            },
+            {
+                "label": "Video",
+                "value": "4K 60fps"
+            },
+            {
+                "label": "AF",
+                "value": "Real-time Eye AF"
+            },
+            {
+                "label": "ISO",
+                "value": "50–204800"
+            },
+            {
+                "label": "Ngàm",
+                "value": "Sony E-mount"
+            }
+        ]
+    },
+    {
+        "id": "49",
+        "name": "Canon EOS R8",
+        "brand": "Canon",
+        "price": 38900000,
+        "priceOriginal": 40900000,
+        "thumbnail": "https://mayanh24h.com/upload/assets/2023/0209/ar/canon-r8-5.jpg",
+        "category": "Camera",
+        "rating": 4.7,
+        "stock": 10,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "mirrorless"
+        ],
+        "subtitle": "Máy ảnh full-frame gọn nhẹ, autofocus cực nhanh.",
+        "description": [
+            "Canon R8 mang lại chất lượng hình ảnh tuyệt vời trong thân hình nhỏ nhẹ.",
+            "AF theo mắt và AI tracking rất chính xác.",
+            "Quay 4K oversample từ 6K cho độ chi tiết cao."
+        ],
+        "specs": [
+            {
+                "label": "Cảm biến",
+                "value": "Full-frame 24.2 MP"
+            },
+            {
+                "label": "Video",
+                "value": "4K 60fps"
+            },
+            {
+                "label": "AF",
+                "value": "Dual Pixel CMOS AF II"
+            },
+            {
+                "label": "ISO",
+                "value": "100–102400"
+            },
+            {
+                "label": "Trọng lượng",
+                "value": "461g"
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "name": "Nintendo Switch OLED",
+        "brand": "Nintendo",
+        "price": 8990000,
+        "priceOriginal": 9990000,
+        "thumbnail": "https://imagor.owtg.one/unsafe/fit-in/800x800/https://d28jzcg6y4v9j1.cloudfront.net/media/core/products/2022/11/25/may-choi-game-nintendo-thinkpro.png",
+        "category": "Gaming",
+        "rating": 4.9,
+        "stock": 14,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "console"
+        ],
+        "subtitle": "Máy chơi game cầm tay bán chạy nhất với màn OLED rực rỡ.",
+        "description": [
+            "Switch OLED mang màn hình 7 inch sắc nét, màu tươi.",
+            "Chơi được cả handheld lẫn dock lên TV.",
+            "Kho game độc quyền cực nhiều như Zelda, Mario."
+        ],
+        "specs": [
+            {
+                "label": "Màn hình",
+                "value": "7\" OLED"
+            },
+            {
+                "label": "Bộ nhớ",
+                "value": "64GB"
+            },
+            {
+                "label": "Chế độ chơi",
+                "value": "TV / Tabletop / Handheld"
+            },
+            {
+                "label": "Pin",
+                "value": "4.5–9 giờ"
+            },
+            {
+                "label": "Kết nối",
+                "value": "USB-C, WiFi"
+            }
+        ]
+    },
+    {
+        "id": "51",
+        "name": "PlayStation 5 Slim",
+        "brand": "Sony",
+        "price": 13900000,
+        "priceOriginal": 14900000,
+        "thumbnail": "https://cdn.tgdd.vn/Products/Images/12918/332759/may-choi-game-sony-playstation-5-slim-cfi-2018-a01-trang-thumb-600x600.jpg",
+        "category": "Gaming",
+        "rating": 5.0,
+        "stock": 10,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "console"
+        ],
+        "subtitle": "Console thế hệ mới với khả năng chơi game 4K mượt mà.",
+        "description": [
+            "PS5 Slim mạnh mẽ với SSD siêu nhanh giúp load game gần như tức thì.",
+            "Hỗ trợ ray tracing cho đồ họa chân thực.",
+            "Tay cầm DualSense rung phản hồi cực đã."
+        ],
+        "specs": [
+            {
+                "label": "Độ phân giải",
+                "value": "4K HDR"
+            },
+            {
+                "label": "Lưu trữ",
+                "value": "1TB SSD"
+            },
+            {
+                "label": "Controller",
+                "value": "DualSense"
+            },
+            {
+                "label": "Công nghệ",
+                "value": "Ray Tracing"
+            },
+            {
+                "label": "Game",
+                "value": "Hỗ trợ toàn bộ game PS5"
+            }
+        ]
+    },
+    {
+        "id": "52",
+        "name": "Xbox Series X",
+        "brand": "Microsoft",
+        "price": 12900000,
+        "priceOriginal": 13900000,
+        "thumbnail": "https://www.droidshop.vn/wp-content/uploads/2023/05/May-choi-game-Xbox-Series-X.jpg",
+        "category": "Gaming",
+        "rating": 4.9,
+        "stock": 8,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "console"
+        ],
+        "subtitle": "Console mạnh nhất thế giới với hiệu năng ổn định và Game Pass.",
+        "description": [
+            "Xbox Series X mang hiệu năng hàng đầu, chơi game 4K cực mượt.",
+            "Tương thích hàng nghìn game Xbox đời trước.",
+            "Game Pass là điểm mạnh với nhiều game AAA."
+        ],
+        "specs": [
+            {
+                "label": "Độ phân giải",
+                "value": "4K 120fps"
+            },
+            {
+                "label": "Lưu trữ",
+                "value": "1TB SSD"
+            },
+            {
+                "label": "Công nghệ",
+                "value": "Ray Tracing"
+            },
+            {
+                "label": "Dịch vụ",
+                "value": "Xbox Game Pass"
+            },
+            {
+                "label": "Kết nối",
+                "value": "HDMI 2.1, WiFi"
+            }
+        ]
+    },
+    {
+        "id": "53",
+        "name": "Meta Quest 3",
+        "brand": "Meta",
+        "price": 15900000,
+        "priceOriginal": 16900000,
+        "thumbnail": "https://tokyocamera.vn/wp-content/uploads/2023/10/Meta-Quest-3-1-1.jpg",
+        "category": "VR",
+        "rating": 4.8,
+        "stock": 10,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "vr"
+        ],
+        "subtitle": "Kính VR thế hệ mới với màu sắc thật và độ phân giải cao.",
+        "description": [
+            "Quest 3 hỗ trợ Mixed Reality, chơi VR và AR trong cùng 1 thiết bị.",
+            "Độ phân giải cực cao 4K+ cho trải nghiệm sắc nét.",
+            "Không cần PC — hoạt động độc lập hoàn toàn."
+        ],
+        "specs": [
+            {
+                "label": "Độ phân giải",
+                "value": "4K+ Infinite Display"
+            },
+            {
+                "label": "Chip",
+                "value": "Qualcomm XR2 Gen 2"
+            },
+            {
+                "label": "Tracking",
+                "value": "Inside-out"
+            },
+            {
+                "label": "Chơi game",
+                "value": "Standalone"
+            },
+            {
+                "label": "Bộ nhớ",
+                "value": "128/512GB"
+            }
+        ]
+    },
+    {
+        "id": "54",
+        "name": "Apple Vision Pro",
+        "brand": "Apple",
+        "price": 87900000,
+        "priceOriginal": 89900000,
+        "thumbnail": "https://sm.pcmag.com/t/pcmag_uk/review/a/apple-visi/apple-vision-pro_2npt.1200.jpg",
+        "category": "VR",
+        "rating": 5.0,
+        "stock": 3,
+        "isNew": true,
+        "isHot": true,
+        "tags": [
+            "vr",
+            "spatial-computing"
+        ],
+        "subtitle": "Thiết bị Spatial Computing cao cấp nhất hiện tại.",
+        "description": [
+            "Apple Vision Pro đưa trải nghiệm 3D vào đời thực.",
+            "Điều khiển bằng mắt, tay, giọng nói — không cần controller.",
+            "Màn micro-OLED siêu sắc nét cho hình ảnh sống động."
+        ],
+        "specs": [
+            {
+                "label": "Màn hình",
+                "value": "Micro-OLED 23 triệu điểm ảnh"
+            },
+            {
+                "label": "Chip",
+                "value": "M2 + R1"
+            },
+            {
+                "label": "Tracking",
+                "value": "Eye, Hand, Voice"
+            },
+            {
+                "label": "Chất liệu",
+                "value": "Kính + Nhôm"
+            },
+            {
+                "label": "Ứng dụng",
+                "value": "Spatial apps, giải trí 3D"
+            }
+        ]
+    },
+    {
+        "id": "55",
+        "name": "Samsung Odyssey G7 32",
+        "brand": "Samsung",
+        "price": 14900000,
+        "priceOriginal": 15900000,
+        "thumbnail": "https://npcshop.vn/media/product/4661-download--7-.png",
+        "category": "Monitor",
+        "rating": 4.8,
+        "stock": 12,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "gaming-monitor"
+        ],
+        "subtitle": "Màn hình gaming cong 240Hz đỉnh cao.",
+        "description": [
+            "Samsung G7 32 inch mang tấm nền VA cong sâu 1000R cực cuốn.",
+            "Tần số quét 240Hz cho game FPS cực mượt.",
+            "Hỗ trợ HDR600 và màu sắc sống động."
+        ],
+        "specs": [
+            {
+                "label": "Kích thước",
+                "value": "32 inch"
+            },
+            {
+                "label": "Độ cong",
+                "value": "1000R"
+            },
+            {
+                "label": "Tần số quét",
+                "value": "240Hz"
+            },
+            {
+                "label": "HDR",
+                "value": "HDR600"
+            },
+            {
+                "label": "Tấm nền",
+                "value": "VA"
+            }
+        ]
+    },
+    {
+        "id": "56",
+        "name": "LG UltraGear 27GP850",
+        "brand": "LG",
+        "price": 8990000,
+        "priceOriginal": 9490000,
+        "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/m/a/man-hinh-gaming-lg-27gp850-27-inch-1.png",
+        "category": "Monitor",
+        "rating": 4.7,
+        "stock": 14,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "gaming-monitor"
+        ],
+        "subtitle": "Màn hình gaming 165Hz IPS màu đẹp, giá tốt.",
+        "description": [
+            "LG 27GP850 là lựa chọn phổ biến cho streamer và gamer.",
+            "IPS 2K hiển thị màu chuẩn, góc nhìn rộng.",
+            "165Hz (OC 180Hz) chơi game cực mượt."
+        ],
+        "specs": [
+            {
+                "label": "Kích thước",
+                "value": "27 inch"
+            },
+            {
+                "label": "Độ phân giải",
+                "value": "2K QHD"
+            },
+            {
+                "label": "Tần số quét",
+                "value": "165Hz / 180Hz OC"
+            },
+            {
+                "label": "Tấm nền",
+                "value": "IPS"
+            },
+            {
+                "label": "Chứng nhận",
+                "value": "G-Sync Compatible"
+            }
+        ]
+    },
+    {
+        "id": "57",
+        "name": "BenQ GW2480 24",
+        "brand": "BenQ",
+        "price": 3490000,
+        "priceOriginal": 3790000,
+        "thumbnail": "https://maccenter.vn/App_Images/Benq-GW2480-A.jpg",
+        "category": "Monitor",
+        "rating": 4.5,
+        "stock": 25,
+        "isNew": false,
+        "isHot": false,
+        "tags": [
+            "office-monitor"
+        ],
+        "subtitle": "Màn hình văn phòng giá rẻ, chống chói, bảo vệ mắt.",
+        "description": [
+            "BenQ GW2480 phù hợp cho học sinh, sinh viên, dân văn phòng.",
+            "Có EyeCare chống nhấp nháy và lọc ánh sáng xanh.",
+            "Thiết kế viền mỏng sang trọng."
+        ],
+        "specs": [
+            {
+                "label": "Kích thước",
+                "value": "24 inch"
+            },
+            {
+                "label": "Tấm nền",
+                "value": "IPS"
+            },
+            {
+                "label": "Độ phân giải",
+                "value": "Full HD"
+            },
+            {
+                "label": "Công nghệ",
+                "value": "EyeCare"
+            },
+            {
+                "label": "Kết nối",
+                "value": "HDMI, DP"
+            }
+        ]
+    },
+    {
+        "id": "58",
+        "name": "Apple AirTag (4-pack)",
+        "brand": "Apple",
+        "price": 2390000,
+        "priceOriginal": 2590000,
+        "thumbnail": "https://onewaymobile.vn/images/products/2022/05/07/original/air-tag-oneway_1651921056.png",
+        "category": "Accessory",
+        "rating": 4.8,
+        "stock": 40,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "smart-home"
+        ],
+        "subtitle": "Bộ 4 AirTag giúp tìm đồ thất lạc trong vài giây.",
+        "description": [
+            "AirTag kết hợp mạng Find My cực mạnh của Apple.",
+            "Định vị chính xác bằng Ultra Wideband.",
+            "Pin dùng 1 năm thay dễ dàng."
+        ],
+        "specs": [
+            {
+                "label": "Công nghệ định vị",
+                "value": "UWB + Bluetooth"
+            },
+            {
+                "label": "Pin",
+                "value": "1 năm"
+            },
+            {
+                "label": "Chống nước",
+                "value": "IP67"
+            },
+            {
+                "label": "Đường kính",
+                "value": "31.9 mm"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Chìa khóa, balo, ví"
+            }
+        ]
+    },
+    {
+        "id": "59",
+        "name": "Samsung SmartTag 2",
+        "brand": "Samsung",
+        "price": 890000,
+        "priceOriginal": 1200000,
+        "thumbnail": "https://phukienchinhhang.com.vn/Uploads/galaxy-smarttag-2-the-thiet-bi-dinh-vi-thong-minh-the-he-moi-sieu-hot.jpg",
+        "category": "Accessory",
+        "rating": 4.4,
+        "stock": 35,
+        "isNew": true,
+        "isHot": false,
+        "tags": [
+            "smart-home"
+        ],
+        "subtitle": "Thẻ định vị nhỏ gọn cho hệ Samsung.",
+        "description": [
+            "SmartTag 2 là thẻ định vị mạnh mẽ cho người dùng Galaxy.",
+            "Pin lâu tới 500 ngày ở chế độ tiết kiệm.",
+            "Tích hợp SmartThings tìm đồ cực nhanh."
+        ],
+        "specs": [
+            {
+                "label": "Công nghệ",
+                "value": "Bluetooth LE"
+            },
+            {
+                "label": "Pin",
+                "value": "500 ngày"
+            },
+            {
+                "label": "Kháng nước",
+                "value": "IP67"
+            },
+            {
+                "label": "Hệ sinh thái",
+                "value": "Samsung"
+            },
+            {
+                "label": "Tính năng",
+                "value": "SmartThings Find"
+            }
+        ]
+    },
+    {
+        "id": "60",
+        "name": "Anker PowerCore 20K PD",
+        "brand": "Anker",
+        "price": 990000,
+        "priceOriginal": 1290000,
+        "thumbnail": "https://image.anker.com/powercore-20k-pd-black.png",
+        "category": "Powerbank",
+        "rating": 4.7,
+        "stock": 22,
+        "isNew": false,
+        "isHot": true,
+        "tags": [
+            "battery"
+        ],
+        "subtitle": "Pin dự phòng 20.000mAh sạc nhanh PD 20W.",
+        "description": [
+            "Anker PowerCore 20K PD là pin dự phòng dung lượng lớn.",
+            "Sạc nhanh Power Delivery 20W cho iPhone và Android.",
+            "Thiết kế chắc chắn, độ bền cao."
+        ],
+        "specs": [
+            {
+                "label": "Dung lượng",
+                "value": "20,000mAh"
+            },
+            {
+                "label": "Cổng sạc",
+                "value": "USB-C PD 20W"
+            },
+            {
+                "label": "Công suất",
+                "value": "20W"
+            },
+            {
+                "label": "Trọng lượng",
+                "value": "345g"
+            },
+            {
+                "label": "Dùng cho",
+                "value": "Điện thoại, tablet"
+            }
+        ]
+    }
+]

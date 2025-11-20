@@ -1,0 +1,506 @@
+"use client";
+
+import { useCartStore } from "@/features/cart/store";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
+import { useForm } from "react-hook-form";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+
+import {
+    Form,
+    FormField,
+    FormItem,
+    FormLabel,
+    FormControl,
+    FormMessage,
+} from "@/components/ui/form";
+
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Card } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
+import { useAuthStore } from "@/features/auth/store";
+
+const checkoutSchema = z.object({
+    fullName: z.string().min(2, "Please enter your full name"),
+    phone: z.string().min(8, "Invalid phone number"),
+    address: z.string().min(5, "Please enter your shipping address"),
+    paymentMethod: z.enum(["cod", "zalopay"]),
+});
+
+type CheckoutValues = z.infer<typeof checkoutSchema>;
+
+export default function CheckoutPage() {
+    const router = useRouter();
+
+    const total = useCartStore((s) => s.total());
+    const items = useCartStore((s) => s.items);
+    const clear = useCartStore((s) => s.clear);
+
+    const user = useAuthStore((s) => s.user);
+
+    const [status, setStatus] = useState<"idle" | "processing" | "done">("idle");
+    const [orderCode, setOrderCode] = useState<string | null>(null);
+
+    const form = useForm<CheckoutValues>({
+        resolver: zodResolver(checkoutSchema),
+        defaultValues: {
+            fullName: "",
+            phone: "",
+            address: "",
+            paymentMethod: "zalopay",
+        },
+    });
+
+    // Prefill từ user
+    useEffect(() => {
+        if (!user) return;
+        if (user.name) {
+            form.setValue("fullName", user.name);
+        }
+        // @ts-ignore
+        if (user.phone) {
+            // @ts-ignore
+            form.setValue("phone", user.phone);
+        }
+        // @ts-ignore
+        if (user.address) {
+            // @ts-ignore
+            form.setValue("address", user.address);
+        }
+    }, [user, form]);
+
+    // Cart trống
+    if (!items.length && status === "idle") {
+        return (
+            <div className="mx-auto max-w-md px-4 py-16 text-center text-sm">
+                <h1 className="mb-3 text-2xl font-semibold text-slate-900">
+                    Your cart is empty
+                </h1>
+                <p className="text-slate-500">
+                    Add some products to your cart before checking out.
+                </p>
+                <Button
+                    className="mt-6 rounded-full px-6"
+                    onClick={() => router.push("/")}
+                >
+                    Back to homepage
+                </Button>
+            </div>
+        );
+    }
+
+    async function onSubmit(values: CheckoutValues) {
+        setStatus("processing");
+
+        const payload = {
+            customer: values,
+            total,
+            items: items.map((i) => ({
+                id: i.product.id,
+                name: i.product.name,
+                price: i.product.price,
+                quantity: i.quantity,
+            })),
+        };
+
+        if (values.paymentMethod === "zalopay") {
+            const res = await fetch("/api/pay/zalopay", {
+                method: "POST",
+                body: JSON.stringify(payload),
+            });
+            const data = await res.json();
+
+            if (data?.paymentUrl) {
+                window.open(data.paymentUrl, "_blank");
+            }
+        }
+
+        const code = "ORD-" + Math.random().toString(36).slice(2, 8).toUpperCase();
+        setOrderCode(code);
+        clear();
+        setStatus("done");
+    }
+
+    // ===== STEP 3 – CONFIRMATION VIEW =====
+    if (status === "done") {
+        return (
+            <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
+                {/* Title + steps */}
+                <div className="mb-6 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+                    <h1 className="text-2xl font-bold text-slate-900 md:text-3xl">
+                        Order confirmation
+                    </h1>
+
+                    <div className="flex items-center gap-2 text-xs text-slate-500">
+                        {/* STEP 1: Cart – clickable */}
+                        <button
+                            type="button"
+                            onClick={() => router.push("/cart")}
+                            className="inline-flex cursor-pointer items-center gap-1 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white hover:bg-slate-800"
+                        >
+                            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
+                                1
+                            </span>
+                            Cart
+                        </button>
+
+                        <span className="h-px w-6 bg-slate-300" />
+
+                        {/* STEP 2: Shipping & Payment – clickable, quay lại form checkout */}
+                        <button
+                            type="button"
+                            onClick={() => router.push("/checkout")}
+                            className="inline-flex cursor-pointer items-center gap-1 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300"
+                        >
+                            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700">
+                                2
+                            </span>
+                            Shipping &amp; Payment
+                        </button>
+
+                        <span className="h-px w-6 bg-slate-300" />
+
+                        {/* STEP 3: current step */}
+                        <span className="inline-flex items-center gap-1 rounded-full bg-emerald-600 px-3 py-1 text-[11px] font-semibold text-white">
+                            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-emerald-700">
+                                3
+                            </span>
+                            Confirmation
+                        </span>
+                    </div>
+                </div>
+
+                <div className="mx-auto max-w-md rounded-3xl border border-slate-200 bg-white p-8 text-center text-sm shadow-sm">
+                    <h2 className="mb-3 text-2xl font-semibold text-slate-900">
+                        Order placed successfully
+                    </h2>
+                    <p className="mb-2">
+                        Your order code:{" "}
+                        <span className="font-semibold text-slate-900">{orderCode}</span>
+                    </p>
+                    <p className="text-slate-500">
+                        This is a demo payment flow. In a real integration, you would
+                        receive a confirmation webhook from ZaloPay or your payment
+                        provider.
+                    </p>
+
+                    <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:justify-center">
+                        <Button
+                            variant="outline"
+                            className="rounded-full px-6"
+                            onClick={() => router.push("/cart")}
+                        >
+                            View cart
+                        </Button>
+                        <Button
+                            className="rounded-full px-6"
+                            onClick={() => router.push("/")}
+                        >
+                            Back to homepage
+                        </Button>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    // ===== STEP 2 – CHECKOUT VIEW =====
+    return (
+        <div>
+            <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
+                {/* Title + steps */}
+                <div className="mb-6 flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+                    <h1 className="text-2xl font-bold text-slate-900 md:text-3xl">
+                        Checkout
+                    </h1>
+
+                    <div className="flex items-center gap-2 text-xs text-slate-500">
+                        {/* STEP 1: Cart (CLICKABLE) */}
+                        <button
+                            type="button"
+                            onClick={() => router.push("/cart")}
+                            className="inline-flex cursor-pointer items-center gap-1 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white hover:bg-slate-800"
+                        >
+                            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
+                                1
+                            </span>
+                            Cart
+                        </button>
+
+                        <span className="h-px w-6 bg-slate-300" />
+
+                        {/* STEP 2: current step */}
+                        <span className="inline-flex items-center gap-1 rounded-full bg-slate-900/90 px-3 py-1 text-[11px] font-semibold text-white">
+                            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
+                                2
+                            </span>
+                            Shipping &amp; Payment
+                        </span>
+
+                        <span className="h-px w-6 bg-slate-300" />
+
+                        {/* STEP 3: disabled */}
+                        <span className="inline-flex items-center gap-1 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-500">
+                            <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-500">
+                                3
+                            </span>
+                            Confirmation
+                        </span>
+                    </div>
+                </div>
+
+                {/* Logged-in info */}
+                {user && (
+                    <div className="mb-4 rounded-2xl border border-emerald-100 bg-emerald-50 px-4 py-3 text-xs text-slate-700">
+                        <span className="font-semibold text-slate-900">
+                            Checking out as:
+                        </span>{" "}
+                        <span className="font-medium">{user.name}</span>
+                        {user.email && (
+                            <>
+                                <span className="mx-1 text-slate-400">•</span>
+                                <span className="text-slate-600">{user.email}</span>
+                            </>
+                        )}
+                    </div>
+                )}
+
+                <Form {...form}>
+                    <form onSubmit={form.handleSubmit(onSubmit)}>
+                        <div className="grid gap-6 md:grid-cols-[2fr_1.15fr]">
+                            {/* LEFT: shipping + payment */}
+                            <div className="space-y-4">
+                                {/* Shipping card */}
+                                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+                                    <div className="mb-3 flex items-center justify-between">
+                                        <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-800">
+                                            Shipping address
+                                        </h2>
+                                        <span className="text-[11px] text-slate-400">
+                                            Required fields are marked with *
+                                        </span>
+                                    </div>
+
+                                    <div className="space-y-4">
+                                        <FormField
+                                            control={form.control}
+                                            name="fullName"
+                                            render={({ field }) => (
+                                                <FormItem>
+                                                    <FormLabel className="text-xs text-slate-700">
+                                                        Full name *
+                                                    </FormLabel>
+                                                    <FormControl>
+                                                        <Input
+                                                            placeholder="John Doe"
+                                                            className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm focus:border-slate-400 focus:ring-slate-200"
+                                                            {...field}
+                                                        />
+                                                    </FormControl>
+                                                    <FormMessage className="text-[11px]" />
+                                                </FormItem>
+                                            )}
+                                        />
+
+                                        <div className="grid gap-4 sm:grid-cols-2">
+                                            <FormField
+                                                control={form.control}
+                                                name="phone"
+                                                render={({ field }) => (
+                                                    <FormItem>
+                                                        <FormLabel className="text-xs text-slate-700">
+                                                            Phone number *
+                                                        </FormLabel>
+                                                        <FormControl>
+                                                            <Input
+                                                                placeholder="09xx xxx xxx"
+                                                                className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm focus:border-slate-400 focus:ring-slate-200"
+                                                                {...field}
+                                                            />
+                                                        </FormControl>
+                                                        <FormMessage className="text-[11px]" />
+                                                    </FormItem>
+                                                )}
+                                            />
+                                        </div>
+
+                                        <FormField
+                                            control={form.control}
+                                            name="address"
+                                            render={({ field }) => (
+                                                <FormItem>
+                                                    <FormLabel className="text-xs text-slate-700">
+                                                        Shipping address *
+                                                    </FormLabel>
+                                                    <FormControl>
+                                                        <Input
+                                                            placeholder="Street, ward, district, city..."
+                                                            className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm focus:border-slate-400 focus:ring-slate-200"
+                                                            {...field}
+                                                        />
+                                                    </FormControl>
+                                                    <FormMessage className="text-[11px]" />
+                                                </FormItem>
+                                            )}
+                                        />
+                                    </div>
+                                </Card>
+
+                                {/* Payment card */}
+                                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+                                    <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-800">
+                                        Payment method
+                                    </h2>
+
+                                    <FormField
+                                        control={form.control}
+                                        name="paymentMethod"
+                                        render={({ field }) => (
+                                            <FormItem>
+                                                <FormControl>
+                                                    <RadioGroup
+                                                        value={field.value}
+                                                        onValueChange={field.onChange}
+                                                        className="space-y-3 text-sm"
+                                                    >
+                                                        <label
+                                                            htmlFor="pm-zlp"
+                                                            className="flex cursor-pointer items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 hover:border-slate-300"
+                                                        >
+                                                            <RadioGroupItem value="zalopay" id="pm-zlp" />
+                                                            <div className="flex flex-col">
+                                                                <span className="font-medium text-slate-900">
+                                                                    ZaloPay (demo)
+                                                                </span>
+                                                                <span className="text-xs text-slate-500">
+                                                                    You will be redirected to the ZaloPay payment
+                                                                    page.
+                                                                </span>
+                                                            </div>
+                                                        </label>
+
+                                                        <label
+                                                            htmlFor="pm-cod"
+                                                            className="flex cursor-pointer items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 hover:border-slate-300"
+                                                        >
+                                                            <RadioGroupItem value="cod" id="pm-cod" />
+                                                            <div className="flex flex-col">
+                                                                <span className="font-medium text-slate-900">
+                                                                    Cash on delivery (COD)
+                                                                </span>
+                                                                <span className="text-xs text-slate-500">
+                                                                    Pay directly to the delivery staff when you
+                                                                    receive the package.
+                                                                </span>
+                                                            </div>
+                                                        </label>
+                                                    </RadioGroup>
+                                                </FormControl>
+                                                <FormMessage className="text-[11px]" />
+                                            </FormItem>
+                                        )}
+                                    />
+                                </Card>
+                            </div>
+
+                            {/* RIGHT: order summary */}
+                            <div className="space-y-4">
+                                <Card className="h-fit rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+                                    <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-slate-800">
+                                        Order summary
+                                    </h2>
+
+                                    <div className="mb-3 max-h-64 space-y-3 overflow-y-auto pr-1 text-sm">
+                                        {items.map((item) => (
+                                            <div
+                                                key={item.product.id}
+                                                className="flex items-center gap-3 border-b border-slate-100 pb-3 last:border-none"
+                                            >
+                                                <img
+                                                    src={item.product.thumbnail}
+                                                    className="h-14 w-14 shrink-0 rounded-xl border border-slate-100 bg-slate-50 object-contain"
+                                                    alt={item.product.name}
+                                                />
+                                                <div className="flex flex-1 flex-col">
+                                                    <div className="line-clamp-2 text-xs font-medium text-slate-900">
+                                                        {item.product.name}
+                                                    </div>
+                                                    <div className="mt-1 text-[11px] text-slate-500">
+                                                        Qty:{" "}
+                                                        <span className="font-medium">
+                                                            {item.quantity}
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div className="whitespace-nowrap text-xs font-semibold text-slate-900">
+                                                    {(
+                                                        item.product.price * item.quantity
+                                                    ).toLocaleString("vi-VN")}{" "}
+                                                    ₫
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+
+                                    <Separator className="my-3" />
+
+                                    <div className="space-y-2 text-sm">
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-slate-600">Subtotal</span>
+                                            <span className="font-semibold text-slate-900">
+                                                {total.toLocaleString("vi-VN")} ₫
+                                            </span>
+                                        </div>
+
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-slate-600">Shipping fee</span>
+                                            <span className="font-semibold text-emerald-600">
+                                                Free
+                                            </span>
+                                        </div>
+
+                                        <div className="flex items-center justify-between">
+                                            <span className="text-slate-600">Discount</span>
+                                            <span className="font-semibold text-emerald-600">
+                                                0 ₫
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <Separator className="my-4" />
+
+                                    <div className="mb-3 flex items-center justify-between">
+                                        <span className="text-sm font-semibold text-slate-900">
+                                            Total
+                                        </span>
+                                        <span className="text-xl font-bold text-emerald-600">
+                                            {total.toLocaleString("vi-VN")} ₫
+                                        </span>
+                                    </div>
+
+                                    <Button
+                                        type="submit"
+                                        disabled={status === "processing"}
+                                        className="mt-1 w-full rounded-full py-3 text-sm font-semibold"
+                                    >
+                                        {status === "processing"
+                                            ? "Processing..."
+                                            : "Place order"}
+                                    </Button>
+
+                                    <p className="mt-2 text-[11px] text-slate-400">
+                                        By placing your order, you agree to our Terms of Service
+                                        and Privacy Policy.
+                                    </p>
+                                </Card>
+                            </div>
+                        </div>
+                    </form>
+                </Form>
+            </div>
+        </div>
+    );
+}
