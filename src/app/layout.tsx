@@ -1,7 +1,8 @@
+// /src/app/layout.tsx (SERVER)
+
 import type { Metadata } from "next";
 import "./globals.css";
-import { QueryProvider } from "./query-provider";
-import { AppHeader } from "@/components/layout/app-header";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "My E-commerce",
@@ -14,12 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="vi">
+    <html lang="vi" suppressHydrationWarning>
       <body className="min-h-screen bg-background text-foreground">
-        <QueryProvider>
-          <AppHeader />
+        <Providers>
           <main className="container-app py-6">{children}</main>
-        </QueryProvider>
+        </Providers>
       </body>
     </html>
   );
