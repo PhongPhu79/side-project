@@ -474,7 +474,7 @@ export default function HomePage() {
             </div>
 
             {/* GRID + infinite scroll */}
-            <div className="rounded-sm bg-white p-2 pb-3 sm:p-3 sm:pb-4 border border-slate-100 dark:bg-slate-900 dark:border-slate-800">
+            <div className="rounded-sm bg-white py-2 dark:bg-slate-900 dark:border-slate-800">
               {isLoading ? (
                 <div className="py-10 text-center text-xs text-slate-500 sm:text-sm dark:text-slate-400">
                   Loading products...
