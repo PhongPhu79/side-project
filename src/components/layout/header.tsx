@@ -169,9 +169,6 @@ function NavItem({
       )}
     >
       <span>{children}</span>
-      {active && (
-        <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_0_5px_rgba(52,211,153,0.35)] dark:shadow-[0_0_0_5px_rgba(52,211,153,0.6)]" />
-      )}
     </Link>
   );
 }

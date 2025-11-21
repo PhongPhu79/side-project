@@ -57,7 +57,7 @@ export default function CheckoutPage() {
 
   if (!items.length && status === "idle") {
     return (
-      <div className="min-h-[calc(100vh-80px)] bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50">
+      <div className="text-slate-900 dark:text-slate-50">
         <div className="mx-auto flex max-w-md flex-col items-center px-4 py-16 text-center text-sm">
           <h1 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-slate-50">
             Your cart is empty
@@ -205,7 +205,7 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="min-h-[calc(100vh-80px)] bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50">
+    <div className="text-slate-900 dark:text-slate-50">
       <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
         <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
