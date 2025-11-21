@@ -75,7 +75,6 @@ export default function HomePage() {
 
     let list = data;
 
-    // search by product name + brand
     if (search) {
       const q = search.toLowerCase();
       list = list.filter(
@@ -84,16 +83,13 @@ export default function HomePage() {
       );
     }
 
-    // category filter
     if (category !== "all") {
       list = list.filter((p) => p.category === category);
     }
 
-    // price + rating filters
     list = filterByPrice(list, priceRange);
     list = filterByRating(list, ratingFilter);
 
-    // sorting
     if (sort === "price-asc")
       list = [...list].sort((a, b) => a.price - b.price);
     else if (sort === "price-desc")
@@ -102,7 +98,6 @@ export default function HomePage() {
       list = [...list].sort((a, b) => Number(b.isNew) - Number(a.isNew));
     else if (sort === "hot")
       list = [...list].sort((a, b) => Number(b.isHot) - Number(a.isHot));
-    // "popular" keeps original order
 
     return list;
   }, [data, search, category, priceRange, ratingFilter, sort]);
@@ -121,7 +116,6 @@ export default function HomePage() {
     onLoadMore: handleLoadMore,
   });
 
-  // Helpers for selected styles using neutral tone + dark mode
   const sortButtonClass = (value: typeof sort) =>
     [
       "rounded-sm px-3 py-1 text-xs sm:text-sm border transition-colors cursor-pointer",
@@ -149,7 +143,6 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-2 py-3 sm:px-4 sm:py-5 lg:px-6">
-        {/* BREADCRUMB + SEARCH */}
         <div className="mb-3 flex flex-col gap-2 sm:mb-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-1">
             <div className="text-[11px] text-slate-500 sm:text-xs dark:text-slate-400">
@@ -166,7 +159,6 @@ export default function HomePage() {
             </h1>
           </div>
 
-          {/* Main search */}
           <div className="w-full max-w-md">
             <Input
               placeholder="Search products, brands..."
@@ -180,7 +172,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Mobile quick info */}
         <div className="mb-2 flex items-center justify-between text-[11px] text-slate-500 sm:hidden dark:text-slate-400">
           <div className="flex items-center gap-1">
             <SlidersHorizontal className="h-3 w-3" />
@@ -189,16 +180,13 @@ export default function HomePage() {
           <span>{filtered.length} products</span>
         </div>
 
-        {/* MAIN LAYOUT: sidebar + content */}
         <div className="flex gap-2 sm:gap-3 lg:gap-4">
-          {/* SIDEBAR FILTER (desktop) */}
           <aside className="hidden w-[210px] shrink-0 lg:block">
             <div className="rounded-sm bg-white p-3 text-xs shadow-sm border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100">
               <div className="border-b border-slate-100 pb-2 text-[11px] font-semibold uppercase tracking-wide text-slate-700 dark:border-slate-800 dark:text-slate-200">
                 Filters
               </div>
 
-              {/* Categories */}
               <div className="mt-3 border-b border-slate-100 pb-3 dark:border-slate-800">
                 <div className="mb-2 text-[11px] font-semibold text-slate-700 dark:text-slate-200">
                   Categories
@@ -236,7 +224,6 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Price range */}
               <div className="mt-3 border-b border-slate-100 pb-3 dark:border-slate-800">
                 <div className="mb-2 text-[11px] font-semibold text-slate-700 dark:text-slate-200">
                   Price range
@@ -267,7 +254,7 @@ export default function HomePage() {
                       resetPage();
                     }}
                   >
-                    5M – 15M VND
+                    5M - 15M VND
                   </button>
                   <button
                     className={priceChipClass("15-30")}
@@ -276,7 +263,7 @@ export default function HomePage() {
                       resetPage();
                     }}
                   >
-                    15M – 30M VND
+                    15M - 30M VND
                   </button>
                   <button
                     className={priceChipClass("over-30")}
@@ -290,7 +277,6 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Rating */}
               <div className="mt-3">
                 <div className="mb-2 text-[11px] font-semibold text-slate-700 dark:text-slate-200">
                   Rating
@@ -328,12 +314,9 @@ export default function HomePage() {
             </div>
           </aside>
 
-          {/* CONTENT AREA */}
           <section className="flex-1">
-            {/* SORT BAR */}
             <div className="mb-2 rounded-sm bg-white px-2 py-2 text-xs shadow-sm sm:px-3 sm:py-2.5 border border-slate-100 dark:bg-slate-900 dark:border-slate-800 dark:text-slate-100">
               <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-                {/* Sort buttons */}
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-[11px] text-slate-600 sm:text-xs dark:text-slate-300">
                     Sort by
@@ -366,7 +349,6 @@ export default function HomePage() {
                     Newest
                   </button>
 
-                  {/* Price sort group */}
                   <div className="flex items-center gap-0.5 rounded-sm border border-slate-200 bg-white p-0.5 dark:border-slate-700 dark:bg-slate-900">
                     <button
                       className={`px-2 py-1 text-[11px] sm:text-xs rounded-[2px] cursor-pointer ${
@@ -397,7 +379,6 @@ export default function HomePage() {
                   </div>
                 </div>
 
-                {/* Summary + mobile sort */}
                 <div className="flex items-center justify-between gap-2 sm:justify-end">
                   <div className="hidden text-[11px] text-slate-500 sm:block dark:text-slate-400">
                     Showing{" "}
@@ -407,7 +388,6 @@ export default function HomePage() {
                     of {filtered.length} products
                   </div>
 
-                  {/* Sort select (mobile) */}
                   <div className="sm:hidden">
                     <Select
                       value={sort}
@@ -440,7 +420,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Mobile category chips */}
             <div className="mb-2 flex gap-2 overflow-x-auto pb-1 text-[11px] lg:hidden scrollbar-none">
               <button
                 onClick={() => {
@@ -473,7 +452,6 @@ export default function HomePage() {
               ))}
             </div>
 
-            {/* GRID + infinite scroll */}
             <div className="rounded-sm bg-white py-2 dark:bg-slate-900 dark:border-slate-800">
               {isLoading ? (
                 <div className="py-10 text-center text-xs text-slate-500 sm:text-sm dark:text-slate-400">
@@ -487,7 +465,6 @@ export default function HomePage() {
                     ))}
                   </div>
 
-                  {/* sentinel for infinite scroll */}
                   <div ref={sentinelRef} className="h-8 w-full" />
 
                   {page < maxPage && (

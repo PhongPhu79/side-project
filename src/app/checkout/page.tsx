@@ -57,12 +57,12 @@ export default function CheckoutPage() {
 
   if (!items.length && status === "idle") {
     return (
-      <div className="min-h-[calc(100vh-80px)]">
+      <div className="min-h-[calc(100vh-80px)] bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50">
         <div className="mx-auto flex max-w-md flex-col items-center px-4 py-16 text-center text-sm">
-          <h1 className="mb-3 text-2xl font-semibold text-slate-900">
+          <h1 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-slate-50">
             Your cart is empty
           </h1>
-          <p className="text-slate-500">
+          <p className="text-slate-500 dark:text-slate-400">
             Add some products to your cart before checking out.
           </p>
           <Button
@@ -112,26 +112,22 @@ export default function CheckoutPage() {
     setStatus("done");
   }
 
-  // ===== STEP 3 – CONFIRMATION VIEW =====
   if (status === "done") {
     return (
-      <div className="min-h-[calc(100vh-64px)]">
+      <div className="min-h-[calc(100vh-64px)] bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50">
         <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
-          {/* Title + stepper */}
           <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-slate-900 md:text-3xl">
+              <h1 className="text-2xl font-bold text-slate-900 md:text-3xl dark:text-slate-50">
                 Order confirmation
               </h1>
-              <p className="mt-1 text-xs text-slate-500">
+              <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
                 Thank you for your purchase.
               </p>
             </div>
 
-            {/* STEPPER */}
             <div className="flex flex-1 items-center justify-end gap-3 text-xs">
               <div className="flex flex-1 items-center justify-end gap-2">
-                {/* 1 – Cart */}
                 <button
                   type="button"
                   onClick={() => router.push("/cart")}
@@ -143,23 +139,21 @@ export default function CheckoutPage() {
                   Cart
                 </button>
 
-                <span className="h-px w-6 bg-slate-300" />
+                <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
 
-                {/* 2 – Checkout */}
                 <button
                   type="button"
                   onClick={() => router.push("/checkout")}
-                  className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300"
+                  className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
                 >
-                  <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700">
+                  <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700 dark:text-slate-900">
                     2
                   </span>
                   Shipping &amp; Payment
                 </button>
 
-                <span className="h-px w-6 bg-slate-300" />
+                <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
 
-                {/* 3 – Confirmation */}
                 <span className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-1 text-[11px] font-semibold text-white">
                   <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-emerald-700">
                     3
@@ -170,18 +164,20 @@ export default function CheckoutPage() {
             </div>
           </div>
 
-          <div className="mx-auto max-w-lg rounded-3xl border border-slate-200 bg-white p-8 text-center text-sm shadow-sm">
-            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-50">
+          <div className="mx-auto max-w-lg rounded-3xl border border-slate-200 bg-white p-8 text-center text-sm shadow-sm dark:border-slate-700 dark:bg-slate-900">
+            <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-50 dark:bg-emerald-900/30">
               <CheckCircle2 className="h-8 w-8 text-emerald-500" />
             </div>
-            <h2 className="mb-2 text-2xl font-semibold text-slate-900">
+            <h2 className="mb-2 text-2xl font-semibold text-slate-900 dark:text-slate-50">
               Order placed successfully
             </h2>
             <p className="mb-2">
               Your order code:{" "}
-              <span className="font-semibold text-slate-900">{orderCode}</span>
+              <span className="font-semibold text-slate-900 dark:text-slate-50">
+                {orderCode}
+              </span>
             </p>
-            <p className="text-slate-500">
+            <p className="text-slate-500 dark:text-slate-400">
               This is a demo payment flow. In a real integration, you would
               receive a confirmation webhook from ZaloPay or your payment
               provider.
@@ -208,44 +204,39 @@ export default function CheckoutPage() {
     );
   }
 
-  // ===== STEP 2 – CHECKOUT VIEW =====
   return (
-    <div className="min-h-[calc(100vh-80px)]">
+    <div className="min-h-[calc(100vh-80px)] bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50">
       <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
-        {/* Title + stepper */}
         <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
           <div>
             <div className="mb-2 inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-slate-100">
               <ShieldCheck className="h-3.5 w-3.5" />
               Secure checkout
             </div>
-            <h1 className="text-2xl font-bold text-slate-900 md:text-3xl">
+            <h1 className="text-2xl font-bold text-slate-900 md:text-3xl dark:text-slate-50">
               Checkout
             </h1>
-            <p className="mt-1 text-xs text-slate-500">
+            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
               Enter your shipping information and choose a payment method to
               complete your order.
             </p>
           </div>
 
-          {/* STEP INDICATOR – khác cart, dạng “pill + line” */}
           <div className="flex flex-1 items-center justify-end gap-3 text-xs">
             <div className="flex flex-1 items-center justify-end gap-2">
-              {/* 1 – Cart (clickable) */}
               <button
                 type="button"
                 onClick={() => router.push("/cart")}
-                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300"
+                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
               >
-                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700">
+                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700 dark:text-slate-900">
                   1
                 </span>
                 Cart
               </button>
 
-              <span className="h-px w-6 bg-slate-300" />
+              <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
 
-              {/* 2 – current */}
               <span className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white">
                 <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
                   2
@@ -253,11 +244,10 @@ export default function CheckoutPage() {
                 Shipping &amp; Payment
               </span>
 
-              <span className="h-px w-6 bg-slate-300" />
+              <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
 
-              {/* 3 – disabled */}
-              <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-500">
-                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-500">
+              <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-500 dark:text-slate-700">
                   3
                 </span>
                 Confirmation
@@ -266,17 +256,20 @@ export default function CheckoutPage() {
           </div>
         </div>
 
-        {/* Logged-in info */}
         {user && (
-          <div className="mb-4 rounded-2xl border border-emerald-100 bg-emerald-50 px-4 py-3 text-xs text-slate-700">
-            <span className="font-semibold text-slate-900">
+          <div className="mb-4 rounded-2xl border border-emerald-100 bg-emerald-50 px-4 py-3 text-xs text-slate-700 dark:border-emerald-700/60 dark:bg-emerald-900/25 dark:text-emerald-50">
+            <span className="font-semibold text-slate-900 dark:text-slate-50">
               Checking out as:
             </span>{" "}
             <span className="font-medium">{user.name}</span>
             {user.email && (
               <>
-                <span className="mx-1 text-slate-400">•</span>
-                <span className="text-slate-600">{user.email}</span>
+                <span className="mx-1 text-slate-400 dark:text-slate-500">
+                  •
+                </span>
+                <span className="text-slate-600 dark:text-slate-200">
+                  {user.email}
+                </span>
               </>
             )}
           </div>
@@ -285,15 +278,13 @@ export default function CheckoutPage() {
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)}>
             <div className="grid gap-6 md:grid-cols-[2fr_1.15fr]">
-              {/* LEFT: shipping + payment */}
               <div className="space-y-4">
-                {/* Shipping card */}
-                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
+                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
                   <div className="mb-3 flex items-center justify-between">
-                    <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-800">
+                    <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-800 dark:text-slate-100">
                       Shipping address
                     </h2>
-                    <span className="text-[11px] text-slate-400">
+                    <span className="text-[11px] text-slate-400 dark:text-slate-500">
                       Required fields are marked with *
                     </span>
                   </div>
@@ -304,13 +295,13 @@ export default function CheckoutPage() {
                       name="fullName"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-xs text-slate-700">
+                          <FormLabel className="text-xs text-slate-700 dark:text-slate-200">
                             Full name *
                           </FormLabel>
                           <FormControl>
                             <Input
                               placeholder="John Doe"
-                              className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm focus:border-slate-400 focus:ring-slate-200"
+                              className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-400 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-50 dark:placeholder:text-slate-500"
                               {...field}
                             />
                           </FormControl>
@@ -325,13 +316,13 @@ export default function CheckoutPage() {
                         name="phone"
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel className="text-xs text-slate-700">
+                            <FormLabel className="text-xs text-slate-700 dark:text-slate-200">
                               Phone number *
                             </FormLabel>
                             <FormControl>
                               <Input
                                 placeholder="09xx xxx xxx"
-                                className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm focus:border-slate-400 focus:ring-slate-200"
+                                className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-400 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-50 dark:placeholder:text-slate-500"
                                 {...field}
                               />
                             </FormControl>
@@ -346,13 +337,13 @@ export default function CheckoutPage() {
                       name="address"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel className="text-xs text-slate-700">
+                          <FormLabel className="text-xs text-slate-700 dark:text-slate-200">
                             Shipping address *
                           </FormLabel>
                           <FormControl>
                             <Input
                               placeholder="Street, ward, district, city..."
-                              className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm focus:border-slate-400 focus:ring-slate-200"
+                              className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-400 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-50 dark:placeholder:text-slate-500"
                               {...field}
                             />
                           </FormControl>
@@ -363,9 +354,8 @@ export default function CheckoutPage() {
                   </div>
                 </Card>
 
-                {/* Payment card */}
-                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-                  <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-800">
+                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+                  <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-800 dark:text-slate-100">
                     Payment method
                   </h2>
 
@@ -382,14 +372,14 @@ export default function CheckoutPage() {
                           >
                             <label
                               htmlFor="pm-zlp"
-                              className="flex cursor-pointer items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 hover:border-slate-300"
+                              className="flex cursor-pointer items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 hover:border-slate-300 dark:border-slate-700 dark:bg-slate-800 dark:hover:border-slate-500"
                             >
                               <RadioGroupItem value="zalopay" id="pm-zlp" />
                               <div className="flex flex-col">
-                                <span className="font-medium text-slate-900">
+                                <span className="font-medium text-slate-900 dark:text-slate-50">
                                   ZaloPay (demo)
                                 </span>
-                                <span className="text-xs text-slate-500">
+                                <span className="text-xs text-slate-500 dark:text-slate-400">
                                   You will be redirected to the ZaloPay payment
                                   page.
                                 </span>
@@ -398,14 +388,14 @@ export default function CheckoutPage() {
 
                             <label
                               htmlFor="pm-cod"
-                              className="flex cursor-pointer items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 hover:border-slate-300"
+                              className="flex cursor-pointer items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 hover:border-slate-300 dark:border-slate-700 dark:bg-slate-800 dark:hover:border-slate-500"
                             >
                               <RadioGroupItem value="cod" id="pm-cod" />
                               <div className="flex flex-col">
-                                <span className="font-medium text-slate-900">
+                                <span className="font-medium text-slate-900 dark:text-slate-50">
                                   Cash on delivery (COD)
                                 </span>
-                                <span className="text-xs text-slate-500">
+                                <span className="text-xs text-slate-500 dark:text-slate-400">
                                   Pay directly to the delivery staff when you
                                   receive the package.
                                 </span>
@@ -420,10 +410,9 @@ export default function CheckoutPage() {
                 </Card>
               </div>
 
-              {/* RIGHT: order summary */}
               <div className="space-y-4">
-                <Card className="h-fit rounded-3xl border border-slate-200 bg-white p-5 shadow-sm">
-                  <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-slate-800">
+                <Card className="h-fit rounded-3xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+                  <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-slate-800 dark:text-slate-100">
                     Order summary
                   </h2>
 
@@ -431,25 +420,25 @@ export default function CheckoutPage() {
                     {items.map((item) => (
                       <div
                         key={item.product.id}
-                        className="flex items-center gap-3 border-b border-slate-100 pb-3 last:border-none"
+                        className="flex items-center gap-3 border-b border-slate-100 pb-3 last:border-none dark:border-slate-700"
                       >
                         <Image
                           src={item.product.thumbnail}
                           alt={item.product.name}
                           width={56}
                           height={56}
-                          className="h-14 w-14 shrink-0 rounded-xl border border-slate-100 bg-slate-50 object-contain"
+                          className="h-14 w-14 shrink-0 rounded-xl border border-slate-100 bg-slate-50 object-contain dark:border-slate-700 dark:bg-slate-800"
                         />
                         <div className="flex flex-1 flex-col">
-                          <div className="line-clamp-2 text-xs font-medium text-slate-900">
+                          <div className="line-clamp-2 text-xs font-medium text-slate-900 dark:text-slate-50">
                             {item.product.name}
                           </div>
-                          <div className="mt-1 text-[11px] text-slate-500">
+                          <div className="mt-1 text-[11px] text-slate-500 dark:text-slate-400">
                             Qty:{" "}
                             <span className="font-medium">{item.quantity}</span>
                           </div>
                         </div>
-                        <div className="whitespace-nowrap text-xs font-semibold text-slate-900">
+                        <div className="whitespace-nowrap text-xs font-semibold text-slate-900 dark:text-slate-50">
                           {(item.product.price * item.quantity).toLocaleString(
                             "vi-VN"
                           )}{" "}
@@ -463,22 +452,28 @@ export default function CheckoutPage() {
 
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-600">Subtotal</span>
-                      <span className="font-semibold text-slate-900">
+                      <span className="text-slate-600 dark:text-slate-300">
+                        Subtotal
+                      </span>
+                      <span className="font-semibold text-slate-900 dark:text-slate-50">
                         {total.toLocaleString("vi-VN")} ₫
                       </span>
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-600">Shipping fee</span>
-                      <span className="font-semibold text-emerald-600">
+                      <span className="text-slate-600 dark:text-slate-300">
+                        Shipping fee
+                      </span>
+                      <span className="font-semibold text-emerald-600 dark:text-emerald-400">
                         Free
                       </span>
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <span className="text-slate-600">Discount</span>
-                      <span className="font-semibold text-emerald-600">
+                      <span className="text-slate-600 dark:text-slate-300">
+                        Discount
+                      </span>
+                      <span className="font-semibold text-emerald-600 dark:text-emerald-400">
                         0 ₫
                       </span>
                     </div>
@@ -487,10 +482,10 @@ export default function CheckoutPage() {
                   <Separator className="my-4" />
 
                   <div className="mb-3 flex items-center justify-between">
-                    <span className="text-sm font-semibold text-slate-900">
+                    <span className="text-sm font-semibold text-slate-900 dark:text-slate-50">
                       Total
                     </span>
-                    <span className="text-xl font-bold text-emerald-600">
+                    <span className="text-xl font-bold text-emerald-600 dark:text-emerald-400">
                       {total.toLocaleString("vi-VN")} ₫
                     </span>
                   </div>
@@ -503,7 +498,7 @@ export default function CheckoutPage() {
                     {status === "processing" ? "Processing..." : "Place order"}
                   </Button>
 
-                  <p className="mt-2 text-[11px] text-slate-400">
+                  <p className="mt-2 text-[11px] text-slate-400 dark:text-slate-500">
                     By placing your order, you agree to our Terms of Service and
                     Privacy Policy.
                   </p>
