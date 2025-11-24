@@ -420,7 +420,7 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="mb-2 flex gap-2 overflow-x-auto pb-1 text-[11px] lg:hidden scrollbar-none">
+            <div className="mb-2 flex flex-wrap gap-2 pb-1 text-[11px] lg:hidden">
               <button
                 onClick={() => {
                   setCategory("all");

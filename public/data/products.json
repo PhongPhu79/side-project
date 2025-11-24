@@ -2524,5 +2524,1625 @@
         "value": "Điện thoại, tablet"
       }
     ]
+  },
+  {
+    "id": "61",
+    "name": "Bose QuietComfort Ultra",
+    "brand": "Bose",
+    "price": 11900000,
+    "priceOriginal": 12900000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/a/tai-nghe-chup-tai-bose-quietcomfort-ultra-_3__1.png",
+    "category": "Headphone",
+    "rating": 4.8,
+    "stock": 10,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["wireless", "noise-cancelling"],
+    "subtitle": "Premium ANC headphones with immersive audio and crystal-clear clarity.",
+    "description": [
+      "Bose QuietComfort Ultra delivers world-class noise cancellation for commuting, travel, and work.",
+      "Plush ear cushions and lightweight design keep you comfortable for hours.",
+      "Immersive Audio creates a spacious soundstage with rich details."
+    ],
+    "specs": [
+      { "label": "Type", "value": "Over-ear wireless" },
+      { "label": "Battery", "value": "24 hours" },
+      { "label": "Connectivity", "value": "Bluetooth 5.3" },
+      { "label": "ANC", "value": "Adaptive Active Noise Cancelling" },
+      { "label": "Charging", "value": "USB-C fast charging" }
+    ]
+  },
+  {
+    "id": "62",
+    "name": "ASUS ZenBook 14 OLED",
+    "brand": "ASUS",
+    "price": 24500000,
+    "priceOriginal": 26500000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/a/s/asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-3_1.jpg",
+    "category": "Laptop",
+    "rating": 4.7,
+    "stock": 7,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["ultrabook"],
+    "subtitle": "Slim ultrabook with a vivid 2.8K OLED display and all-day battery life.",
+    "description": [
+      "ZenBook 14 OLED offers rich colors and deep blacks for creative work and movies.",
+      "Ultra-thin and lightweight, perfect for students and mobile professionals.",
+      "Runs cool and quiet with the latest Intel processor and fast SSD."
+    ],
+    "specs": [
+      { "label": "Display", "value": "14'' 2.8K OLED" },
+      { "label": "CPU", "value": "Intel Core i7 13th Gen" },
+      { "label": "RAM", "value": "16GB LPDDR5" },
+      { "label": "Storage", "value": "512GB NVMe SSD" },
+      { "label": "Weight", "value": "1.3 kg" }
+    ]
+  },
+  {
+    "id": "63",
+    "name": "Samsung Galaxy Z Fold 6",
+    "brand": "Samsung",
+    "price": 44900000,
+    "priceOriginal": 46900000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/a/samsung-galaxy-z-fold-6-xanh_6_.png",
+    "category": "Phone",
+    "rating": 4.9,
+    "stock": 8,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["foldable", "flagship"],
+    "subtitle": "Foldable flagship for power users and multitaskers.",
+    "description": [
+      "Galaxy Z Fold 6 opens into a tablet-sized display ideal for productivity.",
+      "Improved hinge design makes it more durable and slimmer than ever.",
+      "Great for gaming, media, and multi-window work on the go."
+    ],
+    "specs": [
+      { "label": "Chip", "value": "Snapdragon 8 Gen 3" },
+      { "label": "Main Display", "value": "7.6'' Dynamic AMOLED 120Hz" },
+      { "label": "Cover Display", "value": "6.2'' AMOLED 120Hz" },
+      { "label": "Battery", "value": "4400mAh" },
+      { "label": "Camera", "value": "50MP triple camera system" }
+    ]
+  },
+  {
+    "id": "64",
+    "name": "JBL PartyBox 320",
+    "brand": "JBL",
+    "price": 12900000,
+    "priceOriginal": 13900000,
+    "thumbnail": "https://vn.jbl.com/dw/image/v2/AAUJ_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw1de84566/JBL_PARTYBOX_STAGE_320_HERO_2_47988_x3.png?sw=537&sfrm=png",
+    "category": "Speaker",
+    "rating": 4.7,
+    "stock": 12,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["bluetooth-speaker", "party"],
+    "subtitle": "High-power portable party speaker with booming bass and light effects.",
+    "description": [
+      "JBL PartyBox 320 delivers loud, room-filling sound with powerful bass.",
+      "Built-in LED light show syncs to the beat for party vibes.",
+      "Supports mic and guitar inputs for karaoke and live performances."
+    ],
+    "specs": [
+      { "label": "Power Output", "value": "240W" },
+      { "label": "Battery", "value": "Up to 18 hours" },
+      { "label": "Water Resistance", "value": "IPX4 splashproof" },
+      { "label": "Connectivity", "value": "Bluetooth, USB, AUX" },
+      { "label": "Features", "value": "Light show, mic & guitar input" }
+    ]
+  },
+  {
+    "id": "65",
+    "name": "Fitbit Charge 6",
+    "brand": "Fitbit",
+    "price": 3990000,
+    "priceOriginal": 4490000,
+    "thumbnail": "https://lagihitech.vn/wp-content/uploads/2023/11/dong-ho-thong-minh-Fitbit-Charge-6-hinh-2.jpg",
+    "category": "Watch",
+    "rating": 4.5,
+    "stock": 25,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["fitness", "wearable"],
+    "subtitle": "Advanced fitness band with precise health tracking.",
+    "description": [
+      "Fitbit Charge 6 tracks heart rate, steps, calories, and sleep stages.",
+      "Built-in GPS helps you leave your phone at home during workouts.",
+      "Long battery life makes it ideal for daily health monitoring."
+    ],
+    "specs": [
+      { "label": "Battery", "value": "Up to 7 days" },
+      { "label": "Sensors", "value": "Heart rate, SpO2, GPS" },
+      { "label": "Water Resistance", "value": "5ATM" },
+      { "label": "Display", "value": "Color AMOLED" },
+      { "label": "Compatibility", "value": "Android & iOS" }
+    ]
+  },
+  {
+    "id": "66",
+    "name": "Razer Viper V3 Pro",
+    "brand": "Razer",
+    "price": 3890000,
+    "priceOriginal": 4190000,
+    "thumbnail": "https://product.hstatic.net/200000722513/product/5360-viper-v3-pro-black-1_25c278a13aff48f28dd6bdfe2cf85b26_1024x1024.jpg",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 18,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["mouse", "gaming"],
+    "subtitle": "Ultra-lightweight esports mouse for serious FPS players.",
+    "description": [
+      "Razer Viper V3 Pro is built for pro-level competitive gaming.",
+      "Super light design helps reduce fatigue in long sessions.",
+      "Focus Pro sensor offers precise tracking on various surfaces."
+    ],
+    "specs": [
+      { "label": "Sensor", "value": "Razer Focus Pro 35K" },
+      { "label": "Weight", "value": "54 g" },
+      { "label": "Connectivity", "value": "Razer HyperSpeed Wireless" },
+      { "label": "Battery", "value": "Up to 95 hours" },
+      { "label": "Buttons", "value": "5 programmable buttons" }
+    ]
+  },
+  {
+    "id": "67",
+    "name": "Google Nest Audio 2024",
+    "brand": "Google",
+    "price": 2490000,
+    "priceOriginal": 2790000,
+    "thumbnail": "https://gucongnghe.com/wp-content/uploads/2020/10/Loa-Google-Nest-Audio-Mau-Ghi.jpg",
+    "category": "Speaker",
+    "rating": 4.6,
+    "stock": 30,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["smart-home"],
+    "subtitle": "Smart speaker with clear vocals and Google Assistant built-in.",
+    "description": [
+      "Nest Audio 2024 offers rich sound in a compact, minimal design.",
+      "Supports Google Assistant for voice control of your smart home.",
+      "Stream music easily from Spotify, YouTube Music, and more."
+    ],
+    "specs": [
+      { "label": "Assistant", "value": "Google Assistant" },
+      { "label": "Connectivity", "value": "Wi-Fi, Bluetooth" },
+      { "label": "Audio", "value": "Full-range driver + tweeter" },
+      { "label": "Controls", "value": "Touch and voice" },
+      { "label": "Use Case", "value": "Music, smart home, voice queries" }
+    ]
+  },
+  {
+    "id": "68",
+    "name": "Lenovo Yoga Slim 7i Pro",
+    "brand": "Lenovo",
+    "price": 27500000,
+    "priceOriginal": 29500000,
+    "thumbnail": "https://www.laptopvip.vn/images/ab__webp/detailed/28/lenovo-laptop-yoga-slim-7i-pro-14-subseries-gallery-1-www.laptopvip.vn-1659579874.webp",
+    "category": "Laptop",
+    "rating": 4.7,
+    "stock": 9,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["ultrabook"],
+    "subtitle": "Premium ultrabook with 2.8K display and strong performance.",
+    "description": [
+      "Yoga Slim 7i Pro is ideal for work, content creation, and study.",
+      "Metal body with a slim profile gives a premium, modern feel.",
+      "High-resolution display is perfect for photos and videos."
+    ],
+    "specs": [
+      { "label": "Display", "value": "14'' 2.8K IPS 90Hz" },
+      { "label": "CPU", "value": "Intel Core i7 12th Gen" },
+      { "label": "RAM", "value": "16GB" },
+      { "label": "Storage", "value": "1TB SSD" },
+      { "label": "Weight", "value": "1.3 kg" }
+    ]
+  },
+  {
+    "id": "69",
+    "name": "Sony A6700 Mirrorless",
+    "brand": "Sony",
+    "price": 32900000,
+    "priceOriginal": 34900000,
+    "thumbnail": "https://bizweb.dktcdn.net/100/107/650/files/sony-a6700-06.jpg?v=1689238712847",
+    "category": "Camera",
+    "rating": 4.8,
+    "stock": 7,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["mirrorless", "aps-c"],
+    "subtitle": "APS-C mirrorless camera for hybrid photo and video shooters.",
+    "description": [
+      "Sony A6700 offers fast autofocus with eye-tracking for people and animals.",
+      "Compact body makes it easy to carry for travel and vlogging.",
+      "Supports 4K video recording with advanced codecs and profiles."
+    ],
+    "specs": [
+      { "label": "Sensor", "value": "26MP APS-C" },
+      { "label": "Video", "value": "4K 60fps" },
+      { "label": "Autofocus", "value": "Real-time Eye AF" },
+      { "label": "Stabilization", "value": "5-axis IBIS" },
+      { "label": "Mount", "value": "Sony E-mount" }
+    ]
+  },
+  {
+    "id": "70",
+    "name": "Steam Deck OLED 1TB",
+    "brand": "Valve",
+    "price": 16900000,
+    "priceOriginal": 17900000,
+    "thumbnail": "https://product.hstatic.net/200000637319/product/78125_may_choi_game_cam_tay_steam_deck_oled_1tb_nvme_ssd_1_a693eec401544d9f8267578435bc6f0e_master.jpg",
+    "category": "Gaming",
+    "rating": 4.9,
+    "stock": 10,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["console", "handheld"],
+    "subtitle": "Handheld gaming PC with an upgraded OLED display.",
+    "description": [
+      "Steam Deck OLED offers deeper blacks and more vibrant colors.",
+      "Play your PC game library anywhere you go.",
+      "Improved battery efficiency for longer gaming sessions."
+    ],
+    "specs": [
+      { "label": "Display", "value": "7.4'' OLED 90Hz" },
+      { "label": "Storage", "value": "1TB NVMe SSD" },
+      { "label": "RAM", "value": "16GB LPDDR5" },
+      { "label": "Platform", "value": "SteamOS" },
+      { "label": "Use Case", "value": "Portable PC gaming" }
+    ]
+  },
+  {
+    "id": "71",
+    "name": "Anker Nano Power Bank 10K",
+    "brand": "Anker",
+    "price": 690000,
+    "priceOriginal": 890000,
+    "thumbnail": "https://m.media-amazon.com/images/I/61uQScwjxvL._AC_SL1500_.jpg",
+    "category": "Powerbank",
+    "rating": 4.6,
+    "stock": 40,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["battery"],
+    "subtitle": "Compact 10,000mAh power bank with fast USB-C charging.",
+    "description": [
+      "Anker Nano 10K is small enough to fit into any pocket or bag.",
+      "Supports fast charging for iPhone and Android phones.",
+      "Durable build quality makes it a reliable everyday carry."
+    ],
+    "specs": [
+      { "label": "Capacity", "value": "10,000mAh" },
+      { "label": "Output", "value": "USB-C PD 30W" },
+      { "label": "Input", "value": "USB-C" },
+      { "label": "Weight", "value": "200 g" },
+      { "label": "Use Case", "value": "Phones, earbuds, small gadgets" }
+    ]
+  },
+  {
+    "id": "72",
+    "name": "Dell UltraSharp 34 Curved",
+    "brand": "Dell",
+    "price": 18900000,
+    "priceOriginal": 19900000,
+    "thumbnail": "https://static.tandoanh.vn/wp-content/uploads/2024/07/Dell-UltraSharp-U3425WE-H2.jpg",
+    "category": "Monitor",
+    "rating": 4.7,
+    "stock": 6,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["ultrawide-monitor"],
+    "subtitle": "34-inch ultrawide curved monitor for productivity and content creation.",
+    "description": [
+      "The UltraSharp 34 gives you extra horizontal space for multitasking.",
+      "Curved IPS panel provides immersive visuals and accurate colors.",
+      "Ideal for video editing, trading, and multi-window workflows."
+    ],
+    "specs": [
+      { "label": "Size", "value": "34 inch" },
+      { "label": "Resolution", "value": "3440 x 1440 UWQHD" },
+      { "label": "Panel", "value": "IPS" },
+      { "label": "Refresh Rate", "value": "60Hz" },
+      { "label": "Ports", "value": "USB-C, HDMI, DisplayPort" }
+    ]
+  },
+  {
+    "id": "73",
+    "name": "Corsair K70 RGB Pro",
+    "brand": "Corsair",
+    "price": 3290000,
+    "priceOriginal": 3590000,
+    "thumbnail": "https://bizweb.dktcdn.net/thumb/1024x1024/100/329/122/products/ban-phim-co-corsair-k70-pro-blk-rgb-1.png?v=1758522425640",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 15,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["keyboard", "mechanical"],
+    "subtitle": "Mechanical gaming keyboard with per-key RGB lighting.",
+    "description": [
+      "K70 RGB Pro offers fast response and reliable mechanical switches.",
+      "Per-key RGB lighting can be customized in Corsair iCUE software.",
+      "Durable aluminum frame makes it long-lasting for heavy gamers."
+    ],
+    "specs": [
+      { "label": "Switches", "value": "Cherry MX (various options)" },
+      { "label": "Layout", "value": "Full-size" },
+      { "label": "Connectivity", "value": "USB-C wired" },
+      { "label": "Features", "value": "Per-key RGB, media keys" },
+      { "label": "Wrist Rest", "value": "Detachable" }
+    ]
+  },
+  {
+    "id": "74",
+    "name": "Sennheiser Momentum True Wireless 4",
+    "brand": "Sennheiser",
+    "price": 6990000,
+    "priceOriginal": 7490000,
+    "thumbnail": "https://tainghe.com.vn/media/product/6086_tai_nghe_sennheiser_momentum_true_wireless_xuan_vu_xuan_vu_mau_dong.jpg",
+    "category": "Headphone",
+    "rating": 4.8,
+    "stock": 12,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["wireless", "noise-cancelling"],
+    "subtitle": "Audiophile-grade true wireless earbuds with rich sound.",
+    "description": [
+      "Momentum TW4 deliver detailed, balanced sound with strong bass.",
+      "ANC reduces background noise while keeping music clear.",
+      "Comfortable fit and premium build with splash resistance."
+    ],
+    "specs": [
+      { "label": "ANC", "value": "Hybrid Active Noise Cancelling" },
+      { "label": "Battery", "value": "7+21 hours with case" },
+      { "label": "Codec", "value": "aptX Adaptive, AAC, SBC" },
+      { "label": "Water Resistance", "value": "IPX4" },
+      { "label": "Charging", "value": "USB-C & wireless charging" }
+    ]
+  },
+  {
+    "id": "75",
+    "name": "OnePlus 12 5G",
+    "brand": "OnePlus",
+    "price": 19900000,
+    "priceOriginal": 20900000,
+    "thumbnail": "https://cdn.viettablet.com/images/detailed/58/oneplus-12-5g.jpg",
+    "category": "Phone",
+    "rating": 4.7,
+    "stock": 14,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["flagship"],
+    "subtitle": "Fast and smooth Android flagship with clean software.",
+    "description": [
+      "OnePlus 12 focuses on speed, smoothness, and user experience.",
+      "Bright, high-refresh AMOLED display is great for gaming and media.",
+      "Hasselblad-tuned cameras offer natural colors and strong HDR."
+    ],
+    "specs": [
+      { "label": "Chip", "value": "Snapdragon 8 Gen 3" },
+      { "label": "Display", "value": "6.7'' AMOLED 120Hz" },
+      { "label": "Battery", "value": "5400mAh with fast charging" },
+      { "label": "Camera", "value": "Triple camera with telephoto" },
+      { "label": "Software", "value": "OxygenOS based on Android" }
+    ]
+  },
+  {
+    "id": "76",
+    "name": "Garmin Forerunner 965",
+    "brand": "Garmin",
+    "price": 14900000,
+    "priceOriginal": 15900000,
+    "thumbnail": "https://antien.vn/files/products/2023/04/06/Garmin-Forerunner-965.jpg",
+    "category": "Watch",
+    "rating": 4.9,
+    "stock": 9,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["sport", "fitness"],
+    "subtitle": "Premium GPS running watch with AMOLED display.",
+    "description": [
+      "Forerunner 965 is designed for serious runners and triathletes.",
+      "Full-color maps and training metrics help you improve performance.",
+      "Lightweight design makes it comfortable for everyday wear."
+    ],
+    "specs": [
+      { "label": "Display", "value": "1.4'' AMOLED" },
+      { "label": "Battery", "value": "Up to 23 days in smartwatch mode" },
+      { "label": "GPS", "value": "Multi-band GNSS" },
+      { "label": "Water Rating", "value": "5ATM" },
+      { "label": "Use Case", "value": "Running, triathlon, cycling" }
+    ]
+  },
+  {
+    "id": "77",
+    "name": "Logitech Brio 4K Webcam",
+    "brand": "Logitech",
+    "price": 3990000,
+    "priceOriginal": 4390000,
+    "thumbnail": "https://product.hstatic.net/1000323386/product/logitech_brio_1_264f76d6301c4b099eb34e19624b1144.png",
+    "category": "Accessory",
+    "rating": 4.6,
+    "stock": 20,
+    "isNew": false,
+    "isHot": false,
+    "tags": ["webcam"],
+    "subtitle": "Professional 4K webcam for streaming and video calls.",
+    "description": [
+      "Logitech Brio offers sharp 4K image quality with HDR support.",
+      "Dual microphones deliver clear voice pickup.",
+      "Great for remote work, streaming, and online meetings."
+    ],
+    "specs": [
+      { "label": "Resolution", "value": "4K UHD at 30fps" },
+      { "label": "Field of View", "value": "Adjustable 65° / 78° / 90°" },
+      { "label": "Connectivity", "value": "USB-A / USB-C" },
+      { "label": "Microphones", "value": "Dual omni-directional mics" },
+      { "label": "Compatibility", "value": "Windows, macOS, ChromeOS" }
+    ]
+  },
+  {
+    "id": "78",
+    "name": "Rode Wireless PRO Microphone",
+    "brand": "Rode",
+    "price": 11900000,
+    "priceOriginal": 12500000,
+    "thumbnail": "https://hlstudio.vn/wp-content/uploads/2023/09/micro-thu-am-rode-wireless-pro-1.jpg",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 8,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["audio", "microphone"],
+    "subtitle": "Premium wireless mic kit for creators and vloggers.",
+    "description": [
+      "Rode Wireless PRO offers reliable wireless audio with low latency.",
+      "Internal recording ensures you never lose important takes.",
+      "Perfect for interviews, YouTube, TikTok, and filmmaking."
+    ],
+    "specs": [
+      { "label": "System", "value": "Dual-channel wireless" },
+      { "label": "Range", "value": "Up to 260m line-of-sight" },
+      { "label": "Recording", "value": "On-board 32-bit float" },
+      { "label": "Connectivity", "value": "USB-C, 3.5mm, digital out" },
+      { "label": "Use Case", "value": "Content creation, interviews" }
+    ]
+  },
+  {
+    "id": "79",
+    "name": "Amazon Kindle Paperwhite 11th Gen",
+    "brand": "Amazon",
+    "price": 3990000,
+    "priceOriginal": 4290000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:358:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/m/_/m_y_c_s_ch_new_kindle_gen_11_2024_en_16gb_3_.png",
+    "category": "Accessory",
+    "rating": 4.9,
+    "stock": 18,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["ebook-reader"],
+    "subtitle": "Waterproof e-reader with adjustable warm light.",
+    "description": [
+      "Kindle Paperwhite lets you carry thousands of books in one device.",
+      "Warm light and glare-free screen make it easy on the eyes.",
+      "Long battery life lasts for weeks on a single charge."
+    ],
+    "specs": [
+      { "label": "Display", "value": "6.8'' E-ink 300ppi" },
+      { "label": "Storage", "value": "8GB / 16GB" },
+      { "label": "Waterproof", "value": "IPX8" },
+      { "label": "Battery Life", "value": "Up to 10 weeks" },
+      { "label": "Use Case", "value": "Reading ebooks, PDFs" }
+    ]
+  },
+  {
+    "id": "80",
+    "name": "Insta360 X4 360 Camera",
+    "brand": "Insta360",
+    "price": 15900000,
+    "priceOriginal": 16900000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/c/a/camera-hanh-trinh-insta-360-x4_1_1.png",
+    "category": "Camera",
+    "rating": 4.7,
+    "stock": 10,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["action-camera", "360"],
+    "subtitle": "360° action camera for creative shots and reframing.",
+    "description": [
+      "Insta360 X4 captures everything around you so you never miss the moment.",
+      "FlowState stabilization keeps your footage smooth and stable.",
+      "Reframe your shots later in the app for vertical, landscape, or square videos."
+    ],
+    "specs": [
+      { "label": "Video", "value": "8K 360° recording" },
+      { "label": "Stabilization", "value": "FlowState stabilization" },
+      { "label": "Water Resistance", "value": "IPX8 (up to 10m)" },
+      { "label": "Battery", "value": "Extended capacity pack" },
+      { "label": "Use Case", "value": "Vlogs, travel, social media" }
+    ]
+  },
+  {
+    "id": "81",
+    "name": "Apple Magic Trackpad 3",
+    "brand": "Apple",
+    "price": 3990000,
+    "priceOriginal": 4290000,
+    "thumbnail": "https://cdn2.fptshop.com.vn/unsafe/800x0/magic_trackpad_2024_den_3_43de5f6a08.jpg",
+    "category": "Accessory",
+    "rating": 4.6,
+    "stock": 16,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["trackpad"],
+    "subtitle": "Multi-touch trackpad optimized for macOS gestures.",
+    "description": [
+      "Magic Trackpad 3 supports all macOS gestures for smooth navigation.",
+      "Large glass surface gives precise control for editing and browsing.",
+      "Perfect companion for Mac mini, Mac Studio, and iMac setups."
+    ],
+    "specs": [
+      { "label": "Connectivity", "value": "Bluetooth" },
+      { "label": "Charging", "value": "USB-C" },
+      { "label": "Surface", "value": "Glass multi-touch" },
+      { "label": "Compatibility", "value": "macOS, iPadOS" },
+      { "label": "Use Case", "value": "Productivity, creative work" }
+    ]
+  },
+  {
+    "id": "82",
+    "name": "Samsung T9 Portable SSD 2TB",
+    "brand": "Samsung",
+    "price": 5990000,
+    "priceOriginal": 6490000,
+    "thumbnail": "https://product.hstatic.net/200000320233/product/1696736456-908-o-cung-di-dong-ssd-portable-1tb-samsung-t9-mau-den-6_6f5db7807c1440c1a6d7d9ebb9249792_1024x1024.jpg",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 25,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["storage", "ssd"],
+    "subtitle": "High-speed portable SSD for creators and gamers.",
+    "description": [
+      "Samsung T9 offers blazing fast transfer speeds for large files.",
+      "Compact and rugged design makes it easy to travel with.",
+      "Great for storing games, 4K footage, and project files."
+    ],
+    "specs": [
+      { "label": "Capacity", "value": "2TB" },
+      { "label": "Interface", "value": "USB 3.2 Gen 2x2" },
+      { "label": "Speed", "value": "Up to 2000MB/s" },
+      { "label": "Compatibility", "value": "PC, Mac, Android, consoles" },
+      { "label": "Encryption", "value": "Hardware encryption support" }
+    ]
+  },
+  {
+    "id": "83",
+    "name": "Logitech G Cloud Handheld",
+    "brand": "Logitech",
+    "price": 8990000,
+    "priceOriginal": 9490000,
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/6161t7Q484L.jpg",
+    "category": "Gaming",
+    "rating": 4.3,
+    "stock": 12,
+    "isNew": false,
+    "isHot": false,
+    "tags": ["cloud-gaming"],
+    "subtitle": "Cloud gaming handheld for Xbox Cloud and GeForce NOW.",
+    "description": [
+      "G Cloud is designed for cloud streaming rather than local heavy games.",
+      "Lightweight body and big battery are great for long sessions.",
+      "Supports Xbox Cloud Gaming, GeForce NOW, and remote play apps."
+    ],
+    "specs": [
+      { "label": "Display", "value": "7'' IPS 1080p 60Hz" },
+      { "label": "Battery", "value": "Up to 12 hours" },
+      { "label": "OS", "value": "Android-based" },
+      { "label": "Use Case", "value": "Cloud streaming, remote play" },
+      { "label": "Controls", "value": "Integrated gamepad" }
+    ]
+  },
+  {
+    "id": "84",
+    "name": "Sony WH-CH720N",
+    "brand": "Sony",
+    "price": 2990000,
+    "priceOriginal": 3490000,
+    "thumbnail": "https://sony.scene7.com/is/image/sonyglobalsolutions/WH-CH720N_Product_intro_Pink_01_M?$productIntroPlatemobile$&fmt=png-alpha",
+    "category": "Headphone",
+    "rating": 4.4,
+    "stock": 30,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["wireless", "noise-cancelling"],
+    "subtitle": "Affordable ANC over-ear headphones from Sony.",
+    "description": [
+      "WH-CH720N delivers balanced sound with effective noise cancelling.",
+      "Lightweight build makes it comfortable for daily commuting.",
+      "Great choice if you want Sony ANC without paying flagship prices."
+    ],
+    "specs": [
+      { "label": "Type", "value": "Over-ear wireless" },
+      { "label": "Battery", "value": "Up to 35 hours" },
+      { "label": "ANC", "value": "Active Noise Cancelling" },
+      { "label": "Weight", "value": "192 g" },
+      { "label": "Charging", "value": "USB-C" }
+    ]
+  },
+  {
+    "id": "85",
+    "name": "Xiaomi Pad 7 Pro",
+    "brand": "Xiaomi",
+    "price": 10900000,
+    "priceOriginal": 11900000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/x/i/xiaomi-pad-7_2__1.png",
+    "category": "Tablet",
+    "rating": 4.6,
+    "stock": 18,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["tablet"],
+    "subtitle": "High-refresh Android tablet for entertainment and work.",
+    "description": [
+      "Xiaomi Pad 7 Pro features a large high-refresh display for smooth scrolling.",
+      "Quad speakers deliver loud and immersive sound.",
+      "Supports keyboard cover and stylus for productivity."
+    ],
+    "specs": [
+      { "label": "Display", "value": "11'' 144Hz LCD" },
+      { "label": "Chip", "value": "Snapdragon 8+ Gen 1" },
+      { "label": "RAM", "value": "8GB / 12GB" },
+      { "label": "Storage", "value": "256GB / 512GB" },
+      { "label": "Battery", "value": "8600mAh with fast charging" }
+    ]
+  },
+  {
+    "id": "86",
+    "name": "Apple AirPods 4",
+    "brand": "Apple",
+    "price": 4590000,
+    "priceOriginal": 4990000,
+    "thumbnail": "https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/54/329154/airpods-4-cong-usb-c-anc-1-638615780217991382-750x500.jpg",
+    "category": "Headphone",
+    "rating": 4.7,
+    "stock": 22,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["wireless"],
+    "subtitle": "Next-gen open-fit earbuds with improved sound and battery.",
+    "description": [
+      "AirPods 4 bring better sound and more stable connection than earlier models.",
+      "Instant pairing and switching between Apple devices stay super convenient.",
+      "Great for calls, podcasts, and casual music listening."
+    ],
+    "specs": [
+      { "label": "Fit", "value": "Open-fit" },
+      { "label": "Chip", "value": "Apple H2-based platform" },
+      { "label": "Battery", "value": "Up to 6 hours, 30 hours with case" },
+      { "label": "Charging", "value": "USB-C & MagSafe" },
+      { "label": "Features", "value": "Spatial Audio, Find My" }
+    ]
+  },
+  {
+    "id": "87",
+    "name": "Dyson Zone Headphones",
+    "brand": "Dyson",
+    "price": 21900000,
+    "priceOriginal": 22900000,
+    "thumbnail": "https://m.media-amazon.com/images/I/61NURFy+6PL._AC_UF350,350_QL50_.jpg",
+    "category": "Headphone",
+    "rating": 4.1,
+    "stock": 5,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["wireless", "anc", "air-purifier"],
+    "subtitle": "Futuristic ANC headphones with built-in air purification.",
+    "description": [
+      "Dyson Zone combines high-fidelity audio with a detachable air-purifying visor.",
+      "Effective noise cancelling isolates you from city noise.",
+      "A niche but unique gadget for tech enthusiasts in urban areas."
+    ],
+    "specs": [
+      { "label": "Type", "value": "Over-ear wireless" },
+      { "label": "Special Feature", "value": "Personal air purification" },
+      { "label": "Battery", "value": "Up to 50 hours audio-only" },
+      { "label": "Connectivity", "value": "Bluetooth 5.0" },
+      { "label": "Use Case", "value": "Travel, city commuting" }
+    ]
+  },
+  {
+    "id": "88",
+    "name": "BenQ ScreenBar Halo",
+    "brand": "BenQ",
+    "price": 3490000,
+    "priceOriginal": 3790000,
+    "thumbnail": "https://image.benq.com/is/image/benqco/together-dark-brown?$ResponsivePreset$",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 14,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["desk-light"],
+    "subtitle": "Monitor light bar that reduces eye strain and saves desk space.",
+    "description": [
+      "ScreenBar Halo evenly lights your desk without causing screen glare.",
+      "Wireless controller lets you easily adjust brightness and color temperature.",
+      "Great upgrade for clean and ergonomic desk setups."
+    ],
+    "specs": [
+      { "label": "Mount", "value": "Top of monitor" },
+      { "label": "Controls", "value": "Wireless knob controller" },
+      { "label": "Color Temp", "value": "2700K–6500K" },
+      { "label": "Power", "value": "USB-powered" },
+      { "label": "Use Case", "value": "Office, gaming, studying" }
+    ]
+  },
+  {
+    "id": "89",
+    "name": "Elgato Stream Deck MK2",
+    "brand": "Elgato",
+    "price": 4690000,
+    "priceOriginal": 4990000,
+    "thumbnail": "https://product.hstatic.net/200000637319/product/1626418892_elgato-stream-deck-mk2-controller-for-streamers-priced-at_2f50f89d7d9644339e77121d7b6b61b2_master.jpg",
+    "category": "Accessory",
+    "rating": 4.9,
+    "stock": 11,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["streaming"],
+    "subtitle": "Customizable macro pad for streamers and power users.",
+    "description": [
+      "Stream Deck MK2 gives you 15 customizable LCD keys for instant actions.",
+      "Switch scenes, trigger macros, control audio, and launch apps with one tap.",
+      "Also great for productivity workflows beyond streaming."
+    ],
+    "specs": [
+      { "label": "Keys", "value": "15 LCD keys" },
+      { "label": "Connectivity", "value": "USB-C" },
+      { "label": "Software", "value": "Elgato Stream Deck app" },
+      { "label": "Platforms", "value": "Windows, macOS" },
+      { "label": "Use Case", "value": "Streaming, automation" }
+    ]
+  },
+  {
+    "id": "90",
+    "name": "Razer BlackWidow V4 Pro",
+    "brand": "Razer",
+    "price": 4590000,
+    "priceOriginal": 4990000,
+    "thumbnail": "https://static.tandoanh.vn/wp-content/uploads/2023/07/Razer-BlackWidow-V4-Pro-H1.jpg",
+    "category": "Accessory",
+    "rating": 4.7,
+    "stock": 13,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["keyboard", "mechanical"],
+    "subtitle": "Full-size mechanical gaming keyboard with dedicated macro keys.",
+    "description": [
+      "BlackWidow V4 Pro has dedicated macro keys and a multi-function dial.",
+      "Per-key RGB lighting syncs with other Razer Chroma gear.",
+      "Premium wrist rest helps with comfort in long gaming sessions."
+    ],
+    "specs": [
+      { "label": "Switches", "value": "Razer Mechanical (Green/Yellow)" },
+      { "label": "Layout", "value": "Full-size with macros" },
+      { "label": "Connectivity", "value": "USB-C detachable cable" },
+      { "label": "Lighting", "value": "Chroma RGB per-key" },
+      { "label": "Extras", "value": "Magnetic wrist rest" }
+    ]
+  },
+  {
+    "id": "91",
+    "name": "GoPro Max 2",
+    "brand": "GoPro",
+    "price": 14900000,
+    "priceOriginal": 15900000,
+    "thumbnail": "https://mayanh24h.com/upload/assets/thumb/2025/1006/ar/go-pro-max-2-1.jpg",
+    "category": "Camera",
+    "rating": 4.7,
+    "stock": 9,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["action-camera", "360"],
+    "subtitle": "Next-gen 360 action cam for immersive videos.",
+    "description": [
+      "GoPro Max 2 captures immersive 360° footage for creative edits.",
+      "Use it as a regular single-lens camera or full 360 mode.",
+      "HyperSmooth stabilization keeps footage stable even in rough action."
+    ],
+    "specs": [
+      { "label": "Video", "value": "5.7K 360°" },
+      { "label": "Stabilization", "value": "HyperSmooth" },
+      { "label": "Waterproof", "value": "Up to 5m without housing" },
+      { "label": "Mounts", "value": "Standard GoPro mounts" },
+      { "label": "Use Case", "value": "Action sports, travel vlogs" }
+    ]
+  },
+  {
+    "id": "92",
+    "name": "DJI Osmo Pocket 4",
+    "brand": "DJI",
+    "price": 12900000,
+    "priceOriginal": 13900000,
+    "thumbnail": "https://zshop.vn/images/thumbnails/814/600/detailed/184/dji-osmo-pocket-4_2_.jpg",
+    "category": "Camera",
+    "rating": 4.8,
+    "stock": 10,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["camera", "gimbal"],
+    "subtitle": "Pocket-sized gimbal camera for smooth cinematic footage.",
+    "description": [
+      "Osmo Pocket 4 packs a stabilized camera into a tiny body.",
+      "Face tracking and active tracking keep your subject in frame.",
+      "Perfect for travel vlogs, daily life, and family videos."
+    ],
+    "specs": [
+      { "label": "Sensor", "value": "1-inch type sensor" },
+      { "label": "Video", "value": "4K 120fps" },
+      { "label": "Stabilization", "value": "3-axis gimbal" },
+      { "label": "Display", "value": "Built-in touch screen" },
+      { "label": "Use Case", "value": "Vlogs, daily shooting" }
+    ]
+  },
+  {
+    "id": "93",
+    "name": "Samsung Galaxy Watch 7 Classic",
+    "brand": "Samsung",
+    "price": 8990000,
+    "priceOriginal": 9490000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/m/sm-l300_001_front_green_240429.png",
+    "category": "Watch",
+    "rating": 4.7,
+    "stock": 15,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["wearable"],
+    "subtitle": "Rotating bezel smartwatch with advanced health tracking.",
+    "description": [
+      "Galaxy Watch 7 Classic brings back the satisfying rotating bezel.",
+      "Tracks heart rate, sleep, workouts, and body composition.",
+      "Perfect for Android users who want a stylish yet smart watch."
+    ],
+    "specs": [
+      { "label": "Size", "value": "43mm / 47mm" },
+      { "label": "Display", "value": "Super AMOLED" },
+      { "label": "OS", "value": "Wear OS with One UI Watch" },
+      { "label": "Water Resistance", "value": "5ATM + IP68" },
+      { "label": "Sensors", "value": "Heart rate, ECG, SpO2" }
+    ]
+  },
+  {
+    "id": "94",
+    "name": "Huawei MateBook X Pro 2024",
+    "brand": "Huawei",
+    "price": 37900000,
+    "priceOriginal": 39900000,
+    "thumbnail": "https://product.hstatic.net/1000238589/product/laptop_huawei_matebook_x_pro_2024_d8e5c7de6ae44e28978b3319ce607d2a_grande.jpg",
+    "category": "Laptop",
+    "rating": 4.6,
+    "stock": 6,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["ultrabook"],
+    "subtitle": "Premium ultrabook with 3K touchscreen and sleek design.",
+    "description": [
+      "MateBook X Pro 2024 combines a slim metal body with a 3K display.",
+      "Touchscreen and large trackpad make navigation very comfortable.",
+      "Ideal for business users and students wanting a premium Windows laptop."
+    ],
+    "specs": [
+      { "label": "Display", "value": "14.2'' 3K touch" },
+      { "label": "CPU", "value": "Intel Core Ultra series" },
+      { "label": "RAM", "value": "16GB / 32GB" },
+      { "label": "Storage", "value": "1TB SSD" },
+      { "label": "Weight", "value": "1.26 kg" }
+    ]
+  },
+  {
+    "id": "95",
+    "name": "MSI Raider GE78 HX",
+    "brand": "MSI",
+    "price": 55900000,
+    "priceOriginal": 58900000,
+    "thumbnail": "https://anphat.com.vn/media/product/45867_laptop_msi_raider_ge78_hx13vi_408vn_anphatpc_3.jpg",
+    "category": "Laptop",
+    "rating": 4.8,
+    "stock": 4,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["gaming"],
+    "subtitle": "High-end gaming laptop with powerful RTX graphics.",
+    "description": [
+      "Raider GE78 HX targets gamers who need maximum performance.",
+      "RGB light bar and gaming design make it stand out on a desk.",
+      "Excellent cooling keeps performance stable in long sessions."
+    ],
+    "specs": [
+      { "label": "GPU", "value": "NVIDIA RTX 4080 / 4090" },
+      { "label": "Display", "value": "17'' QHD 240Hz" },
+      { "label": "CPU", "value": "Intel Core i9 HX series" },
+      { "label": "RAM", "value": "32GB" },
+      { "label": "Storage", "value": "2TB SSD" }
+    ]
+  },
+  {
+    "id": "96",
+    "name": "Edifier MR4 Studio Monitors",
+    "brand": "Edifier",
+    "price": 2790000,
+    "priceOriginal": 2990000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/s/d/sdfgtgthgb.png",
+    "category": "Speaker",
+    "rating": 4.6,
+    "stock": 20,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["studio-monitor"],
+    "subtitle": "Affordable desktop studio monitors for creators.",
+    "description": [
+      "Edifier MR4 provides neutral sound suitable for editing and casual listening.",
+      "Compact size fits easily on most computer desks.",
+      "Great entry-level choice for music producers and content creators."
+    ],
+    "specs": [
+      { "label": "Type", "value": "Active studio monitors" },
+      { "label": "Power", "value": "42W RMS" },
+      { "label": "Inputs", "value": "TRS, RCA, AUX" },
+      { "label": "Frequency Response", "value": "60Hz–20kHz" },
+      { "label": "Use Case", "value": "Mixing, editing, desktop audio" }
+    ]
+  },
+  {
+    "id": "97",
+    "name": "NZXT H6 Flow Case",
+    "brand": "NZXT",
+    "price": 3290000,
+    "priceOriginal": 3590000,
+    "thumbnail": "https://product.hstatic.net/200000722513/product/1698159864-h6-flow-hero-white_8084f13bd0b5485d9316ef48a4ee0de3_master.png",
+    "category": "Accessory",
+    "rating": 4.7,
+    "stock": 10,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["pc-case"],
+    "subtitle": "ATX PC case with dual-chamber design and great airflow.",
+    "description": [
+      "H6 Flow has angled glass panels to showcase your components.",
+      "Dual-chamber layout helps keep cables hidden and builds clean.",
+      "Pre-installed fans and big mesh sections improve airflow."
+    ],
+    "specs": [
+      { "label": "Form Factor", "value": "ATX mid-tower" },
+      { "label": "Side Panel", "value": "Tempered glass" },
+      { "label": "Pre-installed Fans", "value": "3 front fans" },
+      { "label": "Radiator Support", "value": "Up to 360mm" },
+      { "label": "Use Case", "value": "Gaming PC builds" }
+    ]
+  },
+  {
+    "id": "98",
+    "name": "Asus ROG Azoth Wireless Keyboard",
+    "brand": "ASUS",
+    "price": 5990000,
+    "priceOriginal": 6490000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/t/e/text_ng_n_34__19.png",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 9,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["keyboard", "mechanical"],
+    "subtitle": "Premium 75% wireless mechanical keyboard with OLED display.",
+    "description": [
+      "ROG Azoth comes factory pre-lubed with gasket mounting for a soft feel.",
+      "Small OLED screen shows status, animations, and system info.",
+      "Hot-swap sockets let you swap switches to your liking."
+    ],
+    "specs": [
+      { "label": "Layout", "value": "75%" },
+      { "label": "Switches", "value": "ROG NX / hot-swappable" },
+      { "label": "Connectivity", "value": "2.4GHz, Bluetooth, wired" },
+      { "label": "Features", "value": "OLED screen, gasket mount" },
+      { "label": "Battery", "value": "Long-lasting with RGB off" }
+    ]
+  },
+  {
+    "id": "99",
+    "name": "Sony ZV-E10 II",
+    "brand": "Sony",
+    "price": 25900000,
+    "priceOriginal": 26900000,
+    "thumbnail": "https://cdn.vjshop.vn/may-anh/mirrorless/sony/sony-zv-e10-ii/body-black/sony-zv-e10-ii-body-black-1.jpg",
+    "category": "Camera",
+    "rating": 4.7,
+    "stock": 8,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["mirrorless", "vlogging"],
+    "subtitle": "Compact APS-C camera designed for vloggers.",
+    "description": [
+      "ZV-E10 II keeps the compact form factor but upgrades image quality.",
+      "Vari-angle screen makes it easy to frame yourself while recording.",
+      "Great for YouTube, TikTok, and live streaming setups."
+    ],
+    "specs": [
+      { "label": "Sensor", "value": "26MP APS-C" },
+      { "label": "Video", "value": "4K 60fps" },
+      { "label": "Mic", "value": "Directional 3-capsule mic" },
+      { "label": "Screen", "value": "Vari-angle touch LCD" },
+      { "label": "Mount", "value": "Sony E-mount" }
+    ]
+  },
+  {
+    "id": "100",
+    "name": "Meta Ray-Ban Smart Glasses 2",
+    "brand": "Meta",
+    "price": 8990000,
+    "priceOriginal": 9490000,
+    "thumbnail": "https://ss7.vzw.com/is/image/VerizonWireless/sk-1001152-01-iset/?wid=465&hei=465&fmt=webp",
+    "category": "VR",
+    "rating": 4.3,
+    "stock": 15,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["smart-glasses"],
+    "subtitle": "Smart glasses with camera, speakers, and hands-free control.",
+    "description": [
+      "Ray-Ban Smart Glasses 2 let you capture photos and videos from your POV.",
+      "Open-ear speakers let you listen to music while keeping awareness.",
+      "Voice control with Meta AI makes them a futuristic everyday gadget."
+    ],
+    "specs": [
+      { "label": "Camera", "value": "Ultra-wide photo & video" },
+      { "label": "Audio", "value": "Open-ear speakers" },
+      { "label": "Controls", "value": "Touch + voice" },
+      { "label": "Connectivity", "value": "Bluetooth to phone" },
+      { "label": "Use Case", "value": "Vlogging, daily life capture" }
+    ]
+  },
+  {
+    "id": "101",
+    "name": "Anker 737 GaNPrime Charger 120W",
+    "brand": "Anker",
+    "price": 2490000,
+    "priceOriginal": 2690000,
+    "thumbnail": "https://cdn.shopify.com/s/files/1/0595/4034/0926/products/DE_2.png?v=1678778747",
+    "category": "Accessory",
+    "rating": 4.8,
+    "stock": 30,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["charger"],
+    "subtitle": "Triple-port GaN charger for laptop, tablet, and phone.",
+    "description": [
+      "Anker 737 GaNPrime can charge your laptop and phone at the same time.",
+      "Compact body compared to traditional bulky laptop chargers.",
+      "Ideal for travel and minimal everyday carry setups."
+    ],
+    "specs": [
+      { "label": "Total Power", "value": "120W" },
+      { "label": "Ports", "value": "2x USB-C, 1x USB-A" },
+      { "label": "Technology", "value": "GaNPrime" },
+      { "label": "Input", "value": "100–240V" },
+      { "label": "Use Case", "value": "Laptop, tablet, phone charging" }
+    ]
+  },
+  {
+    "id": "102",
+    "name": "LG Gram 16 2024",
+    "brand": "LG",
+    "price": 32900000,
+    "priceOriginal": 34900000,
+    "thumbnail": "https://laptopphuocdat.com/wp-content/uploads/2024/06/LG-Gram-16Z90S.jpg",
+    "category": "Laptop",
+    "rating": 4.5,
+    "stock": 7,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["ultrabook"],
+    "subtitle": "Ultra-light 16-inch laptop with long battery life.",
+    "description": [
+      "LG Gram 16 offers a big screen in a very light body.",
+      "Ideal for people who want a large display without heavy weight.",
+      "Great for office work, study, and travel productivity."
+    ],
+    "specs": [
+      { "label": "Display", "value": "16'' WQXGA" },
+      { "label": "Weight", "value": "About 1.19 kg" },
+      { "label": "CPU", "value": "Intel Core Ultra" },
+      { "label": "RAM", "value": "16GB" },
+      { "label": "Storage", "value": "512GB / 1TB SSD" }
+    ]
+  },
+  {
+    "id": "103",
+    "name": "ASUS ROG Strix Scope II 96",
+    "brand": "ASUS",
+    "price": 3990000,
+    "priceOriginal": 4290000,
+    "thumbnail": "https://www.tncstore.vn/media/product/11096-tnc-store-ban-phim-co-asus-rog-strix-scope-ii-96-wireless-black--5-.jpg",
+    "category": "Accessory",
+    "rating": 4.7,
+    "stock": 16,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["keyboard", "mechanical"],
+    "subtitle": "96% gaming keyboard with hot-swap switches.",
+    "description": [
+      "Strix Scope II 96 keeps a numpad while saving desk space.",
+      "ROG NX switches and sound-dampening foam improve typing feel.",
+      "Ideal for gamers who also need number keys for work."
+    ],
+    "specs": [
+      { "label": "Layout", "value": "96%" },
+      { "label": "Switches", "value": "ROG NX hot-swappable" },
+      { "label": "Connectivity", "value": "2.4GHz, Bluetooth, wired" },
+      { "label": "Lighting", "value": "Per-key RGB" },
+      { "label": "Extras", "value": "Foam dampening, media keys" }
+    ]
+  },
+  {
+    "id": "104",
+    "name": "Sony X95L Mini LED TV 65\"",
+    "brand": "Sony",
+    "price": 47900000,
+    "priceOriginal": 49900000,
+    "thumbnail": "https://cdn.tgdd.vn/Products/Images/1942/308548/x95l-700x467.jpg",
+    "category": "Monitor",
+    "rating": 4.8,
+    "stock": 5,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["tv"],
+    "subtitle": "4K Mini LED TV with high brightness and contrast.",
+    "description": [
+      "Sony X95L delivers excellent HDR performance for movies and games.",
+      "Full-array local dimming improves black levels and highlights.",
+      "Perfect centerpiece for a premium living room setup."
+    ],
+    "specs": [
+      { "label": "Size", "value": "65 inch" },
+      { "label": "Resolution", "value": "4K UHD" },
+      { "label": "Panel", "value": "Mini LED" },
+      { "label": "HDR", "value": "Dolby Vision, HDR10" },
+      { "label": "Gaming", "value": "HDMI 2.1, 120Hz, VRR" }
+    ]
+  },
+  {
+    "id": "105",
+    "name": "Bose Smart Soundbar 700",
+    "brand": "Bose",
+    "price": 17900000,
+    "priceOriginal": 18900000,
+    "thumbnail": "https://bizweb.dktcdn.net/thumb/1024x1024/100/451/485/products/loa-bose-soundbar-700-4.jpg?v=1704181523987",
+    "category": "Speaker",
+    "rating": 4.6,
+    "stock": 8,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["soundbar"],
+    "subtitle": "Premium soundbar with voice assistants and rich sound.",
+    "description": [
+      "Soundbar 700 offers spacious, clear sound for movies and music.",
+      "Built-in Alexa and Google Assistant for smart control.",
+      "Can be expanded with wireless bass module and rear speakers."
+    ],
+    "specs": [
+      { "label": "Audio Channels", "value": "3.0" },
+      { "label": "Assistants", "value": "Alexa, Google Assistant" },
+      { "label": "Connectivity", "value": "HDMI ARC, Optical, Wi-Fi, BT" },
+      { "label": "Expansion", "value": "Optional bass + rear speakers" },
+      { "label": "Use Case", "value": "Home theater, music" }
+    ]
+  },
+  {
+    "id": "106",
+    "name": "Nothing Phone (3)",
+    "brand": "Nothing",
+    "price": 14900000,
+    "priceOriginal": 15900000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/d/i/dien-thoai-nothing-phone-3.1.png",
+    "category": "Phone",
+    "rating": 4.6,
+    "stock": 14,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["mid-range"],
+    "subtitle": "Unique transparent design with clean Android experience.",
+    "description": [
+      "Nothing Phone (3) stands out with its transparent back and Glyph lights.",
+      "Smooth high-refresh display and clean software experience.",
+      "Great for users who want a stylish phone that's also fast."
+    ],
+    "specs": [
+      { "label": "Display", "value": "6.7'' OLED 120Hz" },
+      { "label": "Chip", "value": "Snapdragon 8-series" },
+      { "label": "Camera", "value": "Dual high-quality sensors" },
+      { "label": "Battery", "value": "5000mAh with fast charging" },
+      { "label": "Software", "value": "Nothing OS, near-stock Android" }
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Razer Kraken Kitty V2 Pro",
+    "brand": "Razer",
+    "price": 3990000,
+    "priceOriginal": 4290000,
+    "thumbnail": "https://bizweb.dktcdn.net/thumb/1024x1024/100/329/122/products/tai-nghe-razer-kraken-kitty-v2-pro-2023-edition-rgb-rz04-04510200-r3m1.jpg?v=1687316838723",
+    "category": "Headphone",
+    "rating": 4.5,
+    "stock": 20,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["gaming", "rgb"],
+    "subtitle": "RGB gaming headset with interchangeable ear designs.",
+    "description": [
+      "Kraken Kitty V2 Pro comes with cute, customizable ear attachments.",
+      "THX Spatial Audio gives more immersive positional sound.",
+      "Popular choice for streamers who want a fun aesthetic."
+    ],
+    "specs": [
+      { "label": "Type", "value": "Over-ear wired" },
+      { "label": "Audio", "value": "THX Spatial Audio" },
+      { "label": "Microphone", "value": "Detachable cardioid mic" },
+      { "label": "Lighting", "value": "Razer Chroma RGB" },
+      { "label": "Platforms", "value": "PC, console (3.5mm/USB)" }
+    ]
+  },
+  {
+    "id": "108",
+    "name": "Eufy RoboVac X9 Pro",
+    "brand": "Eufy",
+    "price": 20900000,
+    "priceOriginal": 21900000,
+    "thumbnail": "https://m.media-amazon.com/images/I/41t5V8CkSzL.jpg",
+    "category": "Accessory",
+    "rating": 4.4,
+    "stock": 10,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["smart-home", "robot-vacuum"],
+    "subtitle": "Robot vacuum with mopping and auto-clean dock.",
+    "description": [
+      "RoboVac X9 Pro vacuums and mops your floors automatically.",
+      "Self-washing and self-drying dock keeps the mop pads clean.",
+      "LIDAR navigation ensures efficient coverage of your home."
+    ],
+    "specs": [
+      { "label": "Functions", "value": "Vacuum + mop" },
+      { "label": "Navigation", "value": "LIDAR + AI obstacle avoidance" },
+      { "label": "Dock", "value": "Self-wash & dry" },
+      { "label": "Control", "value": "App + voice assistant" },
+      { "label": "Use Case", "value": "Apartment, house cleaning" }
+    ]
+  },
+  {
+    "id": "109",
+    "name": "Philips Hue Starter Kit",
+    "brand": "Philips",
+    "price": 3990000,
+    "priceOriginal": 4290000,
+    "thumbnail": "https://gucongnghe.com/wp-content/uploads/2024/11/Philips-Hue-Color-Starter-Kit-2-Bong.jpeg",
+    "category": "Accessory",
+    "rating": 4.7,
+    "stock": 22,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["smart-home", "lighting"],
+    "subtitle": "Smart lighting kit with bridge and color bulbs.",
+    "description": [
+      "Philips Hue Starter Kit is an easy entry to smart home lighting.",
+      "Change colors, brightness, and scenes from your phone or voice.",
+      "Great for mood lighting, movie nights, and better sleep routines."
+    ],
+    "specs": [
+      { "label": "Included", "value": "Bridge + 3 color bulbs" },
+      { "label": "Connectivity", "value": "Zigbee + Bluetooth" },
+      { "label": "Assistants", "value": "Alexa, Google, Siri" },
+      { "label": "App", "value": "Philips Hue app" },
+      { "label": "Use Case", "value": "Rooms, studios, living space" }
+    ]
+  },
+  {
+    "id": "110",
+    "name": "HyperX Cloud III Wireless",
+    "brand": "HyperX",
+    "price": 3990000,
+    "priceOriginal": 4290000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:90/plain/https://cellphones.com.vn/media/catalog/product/t/a/tai-nghe-gaming-khong-day-hyperx-cloud-3_8_.png",
+    "category": "Headphone",
+    "rating": 4.6,
+    "stock": 17,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["gaming"],
+    "subtitle": "Comfort-focused wireless gaming headset with long battery life.",
+    "description": [
+      "Cloud III Wireless continues the legendary comfort of the Cloud line.",
+      "Detachable mic offers clear voice chat for games and calls.",
+      "Excellent battery life keeps you gaming for days between charges."
+    ],
+    "specs": [
+      { "label": "Type", "value": "Over-ear wireless" },
+      { "label": "Battery", "value": "Up to 120 hours" },
+      { "label": "Connectivity", "value": "2.4GHz wireless dongle" },
+      { "label": "Platforms", "value": "PC, PS5, Nintendo Switch" },
+      { "label": "Audio", "value": "Immersive surround support" }
+    ]
+  },
+  {
+    "id": "111",
+    "name": "Apple iPad Air 6 M2 11\"",
+    "brand": "Apple",
+    "price": 19900000,
+    "priceOriginal": 20900000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/i/p/ipad-air-6-m2-11-inch_2_1.jpg",
+    "category": "Tablet",
+    "rating": 4.8,
+    "stock": 12,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["tablet"],
+    "subtitle": "M2-powered iPad Air for work, drawing, and content.",
+    "description": [
+      "iPad Air 6 with M2 is powerful enough for editing video and photos.",
+      "Supports Apple Pencil for note-taking and art.",
+      "Perfect portable device for students and creative professionals."
+    ],
+    "specs": [
+      { "label": "Display", "value": "11'' Liquid Retina" },
+      { "label": "Chip", "value": "Apple M2" },
+      { "label": "Storage", "value": "128GB / 256GB / 512GB" },
+      { "label": "Accessories", "value": "Apple Pencil, Magic Keyboard" },
+      { "label": "Use Case", "value": "Study, media, drawing" }
+    ]
+  },
+  {
+    "id": "112",
+    "name": "Lenovo Legion GO",
+    "brand": "Lenovo",
+    "price": 18900000,
+    "priceOriginal": 19900000,
+    "thumbnail": "https://www.droidshop.vn/wp-content/uploads/2023/11/May-choi-game-Lenovo-Legion-Go-8.8-AMD-Ryzen-Z1-Extreme-16GB-512GB.jpg",
+    "category": "Gaming",
+    "rating": 4.5,
+    "stock": 9,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["handheld", "windows"],
+    "subtitle": "Windows handheld gaming PC with detachable controllers.",
+    "description": [
+      "Legion GO runs full Windows, letting you play PC games anywhere.",
+      "Detachable controllers add flexibility similar to a Nintendo Switch.",
+      "Huge display gives more screen real estate than other handhelds."
+    ],
+    "specs": [
+      { "label": "Display", "value": "8.8'' QHD+ 144Hz" },
+      { "label": "Chip", "value": "AMD Ryzen Z1 series" },
+      { "label": "Storage", "value": "Up to 1TB SSD" },
+      { "label": "OS", "value": "Windows 11" },
+      { "label": "Use Case", "value": "Portable PC gaming" }
+    ]
+  },
+  {
+    "id": "113",
+    "name": "B&O Beoplay EX",
+    "brand": "Bang & Olufsen",
+    "price": 9990000,
+    "priceOriginal": 10990000,
+    "thumbnail": "https://bizweb.dktcdn.net/100/116/615/products/tai-nghe-true-wireless-b-o-beoplay-ex-5-jpeg.jpg?v=1730995854430",
+    "category": "Headphone",
+    "rating": 4.6,
+    "stock": 6,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["wireless", "luxury"],
+    "subtitle": "Luxury true wireless earbuds with refined sound and design.",
+    "description": [
+      "Beoplay EX delivers detailed, premium sound with strong bass.",
+      "Stylish design and high-end materials make them feel luxurious.",
+      "ANC and transparency mode help you adapt to your surroundings."
+    ],
+    "specs": [
+      { "label": "ANC", "value": "Adaptive Active Noise Cancelling" },
+      { "label": "Battery", "value": "Up to 6 hours + case" },
+      { "label": "Water Resistance", "value": "IP57" },
+      { "label": "Charging", "value": "USB-C & wireless" },
+      { "label": "Use Case", "value": "Music, commuting, travel" }
+    ]
+  },
+  {
+    "id": "114",
+    "name": "LG UltraFine OLED Pro 32\"",
+    "brand": "LG",
+    "price": 59900000,
+    "priceOriginal": 62900000,
+    "thumbnail": "https://www.bhphotovideo.com/images/fb/lg_32ep950_b_32_oled_uhd_dci_p3_1621997.jpg",
+    "category": "Monitor",
+    "rating": 4.9,
+    "stock": 3,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["professional-monitor"],
+    "subtitle": "32-inch 4K OLED monitor for professional creators.",
+    "description": [
+      "UltraFine OLED Pro offers perfect blacks and wide color gamut.",
+      "Factory calibration and hardware calibration support ensure accuracy.",
+      "Targeted at photographers, colorists, and video editors."
+    ],
+    "specs": [
+      { "label": "Size", "value": "32 inch" },
+      { "label": "Resolution", "value": "4K UHD" },
+      { "label": "Panel", "value": "OLED" },
+      { "label": "Color", "value": "DCI-P3 99%" },
+      { "label": "Ports", "value": "USB-C, HDMI, DisplayPort" }
+    ]
+  },
+  {
+    "id": "115",
+    "name": "Sony WF-C700N",
+    "brand": "Sony",
+    "price": 2190000,
+    "priceOriginal": 2490000,
+    "thumbnail": "https://sony.scene7.com/is/image/sonyglobalsolutions/WF-C700N_Product-Intro_11_M?$productIntroPlatemobile$&fmt=png-alpha",
+    "category": "Headphone",
+    "rating": 4.4,
+    "stock": 26,
+    "isNew": true,
+    "isHot": false,
+    "tags": ["wireless", "budget"],
+    "subtitle": "Budget-friendly ANC earbuds from Sony.",
+    "description": [
+      "WF-C700N brings effective noise cancelling at a lower price point.",
+      "Compact and light design fits most ears comfortably.",
+      "Great option if you want Sony sound without breaking the bank."
+    ],
+    "specs": [
+      { "label": "ANC", "value": "Active Noise Cancelling" },
+      { "label": "Battery", "value": "Up to 7.5 hours + case" },
+      { "label": "Water Resistance", "value": "IPX4" },
+      { "label": "Connectivity", "value": "Bluetooth 5.2" },
+      { "label": "Use Case", "value": "Daily commuting, work" }
+    ]
+  },
+  {
+    "id": "116",
+    "name": "Garmin Edge 840 Solar",
+    "brand": "Garmin",
+    "price": 14900000,
+    "priceOriginal": 15900000,
+    "thumbnail": "https://antien.vn/files/products/photos/2023/04/14/Garmin-Edge-840-solar.jpg",
+    "category": "Accessory",
+    "rating": 4.7,
+    "stock": 7,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["cycling"],
+    "subtitle": "GPS bike computer with solar charging and advanced metrics.",
+    "description": [
+      "Edge 840 Solar gives cyclists detailed training data and mapping.",
+      "Solar panel extends battery life for long rides and adventures.",
+      "Supports power meters, heart rate sensors, and smart trainers."
+    ],
+    "specs": [
+      { "label": "Battery", "value": "Up to 60 hours with solar" },
+      { "label": "Navigation", "value": "Full maps & turn-by-turn" },
+      { "label": "Sensors", "value": "ANT+, Bluetooth, Wi-Fi" },
+      { "label": "Use Case", "value": "Road, MTB, gravel cycling" },
+      { "label": "Display", "value": "2.6'' color touch screen" }
+    ]
+  },
+  {
+    "id": "117",
+    "name": "SteelSeries Arctis Nova 7 Wireless",
+    "brand": "SteelSeries",
+    "price": 4290000,
+    "priceOriginal": 4590000,
+    "thumbnail": "https://product.hstatic.net/200000722513/product/-steelseries-arctis-nova-7-wireless-3_8bff9e9997ea4d78940f8789ac7a5746_bb46b0e60034488e8d5b746b4dc729bd_master.jpg",
+    "category": "Headphone",
+    "rating": 4.6,
+    "stock": 18,
+    "isNew": false,
+    "isHot": true,
+    "tags": ["gaming"],
+    "subtitle": "Multi-platform wireless gaming headset with great comfort.",
+    "description": [
+      "Arctis Nova 7 supports simultaneous 2.4GHz and Bluetooth connections.",
+      "Comfortable headband and soft earcups are great for hours of use.",
+      "ClearCast mic provides clean voice for teammates and calls."
+    ],
+    "specs": [
+      { "label": "Platforms", "value": "PC, PS, Switch, mobile" },
+      { "label": "Battery", "value": "Up to 38 hours" },
+      { "label": "Connectivity", "value": "2.4GHz dongle + Bluetooth" },
+      { "label": "Audio", "value": "Customizable EQ via app" },
+      { "label": "Microphone", "value": "Retractable ClearCast Gen 2" }
+    ]
+  },
+  {
+    "id": "118",
+    "name": "Apple Magic Mouse 3",
+    "brand": "Apple",
+    "price": 2490000,
+    "priceOriginal": 2690000,
+    "thumbnail": "https://cdn2.cellphones.com.vn/x/media/catalog/product/c/h/chuot-apple-magic-mouse-3_3__3.png",
+    "category": "Accessory",
+    "rating": 4.2,
+    "stock": 24,
+    "isNew": false,
+    "isHot": false,
+    "tags": ["mouse"],
+    "subtitle": "Minimal multi-touch mouse for Mac users.",
+    "description": [
+      "Magic Mouse 3 supports gesture-based navigation in macOS.",
+      "Low-profile design looks clean in any Apple setup.",
+      "Best matched with iMac, Mac mini, and MacBook on a desk."
+    ],
+    "specs": [
+      { "label": "Connectivity", "value": "Bluetooth" },
+      { "label": "Charging", "value": "USB-C" },
+      { "label": "Surface", "value": "Multi-touch" },
+      { "label": "Compatibility", "value": "macOS, iPadOS" },
+      { "label": "Use Case", "value": "Office, creative work" }
+    ]
+  },
+  {
+    "id": "119",
+    "name": "Brydge Max+ Keyboard for iPad Pro",
+    "brand": "Brydge",
+    "price": 3490000,
+    "priceOriginal": 3790000,
+    "thumbnail": "https://static.wixstatic.com/media/61108a_d82da56f45dc412a8270acc11b1a7a71~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "category": "Accessory",
+    "rating": 4.3,
+    "stock": 13,
+    "isNew": false,
+    "isHot": false,
+    "tags": ["keyboard", "tablet"],
+    "subtitle": "Laptop-style keyboard case with trackpad for iPad Pro.",
+    "description": [
+      "Brydge Max+ turns your iPad into a laptop-like experience.",
+      "Large multi-touch trackpad supports iPadOS gestures.",
+      "Magnetic snap-on design keeps the iPad securely in place."
+    ],
+    "specs": [
+      { "label": "Compatibility", "value": "iPad Pro 11'' / 12.9''" },
+      { "label": "Connectivity", "value": "Bluetooth" },
+      { "label": "Backlight", "value": "3-level backlit keys" },
+      { "label": "Trackpad", "value": "Multi-touch support" },
+      { "label": "Use Case", "value": "Typing, productivity" }
+    ]
+  },
+  {
+    "id": "120",
+    "name": "Tile Pro (2024) Tracker",
+    "brand": "Tile",
+    "price": 890000,
+    "priceOriginal": 1090000,
+    "thumbnail": "https://s.yimg.com/ny/api/res/1.2/dpUFmko4E83I8y54435MKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTk2MA--/https://media.zenfs.com/en/android_police_756/a8fadf43f5c2920550afaba58aa4fe67",
+    "category": "Accessory",
+    "rating": 4.4,
+    "stock": 35,
+    "isNew": true,
+    "isHot": true,
+    "tags": ["smart-home", "tracker"],
+    "subtitle": "Powerful Bluetooth tracker for keys, bags, and more.",
+    "description": [
+      "Tile Pro 2024 has longer range and louder ring to find lost items.",
+      "Works with both Android and iOS via the Tile app.",
+      "Attach it to keys, bags, or backpacks for peace of mind."
+    ],
+    "specs": [
+      { "label": "Range", "value": "Up to 120m" },
+      { "label": "Battery", "value": "Replaceable coin cell" },
+      { "label": "Water Resistance", "value": "IP67" },
+      { "label": "Compatibility", "value": "Android & iOS" },
+      { "label": "Use Case", "value": "Keys, bags, luggage" }
+    ]
   }
 ]

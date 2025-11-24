@@ -27,6 +27,7 @@ import { CheckCircle2, ShieldCheck } from "lucide-react";
 const checkoutSchema = z.object({
   fullName: z.string().min(2, "Please enter your full name"),
   phone: z.string().min(8, "Invalid phone number"),
+  email: z.string().email("Invalid email address").optional().or(z.literal("")),
   address: z.string().min(5, "Please enter your shipping address"),
   paymentMethod: z.enum(["cod", "zalopay"]),
 });
@@ -48,8 +49,9 @@ export default function CheckoutPage() {
   const form = useForm<CheckoutValues>({
     resolver: zodResolver(checkoutSchema),
     defaultValues: {
-      fullName: "",
+      fullName: user?.name || "",
       phone: "",
+      email: user?.email || "",
       address: "",
       paymentMethod: "zalopay",
     },
@@ -115,10 +117,11 @@ export default function CheckoutPage() {
   if (status === "done") {
     return (
       <div className="min-h-[calc(100vh-64px)] bg-white text-slate-900 dark:bg-slate-950 dark:text-slate-50">
-        <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
-          <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+        <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6">
+          {/* Header + stepper (confirmation) */}
+          <div className="mb-6 space-y-3 sm:mb-8 sm:flex sm:items-center sm:justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-slate-900 md:text-3xl dark:text-slate-50">
+              <h1 className="text-xl font-bold text-slate-900 sm:text-2xl md:text-3xl dark:text-slate-50">
                 Order confirmation
               </h1>
               <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
@@ -126,49 +129,47 @@ export default function CheckoutPage() {
               </p>
             </div>
 
-            <div className="flex flex-1 items-center justify-end gap-3 text-xs">
-              <div className="flex flex-1 items-center justify-end gap-2">
-                <button
-                  type="button"
-                  onClick={() => router.push("/cart")}
-                  className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white hover:bg-slate-800"
-                >
-                  <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
-                    1
-                  </span>
-                  Cart
-                </button>
-
-                <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
-
-                <button
-                  type="button"
-                  onClick={() => router.push("/checkout")}
-                  className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
-                >
-                  <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700 dark:text-slate-900">
-                    2
-                  </span>
-                  Shipping &amp; Payment
-                </button>
-
-                <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
-
-                <span className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-1 text-[11px] font-semibold text-white">
-                  <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-emerald-700">
-                    3
-                  </span>
-                  Confirmation
+            <div className="flex flex-wrap items-center gap-2 text-[11px] sm:text-xs sm:justify-end">
+              <button
+                type="button"
+                onClick={() => router.push("/cart")}
+                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white hover:bg-slate-800"
+              >
+                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
+                  1
                 </span>
-              </div>
+                Cart
+              </button>
+
+              <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
+
+              <button
+                type="button"
+                onClick={() => router.push("/checkout")}
+                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
+              >
+                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700 dark:text-slate-900">
+                  2
+                </span>
+                Shipping &amp; Payment
+              </button>
+
+              <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
+
+              <span className="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-3 py-1 text-[11px] font-semibold text-white">
+                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-emerald-700">
+                  3
+                </span>
+                Confirmation
+              </span>
             </div>
           </div>
 
-          <div className="mx-auto max-w-lg rounded-3xl border border-slate-200 bg-white p-8 text-center text-sm shadow-sm dark:border-slate-700 dark:bg-slate-900">
+          <div className="mx-auto max-w-lg rounded-3xl border border-slate-200 bg-white p-6 text-center text-sm shadow-sm sm:p-8 dark:border-slate-700 dark:bg-slate-900">
             <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-emerald-50 dark:bg-emerald-900/30">
               <CheckCircle2 className="h-8 w-8 text-emerald-500" />
             </div>
-            <h2 className="mb-2 text-2xl font-semibold text-slate-900 dark:text-slate-50">
+            <h2 className="mb-2 text-xl font-semibold text-slate-900 sm:text-2xl dark:text-slate-50">
               Order placed successfully
             </h2>
             <p className="mb-2">
@@ -206,14 +207,15 @@ export default function CheckoutPage() {
 
   return (
     <div className="text-slate-900 dark:text-slate-50">
-      <div className="mx-auto max-w-6xl px-4 py-8 md:px-6">
-        <div className="mb-8 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      <div className="mx-auto max-w-6xl px-4 py-6 sm:py-8 sm:px-6">
+        {/* Header + stepper (checkout) */}
+        <div className="mb-6 space-y-3 sm:mb-8 sm:flex sm:items-center sm:justify-between">
           <div>
-            <div className="mb-2 inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold uppercase tracking-wide text-slate-100">
+            <div className="mb-2 inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-slate-100 sm:text-[11px]">
               <ShieldCheck className="h-3.5 w-3.5" />
               Secure checkout
             </div>
-            <h1 className="text-2xl font-bold text-slate-900 md:text-3xl dark:text-slate-50">
+            <h1 className="text-xl font-bold text-slate-900 sm:text-2xl md:text-3xl dark:text-slate-50">
               Checkout
             </h1>
             <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
@@ -222,37 +224,35 @@ export default function CheckoutPage() {
             </p>
           </div>
 
-          <div className="flex flex-1 items-center justify-end gap-3 text-xs">
-            <div className="flex flex-1 items-center justify-end gap-2">
-              <button
-                type="button"
-                onClick={() => router.push("/cart")}
-                className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
-              >
-                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700 dark:text-slate-900">
-                  1
-                </span>
-                Cart
-              </button>
-
-              <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
-
-              <span className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white">
-                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
-                  2
-                </span>
-                Shipping &amp; Payment
+          <div className="flex flex-wrap items-center gap-2 text-[11px] sm:text-xs sm:justify-end">
+            <button
+              type="button"
+              onClick={() => router.push("/cart")}
+              className="inline-flex cursor-pointer items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-700 hover:bg-slate-300 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
+            >
+              <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-700 dark:text-slate-900">
+                1
               </span>
+              Cart
+            </button>
 
-              <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
+            <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
 
-              <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">
-                <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-500 dark:text-slate-700">
-                  3
-                </span>
-                Confirmation
+            <span className="inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[11px] font-semibold text-white">
+              <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-900">
+                2
               </span>
-            </div>
+              Shipping &amp; Payment
+            </span>
+
+            <span className="h-px w-6 bg-slate-300 dark:bg-slate-600" />
+
+            <span className="inline-flex items-center gap-2 rounded-full bg-slate-200 px-3 py-1 text-[11px] font-semibold text-slate-500 dark:bg-slate-800 dark:text-slate-400">
+              <span className="inline-flex h-4 w-4 items-center justify-center rounded-full bg-white text-[10px] font-bold text-slate-500 dark:text-slate-700">
+                3
+              </span>
+              Confirmation
+            </span>
           </div>
         </div>
 
@@ -277,10 +277,11 @@ export default function CheckoutPage() {
 
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)}>
-            <div className="grid gap-6 md:grid-cols-[2fr_1.15fr]">
+            {/* Chỉ tách 2 cột trên màn lớn, mobile / tablet sẽ xếp dọc */}
+            <div className="grid gap-5 lg:gap-6 lg:grid-cols-[2fr_1.15fr]">
               <div className="space-y-4">
-                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
-                  <div className="mb-3 flex items-center justify-between">
+                <Card className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5 dark:border-slate-700 dark:bg-slate-900">
+                  <div className="mb-3 flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between">
                     <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-800 dark:text-slate-100">
                       Shipping address
                     </h2>
@@ -301,6 +302,27 @@ export default function CheckoutPage() {
                           <FormControl>
                             <Input
                               placeholder="John Doe"
+                              className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-400 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-50 dark:placeholder:text-slate-500"
+                              {...field}
+                            />
+                          </FormControl>
+                          <FormMessage className="text-[11px]" />
+                        </FormItem>
+                      )}
+                    />
+
+                    <FormField
+                      control={form.control}
+                      name="email"
+                      render={({ field }) => (
+                        <FormItem>
+                          <FormLabel className="text-xs text-slate-700 dark:text-slate-200">
+                            Email (optional)
+                          </FormLabel>
+                          <FormControl>
+                            <Input
+                              type="email"
+                              placeholder="you@example.com"
                               className="h-10 rounded-xl border-slate-200 bg-slate-50 text-sm text-slate-900 placeholder:text-slate-400 focus:border-slate-400 focus:ring-slate-200 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-50 dark:placeholder:text-slate-500"
                               {...field}
                             />
@@ -354,7 +376,7 @@ export default function CheckoutPage() {
                   </div>
                 </Card>
 
-                <Card className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+                <Card className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5 dark:border-slate-700 dark:bg-slate-900">
                   <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-800 dark:text-slate-100">
                     Payment method
                   </h2>
@@ -411,7 +433,7 @@ export default function CheckoutPage() {
               </div>
 
               <div className="space-y-4">
-                <Card className="h-fit rounded-3xl border border-slate-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+                <Card className="h-fit rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5 dark:border-slate-700 dark:bg-slate-900">
                   <h2 className="mb-4 text-sm font-semibold uppercase tracking-wide text-slate-800 dark:text-slate-100">
                     Order summary
                   </h2>

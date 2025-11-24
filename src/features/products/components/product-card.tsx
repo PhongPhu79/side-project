@@ -84,7 +84,7 @@ export function ProductCard({ product }: { product: Product }) {
             ref={imageRef}
             className="
               relative flex aspect-4/3 items-center justify-center
-              bg-slate-50 dark:bg-slate-800
+             dark:bg-slate-800
             "
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}

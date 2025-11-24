@@ -103,14 +103,14 @@ export default function CartPage() {
           className="
             container-app mx-auto max-w-5xl
             flex flex-col gap-4 md:gap-6
-            max-h-[calc(100vh-160px)]  /* header + title + padding */
+            md:max-h-[calc(100vh-160px)] 
           "
         >
           <h1 className="text-3xl font-bold text-slate-900 dark:text-slate-50">
             Your Cart
           </h1>
 
-          <div className="flex-1 min-h-0 flex flex-col">
+          <div className="flex-1 flex flex-col md:min-h-0">
             <div className="mb-3 hidden items-center rounded-2xl border border-slate-200 bg-white px-5 py-3 text-xs font-medium text-slate-500 shadow-sm md:flex dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300">
               <div className="flex w-1/2 items-center gap-3">
                 <label className="inline-flex cursor-pointer items-center gap-2 text-slate-700 dark:text-slate-200">
@@ -131,7 +131,7 @@ export default function CartPage() {
               </div>
             </div>
 
-            <div className="flex-1 min-h-0 overflow-y-auto space-y-4 pr-1 pb-3">
+            <div className="flex-1 space-y-4 pb-3 md:min-h-0 md:overflow-y-auto md:pr-1">
               {items.map((item) => {
                 const lineTotal = item.product.price * item.quantity;
                 const id = item.product.id;
@@ -241,7 +241,13 @@ export default function CartPage() {
             <hr className="mt-2 mb-4 h-px w-full border-0 bg-slate-200 dark:bg-slate-700" />
 
             <div className="shrink-0 ">
-              <div className="mx-auto flex max-w-5xl flex-col items-center gap-4 text-sm md:flex-row md:justify-between">
+              <div
+                className="
+                mx-auto max-w-5xl
+                flex flex-col gap-4 text-sm
+                md:flex-row md:items-center md:justify-between
+              "
+              >
                 <div className="flex flex-wrap items-center gap-3">
                   <label className="inline-flex cursor-pointer items-center gap-2 text-slate-700 dark:text-slate-200">
                     <input
@@ -252,7 +258,8 @@ export default function CartPage() {
                     />
                     <span>Select all</span>
                   </label>
-                  <span className="text-slate-500 dark:text-slate-400">
+
+                  <span className="text-slate-500 dark:text-slate-400 text-sm">
                     Selected{" "}
                     <span className="font-semibold text-slate-900 dark:text-slate-50">
                       {selectedCount}
@@ -261,15 +268,20 @@ export default function CartPage() {
                   </span>
                 </div>
 
-                <div className="flex flex-wrap items-center gap-4 md:gap-6">
-                  <div className="text-right text-sm">
+                <div
+                  className="
+                  flex flex-col gap-4 w-full
+                  md:w-auto md:flex-row md:items-center md:gap-6
+                "
+                >
+                  <div className="text-left md:text-right text-sm">
                     <div className="text-slate-500 dark:text-slate-400">
                       Total{" "}
                       <span className="font-semibold text-slate-900 dark:text-slate-50">
-                        ({selectedCount} item
-                        {selectedCount !== 1 ? "s" : ""})
+                        ({selectedCount} item{selectedCount !== 1 ? "s" : ""})
                       </span>
                     </div>
+
                     <div className="whitespace-nowrap text-lg font-bold text-emerald-600 dark:text-emerald-400">
                       {selectedTotal.toLocaleString("vi-VN")} ₫
                     </div>
@@ -279,7 +291,7 @@ export default function CartPage() {
                     asChild
                     size="lg"
                     disabled={selectedCount === 0}
-                    className="min-w-[220px] rounded-full px-6 py-2.5 text-base font-semibold shadow-sm"
+                    className="w-full md:w-auto rounded-full px-6 py-2.5 text-base font-semibold shadow-sm"
                   >
                     <Link href="/checkout">Proceed to Checkout</Link>
                   </Button>
