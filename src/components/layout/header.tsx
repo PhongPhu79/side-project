@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ShoppingCart } from "lucide-react";
+import { Headset, LifeBuoy, ShoppingCart } from "lucide-react";
 import { useCartStore } from "@/features/cart/store";
 import { useAuthStore } from "@/features/auth/store";
 import { Button } from "@/components/ui/button";
@@ -70,14 +70,24 @@ export function AppHeader() {
             <NavItem href="/checkout" active={isActive("/checkout")}>
               Checkout
             </NavItem>
+            <NavItem href="/support" active={isActive("/support")}>
+              Support
+            </NavItem>
           </nav>
         </div>
 
         <div className="flex items-center gap-2 md:gap-3">
-          {/* Theme toggle */}
+          <Link
+            href="/support"
+            className={cn(
+              "relative inline-flex h-9 w-9 items-center justify-center rounded-full md:hidden transition-all",
+              "bg-white text-slate-700 shadow-md ring-1 ring-slate-200 hover:-translate-y-0.5 hover:bg-slate-50 hover:shadow-lg",
+              "dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-700 dark:hover:bg-slate-800"
+            )}
+          >
+            <Headset className="h-4 w-4" />
+          </Link>
           <ThemeToggle />
-
-          {/* Cart icon */}
           <Link
             href="/cart"
             id="app-cart-icon"
@@ -95,7 +105,6 @@ export function AppHeader() {
             )}
           </Link>
 
-          {/* Auth */}
           {!user ? (
             <Button
               asChild
