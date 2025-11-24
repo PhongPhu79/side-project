@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="vi" suppressHydrationWarning>
       <body className="min-h-screen bg-background text-foreground">
         <Providers>
-          <main className="container-app py-6">{children}</main>
+          <main className="container-app md:p-6">{children}</main>
         </Providers>
       </body>
     </html>
