@@ -59,7 +59,7 @@ export default function CheckoutPage() {
 
   if (!items.length && status === "idle") {
     return (
-      <div className="text-slate-900 dark:text-slate-50">
+      <div className="min-h-[calc(100vh-80px)] text-slate-900 dark:text-slate-50">
         <div className="mx-auto flex max-w-md flex-col items-center px-4 py-16 text-center text-sm">
           <h1 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-slate-50">
             Your cart is empty
@@ -208,7 +208,6 @@ export default function CheckoutPage() {
   return (
     <div className="text-slate-900 dark:text-slate-50">
       <div className="mx-auto max-w-6xl py-6 px-2 sm:py-8">
-        {/* Header + stepper (checkout) */}
         <div className="mb-6 space-y-3 sm:mb-8 sm:flex sm:items-center sm:justify-between">
           <div>
             <div className="mb-2 inline-flex items-center gap-2 rounded-full bg-slate-900 px-3 py-1 text-[10px] font-semibold uppercase tracking-wide text-slate-100 sm:text-[11px]">
@@ -277,7 +276,6 @@ export default function CheckoutPage() {
 
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)}>
-            {/* Chỉ tách 2 cột trên màn lớn, mobile / tablet sẽ xếp dọc */}
             <div className="grid gap-5 lg:gap-6 lg:grid-cols-[2fr_1.15fr]">
               <div className="space-y-4">
                 <Card className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-5 dark:border-slate-700 dark:bg-slate-900">

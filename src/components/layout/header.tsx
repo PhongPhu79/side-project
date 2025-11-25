@@ -41,7 +41,6 @@ export function AppHeader() {
 
         <div className="container-app relative flex h-16 items-center justify-between gap-4 md:h-20">
           <div className="flex items-center gap-6">
-            {/* Logo */}
             <Link
               href="/"
               className={cn(
@@ -63,7 +62,6 @@ export function AppHeader() {
               </div>
             </Link>
 
-            {/* Desktop nav */}
             <nav className="hidden items-center gap-1 md:flex">
               <NavItem href="/" active={isActive("/")}>
                 Home
@@ -81,10 +79,10 @@ export function AppHeader() {
           </div>
 
           <div className="flex items-center gap-2 md:gap-3">
-            {/* Theme toggle */}
-            <ThemeToggle />
+            <div suppressHydrationWarning>
+              <ThemeToggle />
+            </div>
 
-            {/* Cart icon */}
             <Link
               href="/cart"
               id="app-cart-icon"
@@ -102,7 +100,6 @@ export function AppHeader() {
               )}
             </Link>
 
-            {/* Auth desktop (ẩn trên mobile, tất cả đưa vào sidebar) */}
             <div className="hidden items-center gap-1.5 md:gap-2.5 sm:flex">
               {!user ? (
                 <Button
@@ -125,7 +122,7 @@ export function AppHeader() {
                       "dark:bg-slate-900/90 dark:ring-slate-700"
                     )}
                   >
-                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 via-sky-400 to-indigo-500 text-xs font-semibold text-slate-950 shadow-md md:h-9 md:w-9">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-full bg-linear-to-br from-emerald-400 via-sky-400 to-indigo-500 text-xs font-semibold text-slate-950 shadow-md md:h-9 md:w-9">
                       {avatarLetter}
                     </div>
                     <div className="hidden flex-col leading-tight sm:flex">
@@ -152,7 +149,6 @@ export function AppHeader() {
               )}
             </div>
 
-            {/* Mobile menu button */}
             <button
               type="button"
               onClick={() => setIsMenuOpen(true)}
@@ -169,107 +165,112 @@ export function AppHeader() {
         </div>
       </header>
 
-      {/* Mobile sidebar menu */}
-      {isMenuOpen && (
+      <div
+        className={cn(
+          "fixed inset-0 z-9999 flex justify-end md:hidden transition-opacity duration-300",
+          isMenuOpen
+            ? "opacity-100 pointer-events-auto bg-black/40 backdrop-blur-sm"
+            : "opacity-0 pointer-events-none bg-transparent"
+        )}
+        onClick={() => setIsMenuOpen(false)}
+      >
         <div
-          className="fixed inset-0 z-[9999] flex justify-end bg-black/40 backdrop-blur-sm md:hidden"
-          onClick={() => setIsMenuOpen(false)}
+          className={cn(
+            "h-full w-72 max-w-[80%] border-l border-slate-200 bg-white p-4 shadow-2xl dark:border-slate-700 dark:bg-slate-900",
+            "transform transition-transform duration-300",
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          )}
+          onClick={(e) => e.stopPropagation()}
         >
-          <div
-            className="h-full w-72 max-w-[80%] border-l border-slate-200 bg-white p-4 shadow-2xl dark:border-slate-700 dark:bg-slate-900"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <div className="mb-4 flex items-center justify-between">
-              <span className="text-sm font-semibold text-slate-900 dark:text-slate-50">
-                Menu
-              </span>
-              <button
-                type="button"
-                onClick={() => setIsMenuOpen(false)}
-                className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
-                aria-label="Close menu"
-              >
-                <X className="h-4 w-4" />
-              </button>
-            </div>
-
-            {/* User / login block */}
-            <div className="mb-4">
-              {user ? (
-                <div className="space-y-3">
-                  <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-700 dark:bg-slate-800">
-                    <div className="flex h-9 w-9 items-center justify-center rounded-full bg-gradient-to-br from-emerald-400 via-sky-400 to-indigo-500 text-xs font-semibold text-slate-950 shadow-md">
-                      {avatarLetter}
-                    </div>
-                    <div className="flex flex-col">
-                      <span className="text-sm font-semibold text-slate-900 dark:text-slate-50">
-                        {user.name}
-                      </span>
-                      {user.email && (
-                        <span className="text-xs text-slate-500 dark:text-slate-400">
-                          {user.email}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="w-full rounded-full text-xs"
-                    onClick={() => {
-                      logout();
-                      setIsMenuOpen(false);
-                    }}
-                  >
-                    Logout
-                  </Button>
-                </div>
-              ) : (
-                <Button
-                  asChild
-                  className="w-full rounded-full py-2 text-sm font-semibold"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  <Link href="/login">Login / Register</Link>
-                </Button>
-              )}
-            </div>
-
-            <div className="mb-3 border-t border-slate-100 pt-3 text-[11px] uppercase tracking-wide text-slate-400 dark:border-slate-800 dark:text-slate-500">
-              Navigation
-            </div>
-
-            <nav className="space-y-1 text-sm">
-              <MobileNavLink
-                href="/"
-                label="Home"
-                active={isActive("/")}
-                onClick={() => setIsMenuOpen(false)}
-              />
-              <MobileNavLink
-                href="/cart"
-                label="Cart"
-                active={isActive("/cart")}
-                onClick={() => setIsMenuOpen(false)}
-              />
-              <MobileNavLink
-                href="/checkout"
-                label="Checkout"
-                active={isActive("/checkout")}
-                onClick={() => setIsMenuOpen(false)}
-              />
-              <MobileNavLink
-                href="/support"
-                label="Support & contact"
-                icon={<Headset className="h-4 w-4" />}
-                active={isActive("/support")}
-                onClick={() => setIsMenuOpen(false)}
-              />
-            </nav>
+          <div className="mb-4 flex items-center justify-between">
+            <span className="text-sm font-semibold text-slate-900 dark:text-slate-50">
+              Menu
+            </span>
+            <button
+              type="button"
+              onClick={() => setIsMenuOpen(false)}
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700"
+              aria-label="Close menu"
+            >
+              <X className="h-4 w-4" />
+            </button>
           </div>
+
+          <div className="mb-4">
+            {user ? (
+              <div className="space-y-3">
+                <div className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 p-3 dark:border-slate-700 dark:bg-slate-800">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-full bg-linear-to-br from-emerald-400 via-sky-400 to-indigo-500 text-xs font-semibold text-slate-950 shadow-md">
+                    {avatarLetter}
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-sm font-semibold text-slate-900 dark:text-slate-50">
+                      {user.name}
+                    </span>
+                    {user.email && (
+                      <span className="text-xs text-slate-500 dark:text-slate-400">
+                        {user.email}
+                      </span>
+                    )}
+                  </div>
+                </div>
+
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="w-full rounded-full text-xs"
+                  onClick={() => {
+                    logout();
+                    setIsMenuOpen(false);
+                  }}
+                >
+                  Logout
+                </Button>
+              </div>
+            ) : (
+              <Button
+                asChild
+                className="w-full rounded-full py-2 text-sm font-semibold"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <Link href="/login">Login</Link>
+              </Button>
+            )}
+          </div>
+
+          <div className="mb-3 border-t border-slate-100 pt-3 text-[11px] uppercase tracking-wide text-slate-400 dark:border-slate-800 dark:text-slate-500">
+            Navigation
+          </div>
+
+          <nav className="space-y-1 text-sm">
+            <MobileNavLink
+              href="/"
+              label="Home"
+              active={isActive("/")}
+              onClick={() => setIsMenuOpen(false)}
+            />
+            <MobileNavLink
+              href="/cart"
+              label="Cart"
+              active={isActive("/cart")}
+              onClick={() => setIsMenuOpen(false)}
+            />
+            <MobileNavLink
+              href="/checkout"
+              label="Checkout"
+              active={isActive("/checkout")}
+              onClick={() => setIsMenuOpen(false)}
+            />
+            <MobileNavLink
+              href="/support"
+              label="Support & contact"
+              icon={<Headset className="h-4 w-4" />}
+              active={isActive("/support")}
+              onClick={() => setIsMenuOpen(false)}
+            />
+          </nav>
         </div>
-      )}
+      </div>
     </>
   );
 }

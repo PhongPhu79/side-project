@@ -1,14 +1,13 @@
 "use client";
 
-import { useParams, useRouter } from "next/navigation";
-import { useState, useMemo, useRef } from "react";
-import Image from "next/image";
-import { useProducts } from "@/features/products/hooks/useProducts";
 import { useCartStore } from "@/features/cart/store";
+import { useProducts } from "@/features/products/hooks/useProducts";
+import { useParams, useRouter } from "next/navigation";
+import { useMemo, useRef, useState } from "react";
 
-import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Check, Star } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import { ArrowLeft, Star } from "lucide-react";
 
 type LocalReview = {
   id: string;
@@ -46,7 +45,7 @@ const MOCK_REVIEWS: LocalReview[] = [
 
 function buildRatingDistribution(rating: number, reviews: LocalReview[]) {
   const total = reviews.length || 1;
-  const base = [0, 0, 0, 0, 0]; // 1★ → 5★
+  const base = [0, 0, 0, 0, 0];
 
   const high = Math.round(total * (rating > 4.7 ? 0.7 : 0.55));
   const mid = Math.round(total * 0.25);

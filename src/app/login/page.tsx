@@ -112,7 +112,7 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="bg-linear-to-br px-4 py-8 text-slate-900 dark:text-slate-50">
+    <div className="min-h-[calc(100vh-80px)] flex items-center justify-center px-4">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-8 md:flex-row md:items-stretch">
         <div className="relative hidden flex-1 flex-col justify-between overflow-hidden rounded-3xl border border-slate-200 bg-slate-950 px-6 py-6 text-slate-50 shadow-2xl md:flex lg:px-8">
           <div className="pointer-events-none absolute inset-0">
