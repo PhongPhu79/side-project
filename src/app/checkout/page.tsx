@@ -207,7 +207,7 @@ export default function CheckoutPage() {
 
   return (
     <div className="text-slate-900 dark:text-slate-50">
-      <div className="mx-auto max-w-6xl px-4 py-6 sm:py-8 sm:px-6">
+      <div className="mx-auto max-w-6xl py-6 px-2 sm:py-8">
         {/* Header + stepper (checkout) */}
         <div className="mb-6 space-y-3 sm:mb-8 sm:flex sm:items-center sm:justify-between">
           <div>

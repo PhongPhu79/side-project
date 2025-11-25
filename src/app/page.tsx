@@ -142,7 +142,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen">
-      <div className="mx-auto px-2 py-3 sm:px-4 sm:py-5 lg:px-6">
+      <div className="mx-auto py-3 sm:px-4 sm:py-5 lg:px-6">
         <div className="mb-3 flex flex-col gap-2 sm:mb-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="space-y-1">
             <div className="text-[11px] text-slate-500 sm:text-xs dark:text-slate-400">
@@ -493,7 +493,7 @@ export default function HomePage() {
         <button
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           className="
-            fixed bottom-16 right-6 z-50
+            fixed bottom-8 right-4 z-50
             flex h-12 w-12 items-center justify-center
             rounded-full shadow-lg transition-all cursor-pointer
             bg-slate-900 text-white hover:bg-slate-700

@@ -77,7 +77,7 @@ export default function CartPage() {
 
   return (
     <div className="min-h-screen text-slate-900 dark:text-slate-50">
-      <div className="px-4 md:px-6">
+      <div className="py-6 px-2">
         <div className="mb-6 flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
           <Link
             href="/"
@@ -101,7 +101,7 @@ export default function CartPage() {
 
         <div
           className="
-            container-app mx-auto max-w-5xl
+            mx-auto max-w-5xl
             flex flex-col gap-4 md:gap-6
             md:max-h-[calc(100vh-160px)] 
           "

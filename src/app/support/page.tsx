@@ -10,7 +10,7 @@ import Link from "next/link";
 export default function SupportPage() {
   return (
     <div className="min-h-[calc(100vh-64px)] text-slate-900 dark:text-slate-50">
-      <div className="mx-auto max-w-5xl px-4 py-6 sm:px-6 sm:py-10">
+      <div className="mx-auto max-w-5xl py-6 sm:py-10">
         <div className="mb-6 space-y-2 text-center sm:mb-8">
           <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
             Support Center
@@ -56,7 +56,7 @@ export default function SupportPage() {
               size="sm"
               variant="outline"
               asChild
-              className="mt-1 font-semibold"
+              className="mt-auto font-semibold"
             >
               <a href="tel:0900000000">Call 0900 000 000</a>
             </Button>
@@ -81,79 +81,92 @@ export default function SupportPage() {
           </Card>
         </div>
 
-        <Card className="rounded-3xl border border-slate-200 bg-white p-4 shadow-sm sm:p-6 dark:border-slate-700 dark:bg-slate-900">
-          <h2 className="mb-1 text-sm font-semibold sm:text-base">
+        <Card className="rounded-3xl border border-slate-200 bg-white p-6 shadow-lg dark:border-slate-700 dark:bg-slate-900">
+          <h2 className="mb-1 text-base font-semibold sm:text-lg text-slate-900 dark:text-slate-50">
             Submit a support request
           </h2>
-          <p className="mb-4 text-[11px] text-slate-500 sm:text-xs dark:text-slate-400">
-            Fill in the information below and we&apos;ll get back to you as soon
-            as possible.
+          <p className="mb-6 text-xs text-slate-500 sm:text-[13px] dark:text-slate-400">
+            Fill in the details below. Our support team will contact you soon.
           </p>
 
           <form
-            className="grid gap-3 text-sm sm:grid-cols-2"
+            className="grid gap-5 text-sm sm:grid-cols-2"
             onSubmit={(e) => {
               e.preventDefault();
-              alert("Demo only: this form is not connected to a backend yet.");
+              alert("Demo only: not connected to backend yet.");
             }}
           >
-            <div className="space-y-1">
-              <label className="text-xs font-medium text-slate-700 dark:text-slate-200">
+            <div className="space-y-2">
+              <label className="block text-[11px] font-semibold text-slate-600 dark:text-slate-300">
                 Full name *
               </label>
               <Input
                 required
                 placeholder="John Doe"
-                className="h-10 rounded-xl text-sm"
+                className="h-11 rounded-2xl border border-slate-300 bg-white px-4 text-sm 
+                focus:border-slate-400 focus:ring-2 focus:ring-slate-200
+                dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-slate-600"
               />
             </div>
 
-            <div className="space-y-1">
-              <label className="text-xs font-medium text-slate-700 dark:text-slate-200">
+            <div className="space-y-2">
+              <label className="block text-[11px] font-semibold text-slate-600 dark:text-slate-300">
                 Phone number *
               </label>
               <Input
                 required
                 placeholder="09xx xxx xxx"
-                className="h-10 rounded-xl text-sm"
+                className="h-11 rounded-2xl border border-slate-300 bg-white px-4 text-sm 
+                focus:border-slate-400 focus:ring-2 focus:ring-slate-200
+                dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-slate-600"
               />
             </div>
 
-            <div className="space-y-1">
-              <label className="text-xs font-medium text-slate-700 dark:text-slate-200">
+            <div className="space-y-2">
+              <label className="block text-[11px] font-semibold text-slate-600 dark:text-slate-300">
                 Email (optional)
               </label>
               <Input
                 type="email"
                 placeholder="you@example.com"
-                className="h-10 rounded-xl text-sm"
+                className="h-11 rounded-2xl border border-slate-300 bg-white px-4 text-sm 
+                focus:border-slate-400 focus:ring-2 focus:ring-slate-200
+                dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-slate-600"
               />
             </div>
 
-            <div className="space-y-1">
-              <label className="text-xs font-medium text-slate-700 dark:text-slate-200">
+            <div className="space-y-2">
+              <label className="block text-[11px] font-semibold text-slate-600 dark:text-slate-300">
                 Order ID (if any)
               </label>
               <Input
                 placeholder="e.g. ORD-ABC123"
-                className="h-10 rounded-xl text-sm"
+                className="h-11 rounded-2xl border border-slate-300 bg-white px-4 text-sm 
+                focus:border-slate-400 focus:ring-2 focus:ring-slate-200
+                dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-slate-600"
               />
             </div>
 
-            <div className="space-y-1 sm:col-span-2">
-              <label className="text-xs font-medium text-slate-700 dark:text-slate-200">
+            <div className="space-y-2 sm:col-span-2">
+              <label className="block text-[11px] font-semibold text-slate-600 dark:text-slate-300">
                 How can we help you? *
               </label>
               <Textarea
                 required
                 rows={4}
-                placeholder="Describe your issue: defective product, wrong item delivered, return/exchange..."
-                className="rounded-xl text-sm"
+                placeholder="Describe your issue..."
+                className="rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm 
+                focus:border-slate-400 focus:ring-2 focus:ring-slate-200
+                dark:bg-slate-800 dark:border-slate-700 dark:focus:ring-slate-600"
               />
             </div>
 
             <div className="sm:col-span-2 flex justify-end">
-              <Button className="rounded-full px-6 text-sm font-semibold">
+              <Button
+                className="rounded-full px-7 py-2.5 text-sm font-semibold shadow-md
+              bg-slate-900 text-white hover:bg-slate-800
+              dark:bg-slate-100 dark:text-slate-900 dark:hover:bg-slate-200"
+              >
                 Submit request
               </Button>
             </div>
